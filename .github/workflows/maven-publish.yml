@@ -30,7 +30,7 @@ jobs:
       
     - name: Build with Maven (macOS)
       if: matrix.os == 'macos-latest'
-      run: mvn -B package -Djavapackager.mac.sign=false
+      run: mvn -B package -Djavapackager.disableMacCFBundle=true -Djavapackager.mac.sign=false
       
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
