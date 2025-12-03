@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "main", "master" ]
   pull_request:
-    分支: [ "main", "master" ]
+    branches: [ "main", "master" ]
 
 jobs:
   build:
@@ -24,8 +24,13 @@ jobs:
         distribution: 'temurin'
         cache: maven
         
-    - name: Build with Maven
+    - name: Build with Maven (Windows/Linux)
+      if: matrix.os != 'macos-latest'
       run: mvn -B package
+      
+    - name: Build with Maven (macOS)
+      if: matrix.os == 'macos-latest'
+      run: mvn -B package -Djavapackager.mac.sign=false
       
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
