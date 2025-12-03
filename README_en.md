@@ -15,11 +15,12 @@ NB Command is a graphical remote GM command tool designed specifically for [Nebu
 
 ## Installation and Running
 
-1. Make sure Java 21 or higher is installed on your system
-2. Download the latest released executable package
-3. Extract and run the executable file for your platform
+1. Download the latest released executable package
+2. Extract and run the executable file for your platform
 
 Or build from source:
+-  Java 21
+-  maven
 
 ```bash
 # Run the application
@@ -39,9 +40,6 @@ mvn package
 4. Fill in command parameters as needed
 5. Preview the generated command and execute it after confirming it's correct
 
-## Developer
-
-Zhan Yi E-sports · Yuantou Nai Long Xianren
 
 ## License
 
