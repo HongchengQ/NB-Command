@@ -4,7 +4,7 @@ import emu.nebula.nbcommand.service.I18nManager;
 import emu.nebula.nbcommand.model.Command;
 import emu.nebula.nbcommand.repository.ConfigRepository;
 import emu.nebula.nbcommand.service.command.CommandExecutor;
-import emu.nebula.nbcommand.service.command.CommandService;
+import emu.nebula.nbcommand.service.command.CommandRegistry;
 import emu.nebula.nbcommand.service.TypedDataManager;
 import javafx.beans.property.*;
 import javafx.collections.FXCollections;
@@ -110,7 +110,7 @@ public class MainViewModel {
      */
     public void loadCommandsByCategory(Map<String, ObservableList<Command>> commandsByCategory) {
         // Create all commands organized by category
-        Map<String, List<Command>> allCommands = CommandService.createAllCommands();
+        Map<String, List<Command>> allCommands = CommandRegistry.createAllCommands();
         
         // Convert List to ObservableList for each category
         for (Map.Entry<String, List<Command>> entry : allCommands.entrySet()) {

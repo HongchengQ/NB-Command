@@ -4,29 +4,49 @@ import emu.nebula.nbcommand.model.Command;
 import emu.nebula.nbcommand.model.command.Syntax;
 import emu.nebula.nbcommand.service.command.BaseCommandManager;
 
+import java.util.*;
+import java.util.function.Supplier;
+
 public class PlayerManager extends BaseCommandManager {
+    @Override
+    public List<Supplier<Command>> getCategoryCommands() {
+        return List.of(
+                this::createAccountCommand,
+                this::createSetLevelCommand
+        );
+    }
+
     /**
      * account命令 - 账户相关操作
      */
-    public static Command createAccountCommand() {
+    private Command createAccountCommand() {
         Syntax syntax = new Syntax()
                 .add("account")
-                .add("{create | delete}", i18n.getString("param.action"), Syntax.FieldMode.SIMPLE_MULTI_SELECT)
-                .add("[email]", i18n.getString("param.email"))
-                .add("(uid)", i18n.getString("param.uid"), Syntax.FieldMode.SPECIAL_PREFIX, "")
-                ;
+                .add("{create | delete}", getI18Name("param.action"), Syntax.FieldMode.SIMPLE_MULTI_SELECT)
+                .add("[email]", getI18Name("param.email"))
+                .add("(uid)", getI18Name("param.uid"), Syntax.FieldMode.SPECIAL_PREFIX, "");
 
-        return createCommand("account", syntax);
+        return createCommand(
+                "command.account.name",
+                "command.account.description",
+                "command.account.full_description",
+                syntax
+        );
     }
 
     /**
      * setlevel命令 - 设置等级
      */
-    public static Command createSetLevelCommand() {
+    private Command createSetLevelCommand() {
         Syntax syntax = new Syntax()
                 .add("setlevel")
-                .add("[level]", i18n.getString("param.level"));
+                .add("[level]", getI18Name("param.level"));
 
-        return createCommand("setlevel", syntax);
+        return createCommand(
+                "command.setlevel.name",
+                "command.setlevel.description",
+                "command.setlevel.full_description",
+                syntax
+        );
     }
 }
