@@ -119,7 +119,7 @@ public class CommandExecutor {
     public void executeCommand(String uid, String commandText, Consumer<String> historyConsumer) {
         try {
             if (uid != null && !uid.isEmpty()) {
-                commandText += " @ " + uid;
+                commandText += " @" + uid;
             }
 
             HttpResponse<String> response = sendCommandToServer(commandText);
