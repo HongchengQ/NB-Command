@@ -15,7 +15,7 @@ public class HelloApplication extends Application {
         I18nManager i18n = I18nManager.getInstance();
         
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("main-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 1000, 600);
+        Scene scene = new Scene(fxmlLoader.load(), 1000, 625);
         stage.setTitle(i18n.getString("label.version"));
         stage.setScene(scene);
         stage.show();

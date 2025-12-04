@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1"
+<VBox prefHeight="625.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1"
       fx:controller="emu.nebula.nbcommand.controller.MainController">
     <MenuBar VBox.vgrow="NEVER">
         <Menu fx:id="optionsMenu" mnemonicParsing="false" text="选项">
@@ -33,7 +33,7 @@
         <Label fx:id="savedAuthTokenLabel" text="未保存Token"/>
     </ToolBar>
 
-    <SplitPane dividerPositions="0.2, 0.6" prefHeight="500.0" prefWidth="800.0" VBox.vgrow="ALWAYS">
+    <SplitPane dividerPositions="0.2, 0.58" prefHeight="580.0" prefWidth="1000.0" VBox.vgrow="ALWAYS">
         <!-- 左侧命令分类面板 -->
         <VBox minWidth="150.0" prefWidth="150.0">
             <padding>
