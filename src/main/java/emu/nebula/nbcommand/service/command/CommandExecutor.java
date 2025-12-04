@@ -125,10 +125,10 @@ public class CommandExecutor {
             HttpResponse<String> response = sendCommandToServer(commandText);
 
             if (response.statusCode() == 200) {
-                historyConsumer.accept("command executed success: " + commandText + "\nserver back:\n" + response.body());
+                historyConsumer.accept("> " + commandText + "\n" + response.body());
                 logger.info("命令执行成功: {}; 服务端返回: {}", commandText, response.body());
             } else {
-                historyConsumer.accept("command execution failed: " + response.statusCode() + " - " + response.body());
+                historyConsumer.accept(response.statusCode() + " - " + response.body());
                 logger.error("命令执行失败: {} - {}", response.statusCode(), response.body());
             }
         } catch (Exception e) {

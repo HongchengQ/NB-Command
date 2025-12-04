@@ -365,7 +365,7 @@ public class MainController implements Initializable {
         saveButton.setText(i18n.getString("toolbar.save"));
         savedServerLabel.setText(i18n.getString("toolbar.saved_server"));
         savedTokenLabel.setText(i18n.getString("toolbar.saved_token"));
-        authTokenField.setPromptText(i18n.getString("toolbar.token_prompt"));
+        authTokenField.setPromptText(i18n.getString("toolbar.token"));
 
         // 左侧面板
         categoriesLabel.setText(i18n.getString("panel.categories"));
