@@ -1,5 +1,7 @@
 # NB Command 远程GM工具
 
+[EN](README_en.md)
+
 ## 简介
 
 NB Command 是一款专为 [Nebula](https://github.com/Melledy/Nebula) 设计的图形化远程GM命令工具。 该工具提供了直观易用的界面，可以方便地执行各种游戏服务器管理命令，无需手动输入复杂的命令行指令。
