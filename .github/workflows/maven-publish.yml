@@ -1,8 +1,9 @@
-name: Build Multi-Platform Packages
+name: Build and Release Multi-Platform Packages
 
 on:
   push:
     branches: [ "main", "master" ]
+    tags: [ "v*" ]  # 监听标签推送，用于版本发布
   pull_request:
     branches: [ "main", "master" ]
 
@@ -33,3 +34,25 @@ jobs:
         name: nbcommand-${{ matrix.os }}
         path: target/nbcommand/
         if-no-files-found: error
+
+  # 新增发行版创建任务
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/v')  # 仅在标签推送时执行
+    
+    steps:
+    - name: Download all artifacts
+      uses: actions/download-artifact@v4
+      with:
+        path: artifacts/
+        
+    - name: Create Release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: |
+          artifacts/nbcommand-windows-latest/**
+          artifacts/nbcommand-ubuntu-latest/**
+        generate_release_notes: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
