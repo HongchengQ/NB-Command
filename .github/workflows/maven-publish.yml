@@ -7,7 +7,6 @@ on:
   pull_request:
     branches: [ "main", "master" ]
 
-# 添加权限配置
 permissions:
   contents: write
   packages: write
@@ -33,11 +32,23 @@ jobs:
     - name: Build with Maven
       run: mvn -B package
       
+    - name: Package artifacts (Windows)
+      if: matrix.os == 'windows-latest'
+      run: |
+        cd target
+        7z a -tzip nbcommand-windows.zip nbcommand/
+      
+    - name: Package artifacts (Linux)
+      if: matrix.os == 'ubuntu-latest'
+      run: |
+        cd target
+        zip -r nbcommand-linux.zip nbcommand/
+      
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
         name: nbcommand-${{ matrix.os }}
-        path: target/nbcommand/
+        path: target/nbcommand-*.zip
         if-no-files-found: error
 
   release:
@@ -55,8 +66,8 @@ jobs:
       uses: softprops/action-gh-release@v1
       with:
         files: |
-          artifacts/nbcommand-windows-latest/**
-          artifacts/nbcommand-ubuntu-latest/**
+          artifacts/nbcommand-windows-latest/nbcommand-windows.zip
+          artifacts/nbcommand-ubuntu-latest/nbcommand-linux.zip
         generate_release_notes: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
