@@ -28,7 +28,6 @@ public class BuildManager extends BaseCommandManager {
         Syntax syntax = new Syntax()
                 .add("build")
                 .add("char ids", getI18Name("param.ids"))
-                .add("char ids", getI18Name("param.ids"))
                 .add("disc ids", getI18Name("param.ids"))
                 .add("potential ids", getI18Name("param.ids"))
                 .add("melody ids", getI18Name("param.ids"));
