@@ -8,6 +8,8 @@ import emu.nebula.nbcommand.service.TypedDataManager;
 import javafx.collections.FXCollections;
 import javafx.scene.control.*;
 import javafx.scene.layout.HBox;
+import javafx.scene.layout.Priority;
+import javafx.scene.layout.Region;
 import javafx.scene.layout.VBox;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -89,7 +91,9 @@ public class UIController {
                 comboBox.setEditable(true);
 
                 comboBox.setPromptText(param);
-                paramContainer.getChildren().add(new Label(param + (field.isRequired() ? "*" : "") + ":"));
+                Label paramLabel = new Label(param + (field.isRequired() ? "*" : "") + ":");
+                paramLabel.setMinWidth(Region.USE_PREF_SIZE);
+                paramContainer.getChildren().add(paramLabel);
                 paramContainer.getChildren().add(comboBox);
                 VBox.setMargin(comboBox, new javafx.geometry.Insets(0, 0, 10, 0));
                 // 使用原始名称作为键来存储控件
@@ -119,7 +123,9 @@ public class UIController {
                 // 添加清除按钮
                 HBox textBox = createTextControl(textField);
                 
-                paramContainer.getChildren().add(new Label(param + (field.isRequired() ? "*" : "") + ":"));
+                Label paramLabel = new Label(param + (field.isRequired() ? "*" : "") + ":");
+                paramLabel.setMinWidth(Region.USE_PREF_SIZE);
+                paramContainer.getChildren().add(paramLabel);
                 paramContainer.getChildren().add(textBox);
                 VBox.setMargin(textBox, new javafx.geometry.Insets(0, 0, 10, 0));
                 parameterControls.put(originalParam, textField);
@@ -146,7 +152,9 @@ public class UIController {
         HBox searchBox = createSearchControl(comboBox);
         
         // 添加控件到界面
-        vbox.getChildren().addAll(new Label(currParam + " " + i18n.getString("ui.type") + ":"), typeBox, new Label(originalParam + ":"), searchBox);
+        Label typeLabel = new Label(currParam + " " + i18n.getString("ui.type") + ":");
+        typeLabel.setMinWidth(Region.USE_PREF_SIZE);
+        vbox.getChildren().addAll(typeLabel, typeBox, new Label(originalParam + ":"), searchBox);
         VBox.setMargin(typeBox, new javafx.geometry.Insets(0, 0, 5, 0));
         
         paramContainer.getChildren().add(vbox);
@@ -164,6 +172,7 @@ public class UIController {
         
         // 创建清除按钮
         Button clearButton = new Button(i18n.getString("ui.clear"));
+        clearButton.setMinWidth(Region.USE_PREF_SIZE);
         clearButton.setOnAction(event -> {
             typeComboBox.setValue("all");
             // 重置数据框
@@ -175,7 +184,7 @@ public class UIController {
         
         // 设置HBox中的组件
         hbox.getChildren().addAll(typeComboBox, clearButton);
-        HBox.setHgrow(typeComboBox, javafx.scene.layout.Priority.ALWAYS);
+        HBox.setHgrow(typeComboBox, Priority.ALWAYS);
         
         return hbox;
     }
@@ -225,6 +234,7 @@ public class UIController {
         
         // 创建清除按钮
         Button clearButton = new Button(i18n.getString("ui.clear"));
+        clearButton.setMinWidth(Region.USE_PREF_SIZE);
         clearButton.setOnAction(event -> {
             comboBox.getEditor().clear();
             comboBox.getSelectionModel().clearSelection();
@@ -239,6 +249,7 @@ public class UIController {
         
         // 创建搜索按钮
         Button searchButton = new Button(i18n.getString("ui.search"));
+        searchButton.setMinWidth(Region.USE_PREF_SIZE);
         searchButton.setOnAction(event -> {
             TypedComboBoxManager manager = comboBoxManagers.get(comboBox);
             if (manager != null) {
@@ -248,7 +259,7 @@ public class UIController {
         
         // 设置HBox中的组件
         hbox.getChildren().addAll(comboBox, clearButton, searchButton);
-        HBox.setHgrow(comboBox, javafx.scene.layout.Priority.ALWAYS);
+        HBox.setHgrow(comboBox, Priority.ALWAYS);
         
         return hbox;
     }
@@ -261,13 +272,14 @@ public class UIController {
         
         // 创建清除按钮
         Button clearButton = new Button(i18n.getString("ui.clear"));
+        clearButton.setMinWidth(Region.USE_PREF_SIZE);
         clearButton.setOnAction(event -> {
             textField.clear();
         });
         
         // 设置HBox中的组件
         hbox.getChildren().addAll(textField, clearButton);
-        HBox.setHgrow(textField, javafx.scene.layout.Priority.ALWAYS);
+        HBox.setHgrow(textField, Priority.ALWAYS);
         
         return hbox;
     }

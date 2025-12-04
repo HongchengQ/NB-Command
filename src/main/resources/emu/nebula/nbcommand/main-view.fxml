@@ -5,226 +5,217 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="emu.nebula.nbcommand.controller.MainController">
-    <children>
-        <MenuBar VBox.vgrow="NEVER">
-            <menus>
-                <Menu fx:id="optionsMenu" mnemonicParsing="false" text="选项">
-<!--                    <MenuItem fx:id="checkUpdateMenuItem" mnemonicParsing="false" text="检查更新"/>-->
-                    <MenuItem fx:id="aboutMenuItem" mnemonicParsing="false" text="关于"/>
-                </Menu>
-                <Menu fx:id="languageMenu" mnemonicParsing="false" text="语言/Language">
-                    <MenuItem fx:id="chineseMenuItem" mnemonicParsing="false" text="中文" onAction="#switchToChinese"/>
-                    <MenuItem fx:id="englishMenuItem" mnemonicParsing="false" text="English" onAction="#switchToEnglish"/>
-                    <MenuItem fx:id="japaneseMenuItem" mnemonicParsing="false" text="日本語" onAction="#switchToJapanese"/>
-                    <MenuItem fx:id="koreanMenuItem" mnemonicParsing="false" text="한국어" onAction="#switchToKorean"/>
-                </Menu>
-            </menus>
-        </MenuBar>
-        
-        <ToolBar prefHeight="40.0" prefWidth="200.0">
-            <items>
-                <Label fx:id="serverAddressLabel" text="服务器地址:" />
-                <TextField fx:id="serverAddressField" prefWidth="150.0" promptText="http://localhost:8080" />
-                <Label fx:id="tokenLabel" text="Token:" />
-                <PasswordField fx:id="authTokenField" prefWidth="100.0" promptText="密钥或UID" />
-                <Button fx:id="saveButton" mnemonicParsing="false" onAction="#handleSaveConfig" text="保存" />
-                <Separator orientation="VERTICAL" />
-                <Label fx:id="savedServerLabel" text="已保存服务器地址:" />
-                <Label fx:id="savedAddressLabel" text="未保存地址" />
-                <Label fx:id="savedTokenLabel" text="    已保存Token:" />
-                <Label fx:id="savedAuthTokenLabel" text="未保存Token" />
-            </items>
-        </ToolBar>
-        
-        <SplitPane dividerPositions="0.2, 0.6" prefHeight="500.0" prefWidth="800.0" VBox.vgrow="ALWAYS">
-            <items>
-                <!-- 左侧命令分类面板 -->
-                <VBox minWidth="150.0" prefWidth="150.0">
-                    <children>
-                        <Label fx:id="categoriesLabel" text="命令分类">
-                            <font>
-                                <Font name="System Bold" size="14.0" />
-                            </font>
-                            <VBox.margin>
-                                <Insets bottom="5.0" left="5.0" top="5.0" />
-                            </VBox.margin>
-                        </Label>
-                        <ListView fx:id="categoryList" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
-                            <VBox.margin>
-                                <Insets />
-                            </VBox.margin>
-                        </ListView>
-                        
-                        <Label fx:id="historyLabel" text="历史记录">
-                            <font>
-                                <Font name="System Bold" size="14.0" />
-                            </font>
-                            <VBox.margin>
-                                <Insets bottom="5.0" left="5.0" top="10.0" />
-                            </VBox.margin>
-                        </Label>
-                        <TextArea fx:id="historyArea" editable="false" prefHeight="100.0" prefWidth="200.0" wrapText="true" VBox.vgrow="ALWAYS">
-                            <VBox.margin>
-                                <Insets />
-                            </VBox.margin>
-                        </TextArea>
-                    </children>
-                    <padding>
-                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-                    </padding>
-                </VBox>
-                
-                <!-- 中间命令列表和详细信息区域 -->
-                <VBox>
-                    <children>
-                        <Label fx:id="commandsLabel" text="命令列表">
-                            <font>
-                                <Font name="System Bold" size="14.0" />
-                            </font>
-                            <VBox.margin>
-                                <Insets bottom="5.0" left="5.0" top="5.0" />
-                            </VBox.margin>
-                        </Label>
-                        <TableView fx:id="commandTable" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
-                            <columns>
-                                <TableColumn fx:id="commandNameColumn" prefWidth="100.0" text="命令名称" />
-                                <TableColumn fx:id="commandDescColumn" prefWidth="125.0" text="描述" />
-                            </columns>
-                            <VBox.margin>
-                                <Insets left="5.0" right="5.0" />
-                            </VBox.margin>
-                        </TableView>
-                        
-                        <Label fx:id="detailsLabel" text="命令详情">
-                            <font>
-                                <Font name="System Bold" size="14.0" />
-                            </font>
-                            <VBox.margin>
-                                <Insets bottom="5.0" left="5.0" top="10.0" />
-                            </VBox.margin>
-                        </Label>
-                        <TextArea fx:id="commandDetailArea" prefHeight="100.0" prefWidth="200.0" wrapText="true" VBox.vgrow="ALWAYS">
-                            <VBox.margin>
-                                <Insets bottom="5.0" left="5.0" right="5.0" />
-                            </VBox.margin>
-                        </TextArea>
-                    </children>
-                </VBox>
-                
-                <!-- 右侧命令执行区域 -->
-                <VBox minWidth="200.0" prefWidth="200.0">
-                    <children>
-                        <Label fx:id="executeLabel" text="执行命令">
-                            <font>
-                                <Font name="System Bold" size="14.0" />
-                            </font>
-                            <VBox.margin>
-                                <Insets bottom="5.0" left="5.0" top="5.0" />
-                            </VBox.margin>
-                        </Label>
-                        <Label fx:id="selectedCommandLabel" text="选择的命令:">
-                            <VBox.margin>
-                                <Insets left="5.0" />
-                            </VBox.margin>
-                        </Label>
-                        <TextField fx:id="selectedCommandField" editable="false" prefHeight="25.0" prefWidth="230.0">
-                            <VBox.margin>
-                                <Insets bottom="10.0" left="5.0" right="5.0" />
-                            </VBox.margin>
-                        </TextField>
-                        
-                        <Label fx:id="parametersLabel" text="参数:">
-                            <VBox.margin>
-                                <Insets left="5.0" />
-                            </VBox.margin>
-                        </Label>
-                        <ScrollPane fitToWidth="true" prefHeight="150.0" VBox.vgrow="ALWAYS">
-                            <content>
-                                <VBox fx:id="paramContainer" prefWidth="100.0">
-                                </VBox>
-                            </content>
-                            <VBox.margin>
-                                <Insets bottom="10.0" left="5.0" right="5.0" />
-                            </VBox.margin>
-                        </ScrollPane>
-                        
-                        <GridPane hgap="5.0">
-                            <VBox.margin>
-                                <Insets bottom="10.0" left="5.0" right="5.0" />
-                            </VBox.margin>
-                            <columnConstraints>
-                                <ColumnConstraints hgrow="NEVER" />
-                                <ColumnConstraints hgrow="ALWAYS" />
-                                <ColumnConstraints hgrow="NEVER" />
-                                <ColumnConstraints hgrow="SOMETIMES" minWidth="80.0" />
-                            </columnConstraints>
-                            <rowConstraints>
-                                <RowConstraints minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
-                            </rowConstraints>
-                            <children>
-                                <Label fx:id="previewLabel" text="命令预览:" GridPane.columnIndex="0" />
-                                <TextField fx:id="commandPreviewField" editable="false" prefHeight="25.0" GridPane.columnIndex="1" />
-                                <Label fx:id="uidLabel" text="UID:" GridPane.columnIndex="2" />
-                                <TextField fx:id="uidField" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="3" />
-                            </children>
-                        </GridPane>
-                        
-                        <Button fx:id="executeButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleExecuteCommand" text="执行命令">
-                            <VBox.margin>
-                                <Insets bottom="5.0" left="5.0" right="5.0" />
-                            </VBox.margin>
-                        </Button>
-                        
-                        <Separator prefWidth="200.0">
-                            <VBox.margin>
-                                <Insets bottom="5.0" top="5.0" />
-                            </VBox.margin>
-                        </Separator>
-                        
-                        <Label fx:id="customLabel" text="自定义命令">
-                            <font>
-                                <Font name="System Bold" size="14.0" />
-                            </font>
-                            <VBox.margin>
-                                <Insets bottom="5.0" left="5.0" />
-                            </VBox.margin>
-                        </Label>
-                        <TextArea fx:id="customCommandArea" prefHeight="60.0" prefWidth="200.0" promptText="在此输入自定义命令..." wrapText="true">
-                            <VBox.margin>
-                                <Insets bottom="5.0" left="5.0" right="5.0" />
-                            </VBox.margin>
-                        </TextArea>
-                        <Button fx:id="sendCustomButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleSendCustomCommand" text="发送自定义命令">
-                            <VBox.margin>
-                                <Insets bottom="5.0" left="5.0" right="5.0" />
-                            </VBox.margin>
-                        </Button>
-                    </children>
-                    <padding>
-                        <Insets bottom="5.0" />
-                    </padding>
-                </VBox>
-            </items>
-        </SplitPane>
-        
-        <HBox alignment="CENTER_LEFT" prefHeight="30.0" spacing="10.0">
-            <children>
-                <Label fx:id="developerLabel" text="by: 战意电竞丶圆头奶龙仙人">
-                    <HBox.margin>
-                        <Insets left="10.0" />
-                    </HBox.margin>
-                </Label>
-                <Region HBox.hgrow="ALWAYS" />
-                <Label fx:id="versionLabel" text="NB指令远程GM工具">
-                    <HBox.margin>
-                        <Insets right="10.0" />
-                    </HBox.margin>
-                </Label>
-            </children>
+<VBox prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="emu.nebula.nbcommand.controller.MainController">
+    <MenuBar VBox.vgrow="NEVER">
+        <Menu fx:id="optionsMenu" mnemonicParsing="false" text="选项">
+            <!--                    <MenuItem fx:id="checkUpdateMenuItem" mnemonicParsing="false" text="检查更新"/>-->
+            <MenuItem fx:id="aboutMenuItem" mnemonicParsing="false" text="关于"/>
+        </Menu>
+        <Menu fx:id="languageMenu" mnemonicParsing="false" text="语言/Language">
+            <MenuItem fx:id="chineseMenuItem" mnemonicParsing="false" text="中文" onAction="#switchToChinese"/>
+            <MenuItem fx:id="englishMenuItem" mnemonicParsing="false" text="English" onAction="#switchToEnglish"/>
+            <MenuItem fx:id="japaneseMenuItem" mnemonicParsing="false" text="日本語" onAction="#switchToJapanese"/>
+            <MenuItem fx:id="koreanMenuItem" mnemonicParsing="false" text="한국어" onAction="#switchToKorean"/>
+        </Menu>
+    </MenuBar>
+
+    <ToolBar prefHeight="40.0" prefWidth="200.0">
+        <Label fx:id="serverAddressLabel" text="服务器地址:"/>
+        <TextField fx:id="serverAddressField" prefWidth="150.0" promptText="http://localhost:8080"/>
+        <Label fx:id="tokenLabel" text="Token:"/>
+        <PasswordField fx:id="authTokenField" prefWidth="100.0" promptText="密钥或UID"/>
+        <Button fx:id="saveButton" mnemonicParsing="false" onAction="#handleSaveConfig" text="保存"/>
+        <Separator orientation="VERTICAL"/>
+        <Label fx:id="savedServerLabel" text="已保存服务器地址:"/>
+        <Label fx:id="savedAddressLabel" text="未保存地址"/>
+        <Label fx:id="savedTokenLabel" text="    已保存Token:"/>
+        <Label fx:id="savedAuthTokenLabel" text="未保存Token"/>
+    </ToolBar>
+
+    <SplitPane dividerPositions="0.2, 0.6" prefHeight="500.0" prefWidth="800.0" VBox.vgrow="ALWAYS">
+        <!-- 左侧命令分类面板 -->
+        <VBox minWidth="150.0" prefWidth="150.0">
             <padding>
-                <Insets bottom="5.0" top="5.0" />
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
             </padding>
-        </HBox>
-    </children>
+            <Label fx:id="categoriesLabel" text="命令分类">
+                <font>
+                    <Font name="System Bold" size="14.0"/>
+                </font>
+                <VBox.margin>
+                    <Insets bottom="5.0" left="5.0" top="5.0"/>
+                </VBox.margin>
+            </Label>
+            <ListView fx:id="categoryList" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                <VBox.margin>
+                    <Insets/>
+                </VBox.margin>
+            </ListView>
+
+            <Label fx:id="historyLabel" text="历史记录">
+                <font>
+                    <Font name="System Bold" size="14.0"/>
+                </font>
+                <VBox.margin>
+                    <Insets bottom="5.0" left="5.0" top="10.0"/>
+                </VBox.margin>
+            </Label>
+            <TextArea fx:id="historyArea" editable="false" prefHeight="100.0" prefWidth="200.0" wrapText="true"
+                      VBox.vgrow="ALWAYS">
+                <VBox.margin>
+                    <Insets/>
+                </VBox.margin>
+            </TextArea>
+        </VBox>
+
+        <!-- 中间命令列表和详细信息区域 -->
+        <VBox>
+            <Label fx:id="commandsLabel" text="命令列表">
+                <font>
+                    <Font name="System Bold" size="14.0"/>
+                </font>
+                <VBox.margin>
+                    <Insets bottom="5.0" left="5.0" top="5.0"/>
+                </VBox.margin>
+            </Label>
+            <TableView fx:id="commandTable" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                <columns>
+                    <TableColumn fx:id="commandNameColumn" prefWidth="110.0" text="命令名称">
+                        <minWidth>
+                            <Region fx:constant="USE_PREF_SIZE"/>
+                        </minWidth>
+                    </TableColumn>
+                    <TableColumn fx:id="commandDescColumn" prefWidth="125.0" text="描述"/>
+                </columns>
+                <VBox.margin>
+                    <Insets left="5.0" right="5.0"/>
+                </VBox.margin>
+            </TableView>
+
+            <Label fx:id="detailsLabel" text="命令详情">
+                <font>
+                    <Font name="System Bold" size="14.0"/>
+                </font>
+                <VBox.margin>
+                    <Insets bottom="5.0" left="5.0" top="10.0"/>
+                </VBox.margin>
+            </Label>
+            <TextArea fx:id="commandDetailArea" prefHeight="100.0" prefWidth="200.0" wrapText="true"
+                      VBox.vgrow="ALWAYS">
+                <VBox.margin>
+                    <Insets bottom="5.0" left="5.0" right="5.0"/>
+                </VBox.margin>
+            </TextArea>
+        </VBox>
+
+        <!-- 右侧命令执行区域 -->
+        <VBox minWidth="200.0" prefWidth="200.0">
+            <padding>
+                <Insets bottom="5.0"/>
+            </padding>
+            <Label fx:id="executeLabel" text="执行命令">
+                <font>
+                    <Font name="System Bold" size="14.0"/>
+                </font>
+                <VBox.margin>
+                    <Insets bottom="5.0" left="5.0" top="5.0"/>
+                </VBox.margin>
+            </Label>
+            <Label fx:id="selectedCommandLabel" text="选择的命令:">
+                <VBox.margin>
+                    <Insets left="5.0"/>
+                </VBox.margin>
+            </Label>
+            <TextField fx:id="selectedCommandField" editable="false" prefHeight="25.0" prefWidth="230.0">
+                <VBox.margin>
+                    <Insets bottom="10.0" left="5.0" right="5.0"/>
+                </VBox.margin>
+            </TextField>
+
+            <Label fx:id="parametersLabel" text="参数:">
+                <VBox.margin>
+                    <Insets left="5.0"/>
+                </VBox.margin>
+            </Label>
+            <ScrollPane fitToWidth="true" prefHeight="150.0" VBox.vgrow="ALWAYS">
+                <VBox.margin>
+                    <Insets bottom="10.0" left="5.0" right="5.0"/>
+                </VBox.margin>
+                <VBox fx:id="paramContainer" prefWidth="100.0">
+                </VBox>
+            </ScrollPane>
+
+            <GridPane hgap="5.0">
+                <VBox.margin>
+                    <Insets bottom="10.0" left="5.0" right="5.0"/>
+                </VBox.margin>
+                <columnConstraints>
+                    <ColumnConstraints hgrow="NEVER" minWidth="-Infinity"/>
+                    <ColumnConstraints hgrow="ALWAYS"/>
+                    <ColumnConstraints hgrow="NEVER" minWidth="-Infinity"/>
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="80.0"/>
+                </columnConstraints>
+                <rowConstraints>
+                    <RowConstraints minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES"/>
+                </rowConstraints>
+                <Label fx:id="previewLabel" text="命令预览:" GridPane.columnIndex="0"/>
+                <TextField fx:id="commandPreviewField" editable="false" prefHeight="25.0"
+                           GridPane.columnIndex="1"/>
+                <Label fx:id="uidLabel" text="UID:" GridPane.columnIndex="2"/>
+                <TextField fx:id="uidField" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="3"/>
+            </GridPane>
+
+            <Button fx:id="executeButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false"
+                    onAction="#handleExecuteCommand" text="执行命令">
+                <VBox.margin>
+                    <Insets bottom="5.0" left="5.0" right="5.0"/>
+                </VBox.margin>
+            </Button>
+
+            <Separator prefWidth="200.0">
+                <VBox.margin>
+                    <Insets bottom="5.0" top="5.0"/>
+                </VBox.margin>
+            </Separator>
+
+            <Label fx:id="customLabel" text="自定义命令">
+                <font>
+                    <Font name="System Bold" size="14.0"/>
+                </font>
+                <VBox.margin>
+                    <Insets bottom="5.0" left="5.0"/>
+                </VBox.margin>
+            </Label>
+            <TextArea fx:id="customCommandArea" prefHeight="60.0" prefWidth="200.0"
+                      promptText="在此输入自定义命令..." wrapText="true">
+                <VBox.margin>
+                    <Insets bottom="5.0" left="5.0" right="5.0"/>
+                </VBox.margin>
+            </TextArea>
+            <Button fx:id="sendCustomButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false"
+                    onAction="#handleSendCustomCommand" text="发送自定义命令">
+                <VBox.margin>
+                    <Insets bottom="5.0" left="5.0" right="5.0"/>
+                </VBox.margin>
+            </Button>
+        </VBox>
+    </SplitPane>
+
+    <HBox alignment="CENTER_LEFT" prefHeight="30.0" spacing="10.0">
+        <padding>
+            <Insets bottom="5.0" top="5.0"/>
+        </padding>
+        <Label fx:id="developerLabel" text="by: 战意电竞丶圆头奶龙仙人">
+            <HBox.margin>
+                <Insets left="10.0"/>
+            </HBox.margin>
+        </Label>
+        <Region HBox.hgrow="ALWAYS"/>
+        <Label fx:id="versionLabel" text="NB指令远程GM工具">
+            <HBox.margin>
+                <Insets right="10.0"/>
+            </HBox.margin>
+        </Label>
+    </HBox>
 </VBox>
