@@ -28,7 +28,7 @@ public class ItemManager extends BaseCommandManager {
      */
     private Command createGiveCommand() {
         Syntax syntax = new Syntax().add("give")
-                .add("items", getI18Name("param.item_id"), Syntax.FieldMode.COMPLEX_MULTI_SELECT)
+                .add("items", getI18Name("param.item_id"), Syntax.FieldMode.COMPLEX_RADIO)
                 .add("x(amount)", getI18Name("param.amount"), Syntax.FieldMode.SPECIAL_PREFIX, "x");
 
         return createCommand(
@@ -45,7 +45,7 @@ public class ItemManager extends BaseCommandManager {
     private Command createGiveAllCommand() {
         Syntax syntax = new Syntax()
                 .add("giveall")
-                .add("{characters | discs | materials}", getI18Name("param.type"), Syntax.FieldMode.SIMPLE_MULTI_SELECT)
+                .add("{characters | discs | materials}", getI18Name("param.type"), Syntax.FieldMode.SIMPLE_RADIO)
                 .add("t(talent/crescendo level)", getI18Name("param.talent_level"), Syntax.FieldMode.SPECIAL_PREFIX, "t")
                 .add("s(skill level)", getI18Name("param.skill_level"), Syntax.FieldMode.SPECIAL_PREFIX, "s");
 
@@ -63,7 +63,7 @@ public class ItemManager extends BaseCommandManager {
     private Command createCleanBatchCommand() {
         Syntax syntax = new Syntax()
                 .add("clean")
-                .add("{all | items | resources}", getI18Name("param.clean_type"), Syntax.FieldMode.SIMPLE_MULTI_SELECT);
+                .add("{all | items | resources}", getI18Name("param.clean_type"), Syntax.FieldMode.SIMPLE_RADIO);
 
         return createCommand(
                 "command.clean_batch.name",

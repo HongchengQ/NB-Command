@@ -60,6 +60,10 @@ public class TypedDataManager {
             loadTypedDataFromJson("/handbook/" + languageCode + "/Characters.json", "characters", "characters", "name", "element");
             // 加载秘纹数据
             loadTypedDataFromJson("/handbook/" + languageCode + "/Discs.json", "discs", "discs", "name", "element");
+            // 加载秘纹音符数据
+            loadTypedDataFromJson("/handbook/" + languageCode + "/SubNoteSkills.json", "subNoteSkills", "subNoteSkills", "name", "element");
+            // 加载角色潜能数据
+            loadTypedDataFromJson("/handbook/" + languageCode + "/Potentials.json", "potentials", "potentials", "name", "element");
 
             // 更新最后加载的语言
             lastLoadedLocale = currentLocale;

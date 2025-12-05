@@ -22,7 +22,7 @@ public class PlayerManager extends BaseCommandManager {
     private Command createAccountCommand() {
         Syntax syntax = new Syntax()
                 .add("account")
-                .add("{create | delete}", getI18Name("param.action"), Syntax.FieldMode.SIMPLE_MULTI_SELECT)
+                .add("{create | delete}", getI18Name("param.action"), Syntax.FieldMode.SIMPLE_RADIO)
                 .add("[email]", getI18Name("param.email"))
                 .add("(uid)", getI18Name("param.uid"), Syntax.FieldMode.SPECIAL_PREFIX, "");
 

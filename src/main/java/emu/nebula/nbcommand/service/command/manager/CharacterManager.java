@@ -47,7 +47,7 @@ public class CharacterManager extends BaseCommandManager {
     private Command createCharacterSingleCommand() {
         Syntax syntax = new Syntax()
                 .add("character")
-                .add("characters", getI18Name("param.character_id"), Syntax.FieldMode.COMPLEX_MULTI_SELECT)
+                .add("characters", getI18Name("param.character_id"), Syntax.FieldMode.COMPLEX_RADIO)
                 .add("lv(level)", getI18Name("param.level"), Syntax.FieldMode.SPECIAL_PREFIX, "lv")
                 .add("a(ascension)", getI18Name("param.ascension"), Syntax.FieldMode.SPECIAL_PREFIX, "a")
                 .add("s(skill level)", getI18Name("param.skill_level"), Syntax.FieldMode.SPECIAL_PREFIX, "s")

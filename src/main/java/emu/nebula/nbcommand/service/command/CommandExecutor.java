@@ -2,6 +2,9 @@ package emu.nebula.nbcommand.service.command;
 
 import emu.nebula.nbcommand.model.Command;
 import emu.nebula.nbcommand.model.command.Syntax;
+import emu.nebula.nbcommand.service.command.MultiSelectDataHelper;
+import emu.nebula.nbcommand.ui.MultiSelectContainerManager;
+import emu.nebula.nbcommand.ui.MultiSelectWithCountContainerManager;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Control;
 import javafx.scene.control.TextField;
@@ -13,6 +16,7 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.time.Duration;
+import java.util.List;
 import java.util.Map;
 import java.util.function.Consumer;
 
@@ -21,6 +25,8 @@ public class CommandExecutor {
 
     private String serverAddress;
     private String authToken;
+    private Map<String, MultiSelectContainerManager> multiSelectManagers;
+    private Map<String, MultiSelectWithCountContainerManager> multiSelectWithCountManagers;
 
     public CommandExecutor(String serverAddress, String authToken) {
         this.serverAddress = serverAddress;
@@ -33,6 +39,20 @@ public class CommandExecutor {
     public void updateConfiguration(String serverAddress, String authToken) {
         this.serverAddress = serverAddress;
         this.authToken = authToken;
+    }
+
+    /**
+     * 设置多选管理器映射
+     */
+    public void setMultiSelectManagers(Map<String, MultiSelectContainerManager> multiSelectManagers) {
+        this.multiSelectManagers = multiSelectManagers;
+    }
+    
+    /**
+     * 设置带数量的多选管理器映射
+     */
+    public void setMultiSelectWithCountManagers(Map<String, MultiSelectWithCountContainerManager> multiSelectWithCountManagers) {
+        this.multiSelectWithCountManagers = multiSelectWithCountManagers;
     }
 
     /**
@@ -51,6 +71,63 @@ public class CommandExecutor {
                 continue;
             }
             
+            // 特殊处理多选容器字段
+            if (field.getFieldMode() == Syntax.FieldMode.MULTI_SELECT_CONTAINER && multiSelectManagers != null) {
+                List<String> selectedItems = MultiSelectDataHelper.getSelectedItems(multiSelectManagers, originalName);
+                if (selectedItems != null && !selectedItems.isEmpty()) {
+                    commandText.append(" ");
+                    for (int i = 0; i < selectedItems.size(); i++) {
+                        String item = selectedItems.get(i);
+
+                        // 对于包含" - "的值（如"10001 - 物品名"），只取ID部分
+                        if (item.contains(" - ")) {
+                            String idPart = item.substring(0, item.indexOf(" - "));
+                            commandText.append(idPart);
+                        } else {
+                            commandText.append(item);
+                        }
+
+                        // 如果不是最后一个元素，添加逗号分隔符
+                        if (i != selectedItems.size() - 1) {
+                            commandText.append(",");
+                        }
+                    }
+                }
+                continue;
+            }
+            
+            // 特殊处理带数量的多选容器字段
+            if (field.getFieldMode() == Syntax.FieldMode.MULTI_SELECT_CONTAINER_WITH_COUNT && multiSelectWithCountManagers != null) {
+                Map<String, Integer> selectedItemsWithCount = MultiSelectDataHelper.getSelectedItemsWithCount(multiSelectWithCountManagers, originalName);
+                if (selectedItemsWithCount != null && !selectedItemsWithCount.isEmpty()) {
+                    int index = 0;
+
+                    commandText.append(" ");
+                    for (Map.Entry<String, Integer> entry : selectedItemsWithCount.entrySet()) {
+                        String item = entry.getKey();
+                        Integer count = entry.getValue();
+
+                        // 对于包含" - "的值（如"10001 - 物品名"），只取ID部分
+                        if (item.contains(" - ")) {
+                            String idPart = item.substring(0, item.indexOf(" - "));
+                            commandText.append(idPart);
+                        } else {
+                            commandText.append(item);
+                        }
+                        
+                        // 添加数量前缀
+                        commandText.append(":").append(count);
+
+                        // 如果不是最后一个元素，添加逗号分隔符
+                        if (index != selectedItemsWithCount.size() - 1) {
+                            commandText.append(",");
+                        }
+                        index++;
+                    }
+                }
+                continue;
+            }
+            
             // 查找对应控件的值
             Control control = parameterControls.get(originalName);
             
@@ -59,8 +136,8 @@ public class CommandExecutor {
                 if (control instanceof TextField) {
                     value = ((TextField) control).getText();
                 } else if (control instanceof ComboBox) {
-                    String selected = (String) ((ComboBox) control).getSelectionModel().getSelectedItem();
-                    String input = ((ComboBox) control).getEditor().getText();
+                    String selected = (String) ((ComboBox<?>) control).getSelectionModel().getSelectedItem();
+                    String input = ((ComboBox<?>) control).getEditor().getText();
                     value = selected != null ? selected : input != null ? input : "";
                 }
 

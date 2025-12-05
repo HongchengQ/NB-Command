@@ -7,6 +7,7 @@ import emu.nebula.nbcommand.service.command.CommandExecutor;
 import emu.nebula.nbcommand.service.TypedDataManager;
 import javafx.collections.FXCollections;
 import javafx.scene.control.*;
+import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
 import javafx.scene.layout.Region;
@@ -31,8 +32,13 @@ public class UIController {
     private final Consumer<String> selectedCommandConsumer;
     private final VBox paramContainer;
     private final CommandExecutor commandExecutor;
+    private Command currentCommand; // 保存当前命令的引用
     // 管理带类型的ComboBox控件
     private final Map<ComboBox<String>, TypedComboBoxManager> comboBoxManagers = new HashMap<>();
+    // 管理多选容器控件
+    private final Map<String, MultiSelectContainerManager> multiSelectManagers = new HashMap<>();
+    // 管理带数量的多选容器控件
+    private final Map<String, MultiSelectWithCountContainerManager> multiSelectWithCountManagers = new HashMap<>();
 
     public UIController(TypedDataManager typedDataManager,
                         Map<String, Control> parameterControls,
@@ -48,16 +54,22 @@ public class UIController {
         this.selectedCommandConsumer = selectedCommandConsumer;
         this.paramContainer = paramContainer;
         this.commandExecutor = commandExecutor;
+        // 设置多选管理器映射，以便CommandExecutor可以访问
+        this.commandExecutor.setMultiSelectManagers(multiSelectManagers);
+        this.commandExecutor.setMultiSelectWithCountManagers(multiSelectWithCountManagers);
     }
 
     public void showCommandDetails(Command command, String commandName, String commandFullDescription) {
         this.commandDetailsConsumer.accept(commandFullDescription);
         this.selectedCommandConsumer.accept(commandName);
+        this.currentCommand = command; // 保存当前命令的引用
 
         // 清空参数容器和参数控件映射
         paramContainer.getChildren().clear();
         parameterControls.clear();
         comboBoxManagers.clear();
+        multiSelectManagers.clear();
+        multiSelectWithCountManagers.clear();
 
         if (command == null) {
             commandPreviewConsumer.accept("");
@@ -73,13 +85,8 @@ public class UIController {
             
             String param = field.getCurrentName(); // 使用显示名称
             String originalParam = field.getOriginalName(); // 原始名称用于查找数据
-            
-            // 检查是否为多选参数
-            // boolean isMultipleChoice = originalParam.contains("{") && originalParam.contains("}") && originalParam.contains("|");
-            // 检查是否为必填参数
-            // boolean isRequired = originalParam.contains("[") && originalParam.contains("]");
 
-            if (field.getFieldMode() == Syntax.FieldMode.SIMPLE_MULTI_SELECT) {
+            if (field.getFieldMode() == Syntax.FieldMode.SIMPLE_RADIO) {
                 // 处理多选参数，如 {create | delete}
                 String cleanParam = originalParam.replaceAll("[{}\\[\\]]", ""); // 移除大括号和中括号
                 String[] options = cleanParam.split(" \\| "); // 用 | 分割
@@ -97,7 +104,7 @@ public class UIController {
                 VBox.setMargin(comboBox, new javafx.geometry.Insets(0, 0, 10, 0));
                 // 使用原始名称作为键来存储控件
                 parameterControls.put(originalParam, comboBox);
-            } else if (field.getFieldMode() == Syntax.FieldMode.COMPLEX_MULTI_SELECT) {
+            } else if (field.getFieldMode() == Syntax.FieldMode.COMPLEX_RADIO) {
                 // 特殊处理参数，使用ComboBox
                 ComboBox<String> comboBox = new ComboBox<>();
                 comboBox.setPromptText(param);
@@ -114,6 +121,12 @@ public class UIController {
                 
                 // 将ComboBox添加到参数控件映射中，以便设置监听器
                 parameterControls.put(originalParam, comboBox);
+            } else if (field.getFieldMode() == Syntax.FieldMode.MULTI_SELECT_CONTAINER) {
+                // 处理多选容器模式
+                addMultiSelectContainerControl(originalParam, param);
+            } else if (field.getFieldMode() == Syntax.FieldMode.MULTI_SELECT_CONTAINER_WITH_COUNT) {
+                // 处理带数量的多选容器模式
+                addMultiSelectWithCountContainerControl(originalParam, param);
             } else {
                 // 普通输入框
                 TextField textField = new TextField();
@@ -160,6 +173,169 @@ public class UIController {
         VBox.setMargin(vbox, new javafx.geometry.Insets(0, 0, 10, 0));
     }
     
+    /**
+     * 创建多选容器控件
+     */
+    private void addMultiSelectContainerControl(String originalParam, String currParam) {
+        VBox containerVBox = new VBox(4); // 减小间距
+        
+        // 创建选择区域
+        HBox selectBox = new HBox(4); // 减小间距
+        
+        // 创建数据选择下拉框
+        ComboBox<String> dataComboBox = new ComboBox<>();
+        dataComboBox.setPromptText(currParam);
+        dataComboBox.setItems(typedDataManager.getDataList(originalParam, "all"));
+        dataComboBox.setEditable(true);
+        
+        // 创建ComboBox管理器
+        TypedComboBoxManager comboBoxManager = new TypedComboBoxManager(dataComboBox, typedDataManager, originalParam);
+        comboBoxManagers.put(dataComboBox, comboBoxManager);
+        
+        // 创建添加按钮
+        Button addButton = new Button("+");
+        addButton.setMinWidth(Region.USE_PREF_SIZE);
+        
+        // 创建清除按钮
+        Button clearButton = new Button(i18n.getString("ui.clear"));
+        clearButton.setMinWidth(Region.USE_PREF_SIZE);
+        clearButton.setOnAction(event -> {
+            dataComboBox.getEditor().clear();
+            dataComboBox.getSelectionModel().clearSelection();
+            // 重新加载所有项
+            dataComboBox.setItems(typedDataManager.getDataList(comboBoxManager.getDataIdentifier(), "all"));
+            // 隐藏下拉列表
+            dataComboBox.hide();
+        });
+        
+        // 创建搜索按钮
+        Button searchButton = new Button(i18n.getString("ui.search"));
+        searchButton.setMinWidth(Region.USE_PREF_SIZE);
+        searchButton.setOnAction(event -> comboBoxManager.updateFilter());
+        
+        // 设置选择区域的组件
+        selectBox.getChildren().addAll(dataComboBox, addButton, clearButton, searchButton);
+        HBox.setHgrow(dataComboBox, Priority.ALWAYS);
+        
+        // 创建已选项目容器 (使用FlowPane支持双列显示)
+        FlowPane selectedItemsPane = createSelectedItemsPane();
+        
+        // 创建已选项目标签
+        Label selectedItemsLabel = new Label(i18n.getString("ui.selected_items") + ":");
+        selectedItemsLabel.setStyle("-fx-font-size: 11px;");
+        
+        // 不再使用ScrollPane，直接将FlowPane添加到容器中
+        VBox.setVgrow(selectedItemsPane, Priority.ALWAYS);
+        
+        // 创建多选容器管理器
+        MultiSelectContainerManager multiSelectManager = new MultiSelectContainerManager(
+                dataComboBox, selectedItemsPane, typedDataManager, originalParam);
+        multiSelectManagers.put(originalParam, multiSelectManager);
+        
+        // 设置项目变更回调以更新命令预览
+        multiSelectManager.setOnItemsChanged(() -> updateCommandPreview(currentCommand));
+        
+        // 设置添加按钮事件
+        addButton.setOnAction(event -> multiSelectManager.addItem());
+        
+        // 添加控件到容器
+        containerVBox.getChildren().addAll(new Label(currParam + ":"), selectBox, selectedItemsLabel, selectedItemsPane);
+        
+        paramContainer.getChildren().add(containerVBox);
+        VBox.setMargin(containerVBox, new javafx.geometry.Insets(0, 0, 10, 0));
+        
+        // 将容器添加到参数控件映射中
+        parameterControls.put(originalParam, dataComboBox);
+    }
+    
+    /**
+     * 创建带数量的多选容器控件
+     */
+    private void addMultiSelectWithCountContainerControl(String originalParam, String currParam) {
+        VBox containerVBox = new VBox(4); // 减小间距
+        
+        // 创建选择区域
+        HBox selectBox = new HBox(4); // 减小间距
+        
+        // 创建数据选择下拉框
+        ComboBox<String> dataComboBox = new ComboBox<>();
+        dataComboBox.setPromptText(currParam);
+        dataComboBox.setItems(typedDataManager.getDataList(originalParam, "all"));
+        dataComboBox.setEditable(true);
+        
+        // 创建ComboBox管理器
+        TypedComboBoxManager comboBoxManager = new TypedComboBoxManager(dataComboBox, typedDataManager, originalParam);
+        comboBoxManagers.put(dataComboBox, comboBoxManager);
+        
+        // 创建添加按钮
+        Button addButton = new Button("+");
+        addButton.setMinWidth(Region.USE_PREF_SIZE);
+        
+        // 创建清除按钮
+        Button clearButton = new Button(i18n.getString("ui.clear"));
+        clearButton.setMinWidth(Region.USE_PREF_SIZE);
+        clearButton.setOnAction(event -> {
+            dataComboBox.getEditor().clear();
+            dataComboBox.getSelectionModel().clearSelection();
+            // 重新加载所有项
+            dataComboBox.setItems(typedDataManager.getDataList(comboBoxManager.getDataIdentifier(), "all"));
+            // 隐藏下拉列表
+            dataComboBox.hide();
+        });
+        
+        // 创建搜索按钮
+        Button searchButton = new Button(i18n.getString("ui.search"));
+        searchButton.setMinWidth(Region.USE_PREF_SIZE);
+        searchButton.setOnAction(event -> comboBoxManager.updateFilter());
+        
+        // 设置选择区域的组件
+        selectBox.getChildren().addAll(dataComboBox, addButton, clearButton, searchButton);
+        HBox.setHgrow(dataComboBox, Priority.ALWAYS);
+        
+        // 创建已选项目容器 (使用FlowPane支持双列显示)
+        FlowPane selectedItemsPane = createSelectedItemsPane();
+        
+        // 创建已选项目标签
+        Label selectedItemsLabel = new Label(i18n.getString("ui.selected_items") + ":");
+        selectedItemsLabel.setStyle("-fx-font-size: 11px;");
+        
+        // 不再使用ScrollPane，直接将FlowPane添加到容器中
+        VBox.setVgrow(selectedItemsPane, Priority.ALWAYS);
+        
+        // 创建带数量的多选容器管理器
+        MultiSelectWithCountContainerManager multiSelectWithCountManager = new MultiSelectWithCountContainerManager(
+                dataComboBox, selectedItemsPane, typedDataManager, originalParam);
+        multiSelectWithCountManagers.put(originalParam, multiSelectWithCountManager);
+        
+        // 设置项目变更回调以更新命令预览
+        multiSelectWithCountManager.setOnItemsChanged(() -> updateCommandPreview(currentCommand));
+        
+        // 设置添加按钮事件
+        addButton.setOnAction(event -> multiSelectWithCountManager.addItem());
+        
+        // 添加控件到容器
+        containerVBox.getChildren().addAll(new Label(currParam + ":"), selectBox, selectedItemsLabel, selectedItemsPane);
+        
+        paramContainer.getChildren().add(containerVBox);
+        VBox.setMargin(containerVBox, new javafx.geometry.Insets(0, 0, 10, 0));
+        
+        // 将容器添加到参数控件映射中
+        parameterControls.put(originalParam, dataComboBox);
+    }
+    
+    /**
+     * 创建已选项目容器
+     * @return 已选项目容器
+     */
+    private FlowPane createSelectedItemsPane() {
+        FlowPane selectedItemsPane = new FlowPane();
+        selectedItemsPane.setHgap(2); // 设置水平间距
+        selectedItemsPane.setVgap(2); // 设置垂直间距
+        selectedItemsPane.setStyle("-fx-border-color: gray; -fx-border-width: 1px; -fx-padding: 2;");
+        selectedItemsPane.prefWrapLengthProperty().bind(selectedItemsPane.widthProperty().subtract(20)); // 绑定换行宽度到容器宽度
+        return selectedItemsPane;
+    }
+
     /**
      * 创建带清除按钮的类型控件
      */
@@ -291,7 +467,7 @@ public class UIController {
             Control control = entry.getValue();
             if (control instanceof TextField) {
                 ((TextField) control).textProperty().addListener((obs, oldText, newText) -> updateCommandPreview(command));
-            } else if (control instanceof ComboBox comboBox) {
+            } else if (control instanceof ComboBox<?> comboBox) {
                 comboBox.getEditor().textProperty().addListener((obs, oldVal, newVal) -> updateCommandPreview(command));
                 comboBox.getSelectionModel().selectedItemProperty().addListener((obs, oldVal, newVal) -> updateCommandPreview(command));
             }
@@ -326,5 +502,33 @@ public class UIController {
             // 通知管理器更新其内部状态
             manager.reloadData();
         }
+        
+        // 更新所有多选容器管理器
+        for (Map.Entry<String, MultiSelectContainerManager> entry : multiSelectManagers.entrySet()) {
+            MultiSelectContainerManager manager = entry.getValue();
+            manager.reloadData();
+        }
+        
+        // 更新所有带数量的多选容器管理器
+        for (Map.Entry<String, MultiSelectWithCountContainerManager> entry : multiSelectWithCountManagers.entrySet()) {
+            MultiSelectWithCountContainerManager manager = entry.getValue();
+            manager.reloadData();
+        }
+    }
+    
+    /**
+     * 获取多选容器管理器映射
+     * @return 多选容器管理器映射
+     */
+    public Map<String, MultiSelectContainerManager> getMultiSelectManagers() {
+        return multiSelectManagers;
+    }
+    
+    /**
+     * 获取带数量的多选容器管理器映射
+     * @return 带数量的多选容器管理器映射
+     */
+    public Map<String, MultiSelectWithCountContainerManager> getMultiSelectWithCountManagers() {
+        return multiSelectWithCountManagers;
     }
 }
