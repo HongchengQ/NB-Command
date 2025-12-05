@@ -1,0 +1,449 @@
+{
+  "discs": [
+    {
+      "id": 211001,
+      "name": "Crisp Morning",
+      "element": "NONE"
+    },
+    {
+      "id": 211002,
+      "name": "Sunny Breeze",
+      "element": "NONE"
+    },
+    {
+      "id": 211003,
+      "name": "Indigo Sunset",
+      "element": "NONE"
+    },
+    {
+      "id": 211004,
+      "name": "Pink Dream",
+      "element": "NONE"
+    },
+    {
+      "id": 211005,
+      "name": "Lonely Dunes",
+      "element": "NONE"
+    },
+    {
+      "id": 211006,
+      "name": "Sweet Creek",
+      "element": "NONE"
+    },
+    {
+      "id": 211007,
+      "name": "Starlit Hope",
+      "element": "NONE"
+    },
+    {
+      "id": 211008,
+      "name": "Homeward Path",
+      "element": "NONE"
+    },
+    {
+      "id": 212001,
+      "name": "Grand Feast",
+      "element": "NONE"
+    },
+    {
+      "id": 212002,
+      "name": "Whoopla",
+      "element": "NONE"
+    },
+    {
+      "id": 212003,
+      "name": "Elysium",
+      "element": "NONE"
+    },
+    {
+      "id": 212005,
+      "name": "Flare Frenzy",
+      "element": "FIRE"
+    },
+    {
+      "id": 212006,
+      "name": "Auspicious Glow",
+      "element": "LIGHT"
+    },
+    {
+      "id": 212007,
+      "name": "Brave the Wind",
+      "element": "WIND"
+    },
+    {
+      "id": 212008,
+      "name": "Bubbles",
+      "element": "AQUA"
+    },
+    {
+      "id": 212009,
+      "name": "Eclipse",
+      "element": "DARK"
+    },
+    {
+      "id": 212010,
+      "name": "Fortitude",
+      "element": "EARTH"
+    },
+    {
+      "id": 213001,
+      "name": "???",
+      "element": "NONE"
+    },
+    {
+      "id": 213002,
+      "name": "???",
+      "element": "NONE"
+    },
+    {
+      "id": 213003,
+      "name": "Scorching Night\u0027s End",
+      "element": "FIRE"
+    },
+    {
+      "id": 213004,
+      "name": "Twin Moon Mischief",
+      "element": "FIRE"
+    },
+    {
+      "id": 213005,
+      "name": "★Bam Bam Girl★",
+      "element": "LIGHT"
+    },
+    {
+      "id": 213006,
+      "name": "Good Night",
+      "element": "LIGHT"
+    },
+    {
+      "id": 213007,
+      "name": "Emerald Dream",
+      "element": "WIND"
+    },
+    {
+      "id": 213008,
+      "name": "Tranquil Retreat",
+      "element": "WIND"
+    },
+    {
+      "id": 213009,
+      "name": "Rainy Tune",
+      "element": "AQUA"
+    },
+    {
+      "id": 213010,
+      "name": "Steam Syndrome",
+      "element": "AQUA"
+    },
+    {
+      "id": 213011,
+      "name": "Meow Rhythm",
+      "element": "DARK"
+    },
+    {
+      "id": 213012,
+      "name": "Starry Night Ode",
+      "element": "DARK"
+    },
+    {
+      "id": 213013,
+      "name": "Leaf Her to Me",
+      "element": "EARTH"
+    },
+    {
+      "id": 213014,
+      "name": "The Knight\u0027s Smith",
+      "element": "EARTH"
+    },
+    {
+      "id": 213015,
+      "name": "Unknown Fragrance",
+      "element": "WIND"
+    },
+    {
+      "id": 213016,
+      "name": "Cage of Roses",
+      "element": "FIRE"
+    },
+    {
+      "id": 213017,
+      "name": "★Rolling Life★",
+      "element": "LIGHT"
+    },
+    {
+      "id": 213018,
+      "name": "Soda Shopping",
+      "element": "AQUA"
+    },
+    {
+      "id": 213019,
+      "name": "Delusion",
+      "element": "DARK"
+    },
+    {
+      "id": 213020,
+      "name": "The Shining",
+      "element": "EARTH"
+    },
+    {
+      "id": 213021,
+      "name": "Miraculous Anthem",
+      "element": "WIND"
+    },
+    {
+      "id": 213022,
+      "name": "Love River\u0027s Curse",
+      "element": "FIRE"
+    },
+    {
+      "id": 213023,
+      "name": "Pure White",
+      "element": "LIGHT"
+    },
+    {
+      "id": 213024,
+      "name": "Holiday Bubble",
+      "element": "AQUA"
+    },
+    {
+      "id": 213025,
+      "name": "Sweet Invitation",
+      "element": "DARK"
+    },
+    {
+      "id": 213026,
+      "name": "Vent It Out ♥",
+      "element": "EARTH"
+    },
+    {
+      "id": 213027,
+      "name": "???",
+      "element": "WIND"
+    },
+    {
+      "id": 213028,
+      "name": "???",
+      "element": "FIRE"
+    },
+    {
+      "id": 213029,
+      "name": "???",
+      "element": "LIGHT"
+    },
+    {
+      "id": 213030,
+      "name": "???",
+      "element": "AQUA"
+    },
+    {
+      "id": 213031,
+      "name": "???",
+      "element": "DARK"
+    },
+    {
+      "id": 213032,
+      "name": "???",
+      "element": "EARTH"
+    },
+    {
+      "id": 214001,
+      "name": "Meowing Cat God",
+      "element": "FIRE"
+    },
+    {
+      "id": 214002,
+      "name": "Sky, Flowers, Poem",
+      "element": "WIND"
+    },
+    {
+      "id": 214003,
+      "name": "???",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214004,
+      "name": "???",
+      "element": "DARK"
+    },
+    {
+      "id": 214005,
+      "name": "Sunlit Blossom",
+      "element": "AQUA"
+    },
+    {
+      "id": 214006,
+      "name": "Witch\u0027s Swing",
+      "element": "DARK"
+    },
+    {
+      "id": 214007,
+      "name": "Midnight Mayhem",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214008,
+      "name": "???",
+      "element": "AQUA"
+    },
+    {
+      "id": 214009,
+      "name": "New Star Prelude",
+      "element": "WIND"
+    },
+    {
+      "id": 214010,
+      "name": "Prayer Beneath Light",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214011,
+      "name": "Summer Afternoon Rain",
+      "element": "AQUA"
+    },
+    {
+      "id": 214012,
+      "name": "Those with Ambition",
+      "element": "DARK"
+    },
+    {
+      "id": 214013,
+      "name": "Voyage Blueprint",
+      "element": "FIRE"
+    },
+    {
+      "id": 214014,
+      "name": "Sweet Times",
+      "element": "EARTH"
+    },
+    {
+      "id": 214015,
+      "name": "???",
+      "element": "WIND"
+    },
+    {
+      "id": 214016,
+      "name": "???",
+      "element": "WIND"
+    },
+    {
+      "id": 214017,
+      "name": "Fireworks",
+      "element": "FIRE"
+    },
+    {
+      "id": 214018,
+      "name": "Lemon \u0026 Black Tea",
+      "element": "WIND"
+    },
+    {
+      "id": 214019,
+      "name": "One Shot, One Down",
+      "element": "FIRE"
+    },
+    {
+      "id": 214020,
+      "name": "Sparkling Moment",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214021,
+      "name": "United by Fate",
+      "element": "AQUA"
+    },
+    {
+      "id": 214022,
+      "name": "The Meow",
+      "element": "DARK"
+    },
+    {
+      "id": 214023,
+      "name": "Colors Pierce the Grey",
+      "element": "EARTH"
+    },
+    {
+      "id": 214024,
+      "name": "???",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214025,
+      "name": "???",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214026,
+      "name": "Sword Against Stream",
+      "element": "AQUA"
+    },
+    {
+      "id": 214027,
+      "name": "Mystic Brushstrokes",
+      "element": "FIRE"
+    },
+    {
+      "id": 214028,
+      "name": "Daylight Garden",
+      "element": "WIND"
+    },
+    {
+      "id": 214029,
+      "name": "???",
+      "element": "FIRE"
+    },
+    {
+      "id": 214030,
+      "name": "A Moment in the Afternoon",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214031,
+      "name": "The Clash of Blade and Axe",
+      "element": "AQUA"
+    },
+    {
+      "id": 214032,
+      "name": "Dream Factory of ☆Truth",
+      "element": "DARK"
+    },
+    {
+      "id": 214033,
+      "name": "Dancing with the Bones",
+      "element": "EARTH"
+    },
+    {
+      "id": 214034,
+      "name": "???",
+      "element": "DARK"
+    },
+    {
+      "id": 214035,
+      "name": "???",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214036,
+      "name": "The Lost Pilgrim",
+      "element": "EARTH"
+    },
+    {
+      "id": 214037,
+      "name": "Claw the Claw",
+      "element": "EARTH"
+    },
+    {
+      "id": 214038,
+      "name": "Ripples of Nostalgia",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214039,
+      "name": "Summer Sanctuary",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214040,
+      "name": "Fist of Courage",
+      "element": "FIRE"
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "discs": [
+    {
+      "id": 211001,
+      "name": "아침 안개",
+      "element": "NONE"
+    },
+    {
+      "id": 211002,
+      "name": "평온",
+      "element": "NONE"
+    },
+    {
+      "id": 211003,
+      "name": "황혼",
+      "element": "NONE"
+    },
+    {
+      "id": 211004,
+      "name": "분홍빛 꿈",
+      "element": "NONE"
+    },
+    {
+      "id": 211005,
+      "name": "고독한 연기",
+      "element": "NONE"
+    },
+    {
+      "id": 211006,
+      "name": "감로",
+      "element": "NONE"
+    },
+    {
+      "id": 211007,
+      "name": "희망",
+      "element": "NONE"
+    },
+    {
+      "id": 211008,
+      "name": "귀로",
+      "element": "NONE"
+    },
+    {
+      "id": 212001,
+      "name": "성찬",
+      "element": "NONE"
+    },
+    {
+      "id": 212002,
+      "name": "소란",
+      "element": "NONE"
+    },
+    {
+      "id": 212003,
+      "name": "극락",
+      "element": "NONE"
+    },
+    {
+      "id": 212005,
+      "name": "열정",
+      "element": "FIRE"
+    },
+    {
+      "id": 212006,
+      "name": "상서로운 빛",
+      "element": "LIGHT"
+    },
+    {
+      "id": 212007,
+      "name": "바람을 타고",
+      "element": "WIND"
+    },
+    {
+      "id": 212008,
+      "name": "물거품",
+      "element": "AQUA"
+    },
+    {
+      "id": 212009,
+      "name": "검은 소멸",
+      "element": "DARK"
+    },
+    {
+      "id": 212010,
+      "name": "강인함",
+      "element": "EARTH"
+    },
+    {
+      "id": 213001,
+      "name": "???",
+      "element": "NONE"
+    },
+    {
+      "id": 213002,
+      "name": "???",
+      "element": "NONE"
+    },
+    {
+      "id": 213003,
+      "name": "열대야의 끝",
+      "element": "FIRE"
+    },
+    {
+      "id": 213004,
+      "name": "괴도 콤비",
+      "element": "FIRE"
+    },
+    {
+      "id": 213005,
+      "name": "★~펑펑 소녀~★",
+      "element": "LIGHT"
+    },
+    {
+      "id": 213006,
+      "name": "굿나잇",
+      "element": "LIGHT"
+    },
+    {
+      "id": 213007,
+      "name": "에메랄드 틈새 경계",
+      "element": "WIND"
+    },
+    {
+      "id": 213008,
+      "name": "휴식의 순간",
+      "element": "WIND"
+    },
+    {
+      "id": 213009,
+      "name": "‘빗속의’ 선율",
+      "element": "AQUA"
+    },
+    {
+      "id": 213010,
+      "name": "수증기 증후군",
+      "element": "AQUA"
+    },
+    {
+      "id": 213011,
+      "name": "고양이 리듬",
+      "element": "DARK"
+    },
+    {
+      "id": 213012,
+      "name": "별하늘에 안부를",
+      "element": "DARK"
+    },
+    {
+      "id": 213013,
+      "name": "가을날 속삭임",
+      "element": "EARTH"
+    },
+    {
+      "id": 213014,
+      "name": "기사의 대장장이",
+      "element": "EARTH"
+    },
+    {
+      "id": 213015,
+      "name": "알려지지 않은 이름",
+      "element": "WIND"
+    },
+    {
+      "id": 213016,
+      "name": "새장의 장미",
+      "element": "FIRE"
+    },
+    {
+      "id": 213017,
+      "name": "★~돌고 도는 인생~★",
+      "element": "LIGHT"
+    },
+    {
+      "id": 213018,
+      "name": "음료수 사는 날",
+      "element": "AQUA"
+    },
+    {
+      "id": 213019,
+      "name": "망언",
+      "element": "DARK"
+    },
+    {
+      "id": 213020,
+      "name": "플래시 고스트",
+      "element": "EARTH"
+    },
+    {
+      "id": 213021,
+      "name": "영험한 찬가",
+      "element": "WIND"
+    },
+    {
+      "id": 213022,
+      "name": "저주받은 사랑의 강",
+      "element": "FIRE"
+    },
+    {
+      "id": 213023,
+      "name": "순백",
+      "element": "LIGHT"
+    },
+    {
+      "id": 213024,
+      "name": "홀리데이 버블",
+      "element": "AQUA"
+    },
+    {
+      "id": 213025,
+      "name": "달콤한 초대",
+      "element": "DARK"
+    },
+    {
+      "id": 213026,
+      "name": "청소 타임DA♥YO",
+      "element": "EARTH"
+    },
+    {
+      "id": 213027,
+      "name": "???",
+      "element": "WIND"
+    },
+    {
+      "id": 213028,
+      "name": "???",
+      "element": "FIRE"
+    },
+    {
+      "id": 213029,
+      "name": "???",
+      "element": "LIGHT"
+    },
+    {
+      "id": 213030,
+      "name": "???",
+      "element": "AQUA"
+    },
+    {
+      "id": 213031,
+      "name": "???",
+      "element": "DARK"
+    },
+    {
+      "id": 213032,
+      "name": "???",
+      "element": "EARTH"
+    },
+    {
+      "id": 214001,
+      "name": "고양이 신 레퀴엠",
+      "element": "FIRE"
+    },
+    {
+      "id": 214002,
+      "name": "하늘, 꽃 그리고 시",
+      "element": "WIND"
+    },
+    {
+      "id": 214003,
+      "name": "???",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214004,
+      "name": "???",
+      "element": "DARK"
+    },
+    {
+      "id": 214005,
+      "name": "맑은 하늘의 꽃",
+      "element": "AQUA"
+    },
+    {
+      "id": 214006,
+      "name": "마녀의 그네",
+      "element": "DARK"
+    },
+    {
+      "id": 214007,
+      "name": "자정의 타락 천사",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214008,
+      "name": "???",
+      "element": "AQUA"
+    },
+    {
+      "id": 214009,
+      "name": "‘공백’의 프롤로그",
+      "element": "WIND"
+    },
+    {
+      "id": 214010,
+      "name": "깨끗한 기도",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214011,
+      "name": "여름날 오후의 비",
+      "element": "AQUA"
+    },
+    {
+      "id": 214012,
+      "name": "야심에 찬 시선",
+      "element": "DARK"
+    },
+    {
+      "id": 214013,
+      "name": "항해의 청사진",
+      "element": "FIRE"
+    },
+    {
+      "id": 214014,
+      "name": "달콤한 말의 열매",
+      "element": "EARTH"
+    },
+    {
+      "id": 214015,
+      "name": "???",
+      "element": "WIND"
+    },
+    {
+      "id": 214016,
+      "name": "???",
+      "element": "WIND"
+    },
+    {
+      "id": 214017,
+      "name": "불꽃",
+      "element": "FIRE"
+    },
+    {
+      "id": 214018,
+      "name": "레모네이드와 홍차",
+      "element": "WIND"
+    },
+    {
+      "id": 214019,
+      "name": "원샷원킬",
+      "element": "FIRE"
+    },
+    {
+      "id": 214020,
+      "name": "반짝이는 순간",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214021,
+      "name": "인연의 만남",
+      "element": "AQUA"
+    },
+    {
+      "id": 214022,
+      "name": "한밤의 고양이 방울",
+      "element": "DARK"
+    },
+    {
+      "id": 214023,
+      "name": "그래피티 무지개",
+      "element": "EARTH"
+    },
+    {
+      "id": 214024,
+      "name": "???",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214025,
+      "name": "???",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214026,
+      "name": "반짝이는 옛 연못",
+      "element": "AQUA"
+    },
+    {
+      "id": 214027,
+      "name": "용과 봉황",
+      "element": "FIRE"
+    },
+    {
+      "id": 214028,
+      "name": "대낮의 화원",
+      "element": "WIND"
+    },
+    {
+      "id": 214029,
+      "name": "???",
+      "element": "FIRE"
+    },
+    {
+      "id": 214030,
+      "name": "오후의 틈새",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214031,
+      "name": "검과 도끼의 울음",
+      "element": "AQUA"
+    },
+    {
+      "id": 214032,
+      "name": "진실☆꿈 공장",
+      "element": "DARK"
+    },
+    {
+      "id": 214033,
+      "name": "해골과의 춤사위",
+      "element": "EARTH"
+    },
+    {
+      "id": 214034,
+      "name": "???",
+      "element": "DARK"
+    },
+    {
+      "id": 214035,
+      "name": "???",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214036,
+      "name": "길 잃은 순례자",
+      "element": "EARTH"
+    },
+    {
+      "id": 214037,
+      "name": "전설을 잡아라",
+      "element": "EARTH"
+    },
+    {
+      "id": 214038,
+      "name": "파도빛 유랑",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214039,
+      "name": "여름 서식지",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214040,
+      "name": "용기의 주먹",
+      "element": "FIRE"
+    }
+  ]
+}

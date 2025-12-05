@@ -58,7 +58,9 @@ public class TypedDataManager {
             loadTypedDataFromJson("/handbook/" + languageCode + "/Items.json", "items", "items", "title", "type");
             // 加载角色数据
             loadTypedDataFromJson("/handbook/" + languageCode + "/Characters.json", "characters", "characters", "name", "element");
-            
+            // 加载秘纹数据
+            loadTypedDataFromJson("/handbook/" + languageCode + "/Discs.json", "discs", "discs", "name", "element");
+
             // 更新最后加载的语言
             lastLoadedLocale = currentLocale;
             

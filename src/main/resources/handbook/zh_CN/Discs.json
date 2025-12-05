@@ -1,0 +1,449 @@
+{
+  "discs": [
+    {
+      "id": 211001,
+      "name": "朝霭",
+      "element": "NONE"
+    },
+    {
+      "id": 211002,
+      "name": "和煦",
+      "element": "NONE"
+    },
+    {
+      "id": 211003,
+      "name": "晚霞",
+      "element": "NONE"
+    },
+    {
+      "id": 211004,
+      "name": "粉梦",
+      "element": "NONE"
+    },
+    {
+      "id": 211005,
+      "name": "孤烟",
+      "element": "NONE"
+    },
+    {
+      "id": 211006,
+      "name": "甘露",
+      "element": "NONE"
+    },
+    {
+      "id": 211007,
+      "name": "希冀",
+      "element": "NONE"
+    },
+    {
+      "id": 211008,
+      "name": "归途",
+      "element": "NONE"
+    },
+    {
+      "id": 212001,
+      "name": "盛宴",
+      "element": "NONE"
+    },
+    {
+      "id": 212002,
+      "name": "喧哗",
+      "element": "NONE"
+    },
+    {
+      "id": 212003,
+      "name": "极乐",
+      "element": "NONE"
+    },
+    {
+      "id": 212005,
+      "name": "情热",
+      "element": "FIRE"
+    },
+    {
+      "id": 212006,
+      "name": "吉光",
+      "element": "LIGHT"
+    },
+    {
+      "id": 212007,
+      "name": "乘风",
+      "element": "WIND"
+    },
+    {
+      "id": 212008,
+      "name": "泡沫",
+      "element": "AQUA"
+    },
+    {
+      "id": 212009,
+      "name": "黯灭",
+      "element": "DARK"
+    },
+    {
+      "id": 212010,
+      "name": "坚韧",
+      "element": "EARTH"
+    },
+    {
+      "id": 213001,
+      "name": "???",
+      "element": "NONE"
+    },
+    {
+      "id": 213002,
+      "name": "???",
+      "element": "NONE"
+    },
+    {
+      "id": 213003,
+      "name": "热夜的结束",
+      "element": "FIRE"
+    },
+    {
+      "id": 213004,
+      "name": "双月怪盗",
+      "element": "FIRE"
+    },
+    {
+      "id": 213005,
+      "name": "★~嘭嘭少女~★",
+      "element": "LIGHT"
+    },
+    {
+      "id": 213006,
+      "name": "晚安",
+      "element": "LIGHT"
+    },
+    {
+      "id": 213007,
+      "name": "翡翠隙境",
+      "element": "WIND"
+    },
+    {
+      "id": 213008,
+      "name": "小憩片刻",
+      "element": "WIND"
+    },
+    {
+      "id": 213009,
+      "name": "“雨中”曲",
+      "element": "AQUA"
+    },
+    {
+      "id": 213010,
+      "name": "水蒸汽症候群",
+      "element": "AQUA"
+    },
+    {
+      "id": 213011,
+      "name": "喵律动",
+      "element": "DARK"
+    },
+    {
+      "id": 213012,
+      "name": "问候星空",
+      "element": "DARK"
+    },
+    {
+      "id": 213013,
+      "name": "秋日絮语",
+      "element": "EARTH"
+    },
+    {
+      "id": 213014,
+      "name": "骑士的铁匠",
+      "element": "EARTH"
+    },
+    {
+      "id": 213015,
+      "name": "未闻芳名",
+      "element": "WIND"
+    },
+    {
+      "id": 213016,
+      "name": "樊笼蔷薇",
+      "element": "FIRE"
+    },
+    {
+      "id": 213017,
+      "name": "★~转转人生~★",
+      "element": "LIGHT"
+    },
+    {
+      "id": 213018,
+      "name": "饮料采购日",
+      "element": "AQUA"
+    },
+    {
+      "id": 213019,
+      "name": "妄语",
+      "element": "DARK"
+    },
+    {
+      "id": 213020,
+      "name": "闪灵",
+      "element": "EARTH"
+    },
+    {
+      "id": 213021,
+      "name": "灵验颂歌",
+      "element": "WIND"
+    },
+    {
+      "id": 213022,
+      "name": "诅咒爱河",
+      "element": "FIRE"
+    },
+    {
+      "id": 213023,
+      "name": "纯白",
+      "element": "LIGHT"
+    },
+    {
+      "id": 213024,
+      "name": "假日泡影",
+      "element": "AQUA"
+    },
+    {
+      "id": 213025,
+      "name": "甜蜜邀约",
+      "element": "DARK"
+    },
+    {
+      "id": 213026,
+      "name": "清扫时间DA♥YO",
+      "element": "EARTH"
+    },
+    {
+      "id": 213027,
+      "name": "???",
+      "element": "WIND"
+    },
+    {
+      "id": 213028,
+      "name": "???",
+      "element": "FIRE"
+    },
+    {
+      "id": 213029,
+      "name": "???",
+      "element": "LIGHT"
+    },
+    {
+      "id": 213030,
+      "name": "???",
+      "element": "AQUA"
+    },
+    {
+      "id": 213031,
+      "name": "???",
+      "element": "DARK"
+    },
+    {
+      "id": 213032,
+      "name": "???",
+      "element": "EARTH"
+    },
+    {
+      "id": 214001,
+      "name": "猫神降歌",
+      "element": "FIRE"
+    },
+    {
+      "id": 214002,
+      "name": "空与花与诗",
+      "element": "WIND"
+    },
+    {
+      "id": 214003,
+      "name": "???",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214004,
+      "name": "???",
+      "element": "DARK"
+    },
+    {
+      "id": 214005,
+      "name": "晴之花",
+      "element": "AQUA"
+    },
+    {
+      "id": 214006,
+      "name": "魔女的秋千",
+      "element": "DARK"
+    },
+    {
+      "id": 214007,
+      "name": "午夜，堕天使",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214008,
+      "name": "???",
+      "element": "AQUA"
+    },
+    {
+      "id": 214009,
+      "name": "“空白”的序章",
+      "element": "WIND"
+    },
+    {
+      "id": 214010,
+      "name": "沐光祷告",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214011,
+      "name": "夏日午后的雨",
+      "element": "AQUA"
+    },
+    {
+      "id": 214012,
+      "name": "狼贪虎视",
+      "element": "DARK"
+    },
+    {
+      "id": 214013,
+      "name": "远航蓝图",
+      "element": "FIRE"
+    },
+    {
+      "id": 214014,
+      "name": "甜言蜜果",
+      "element": "EARTH"
+    },
+    {
+      "id": 214015,
+      "name": "???",
+      "element": "WIND"
+    },
+    {
+      "id": 214016,
+      "name": "???",
+      "element": "WIND"
+    },
+    {
+      "id": 214017,
+      "name": "花火",
+      "element": "FIRE"
+    },
+    {
+      "id": 214018,
+      "name": "冰柠与红茶",
+      "element": "WIND"
+    },
+    {
+      "id": 214019,
+      "name": "一发破的",
+      "element": "FIRE"
+    },
+    {
+      "id": 214020,
+      "name": "闪光之时",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214021,
+      "name": "因缘而聚",
+      "element": "AQUA"
+    },
+    {
+      "id": 214022,
+      "name": "午夜喵铃",
+      "element": "DARK"
+    },
+    {
+      "id": 214023,
+      "name": "涂鸦彩虹",
+      "element": "EARTH"
+    },
+    {
+      "id": 214024,
+      "name": "???",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214025,
+      "name": "???",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214026,
+      "name": "潋滟故池水",
+      "element": "AQUA"
+    },
+    {
+      "id": 214027,
+      "name": "龙飞凤舞",
+      "element": "FIRE"
+    },
+    {
+      "id": 214028,
+      "name": "白日花园",
+      "element": "WIND"
+    },
+    {
+      "id": 214029,
+      "name": "???",
+      "element": "FIRE"
+    },
+    {
+      "id": 214030,
+      "name": "午后间隙",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214031,
+      "name": "刀与斧的铮鸣",
+      "element": "AQUA"
+    },
+    {
+      "id": 214032,
+      "name": "真相☆梦工厂",
+      "element": "DARK"
+    },
+    {
+      "id": 214033,
+      "name": "与骨共舞",
+      "element": "EARTH"
+    },
+    {
+      "id": 214034,
+      "name": "???",
+      "element": "DARK"
+    },
+    {
+      "id": 214035,
+      "name": "???",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214036,
+      "name": "迷途的朝圣者",
+      "element": "EARTH"
+    },
+    {
+      "id": 214037,
+      "name": "抓住传说",
+      "element": "EARTH"
+    },
+    {
+      "id": 214038,
+      "name": "波光漫游",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214039,
+      "name": "夏日栖息地",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214040,
+      "name": "勇气之拳",
+      "element": "FIRE"
+    }
+  ]
+}

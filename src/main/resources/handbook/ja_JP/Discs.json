@@ -1,0 +1,449 @@
+{
+  "discs": [
+    {
+      "id": 211001,
+      "name": "朝靄",
+      "element": "NONE"
+    },
+    {
+      "id": 211002,
+      "name": "長閑",
+      "element": "NONE"
+    },
+    {
+      "id": 211003,
+      "name": "薄暮",
+      "element": "NONE"
+    },
+    {
+      "id": 211004,
+      "name": "儚雲",
+      "element": "NONE"
+    },
+    {
+      "id": 211005,
+      "name": "寒煙",
+      "element": "NONE"
+    },
+    {
+      "id": 211006,
+      "name": "甘露",
+      "element": "NONE"
+    },
+    {
+      "id": 211007,
+      "name": "希望",
+      "element": "NONE"
+    },
+    {
+      "id": 211008,
+      "name": "帰路",
+      "element": "NONE"
+    },
+    {
+      "id": 212001,
+      "name": "いただきま〜す",
+      "element": "NONE"
+    },
+    {
+      "id": 212002,
+      "name": "敵役たちの日常",
+      "element": "NONE"
+    },
+    {
+      "id": 212003,
+      "name": "死出の舞踏会",
+      "element": "NONE"
+    },
+    {
+      "id": 212005,
+      "name": "情熱ステップ",
+      "element": "FIRE"
+    },
+    {
+      "id": 212006,
+      "name": "幸運の光",
+      "element": "LIGHT"
+    },
+    {
+      "id": 212007,
+      "name": "風に乗って",
+      "element": "WIND"
+    },
+    {
+      "id": 212008,
+      "name": "スローライフ",
+      "element": "AQUA"
+    },
+    {
+      "id": 212009,
+      "name": "闇に消える",
+      "element": "DARK"
+    },
+    {
+      "id": 212010,
+      "name": "強靭",
+      "element": "EARTH"
+    },
+    {
+      "id": 213001,
+      "name": "？？？",
+      "element": "NONE"
+    },
+    {
+      "id": 213002,
+      "name": "？？？",
+      "element": "NONE"
+    },
+    {
+      "id": 213003,
+      "name": "覚めない熱帯夜",
+      "element": "FIRE"
+    },
+    {
+      "id": 213004,
+      "name": "アッシュ・アイ",
+      "element": "FIRE"
+    },
+    {
+      "id": 213005,
+      "name": "舞台裏の魔女★",
+      "element": "LIGHT"
+    },
+    {
+      "id": 213006,
+      "name": "おやすみ",
+      "element": "LIGHT"
+    },
+    {
+      "id": 213007,
+      "name": "翡翠の夢",
+      "element": "WIND"
+    },
+    {
+      "id": 213008,
+      "name": "憩いのひと時",
+      "element": "WIND"
+    },
+    {
+      "id": 213009,
+      "name": "雨に唄おう",
+      "element": "AQUA"
+    },
+    {
+      "id": 213010,
+      "name": "蒼梧城の休日",
+      "element": "AQUA"
+    },
+    {
+      "id": 213011,
+      "name": "ニャーのリズム",
+      "element": "DARK"
+    },
+    {
+      "id": 213012,
+      "name": "星空に夜露死苦",
+      "element": "DARK"
+    },
+    {
+      "id": 213013,
+      "name": "秋に包まれて",
+      "element": "EARTH"
+    },
+    {
+      "id": 213014,
+      "name": "騎士様の鍛冶師",
+      "element": "EARTH"
+    },
+    {
+      "id": 213015,
+      "name": "知らない名前",
+      "element": "WIND"
+    },
+    {
+      "id": 213016,
+      "name": "鳥かごの薔薇",
+      "element": "FIRE"
+    },
+    {
+      "id": 213017,
+      "name": "MCをねらえ！",
+      "element": "LIGHT"
+    },
+    {
+      "id": 213018,
+      "name": "新商品の飲み物",
+      "element": "AQUA"
+    },
+    {
+      "id": 213019,
+      "name": "虚ろの中の美",
+      "element": "DARK"
+    },
+    {
+      "id": 213020,
+      "name": "おコンバンハ！",
+      "element": "EARTH"
+    },
+    {
+      "id": 213021,
+      "name": "とろける言の葉",
+      "element": "WIND"
+    },
+    {
+      "id": 213022,
+      "name": "川より深い愛で",
+      "element": "FIRE"
+    },
+    {
+      "id": 213023,
+      "name": "穢れなき純白",
+      "element": "LIGHT"
+    },
+    {
+      "id": 213024,
+      "name": "休日の泡",
+      "element": "AQUA"
+    },
+    {
+      "id": 213025,
+      "name": "甘い招待",
+      "element": "DARK"
+    },
+    {
+      "id": 213026,
+      "name": "♥配信たいむ♥",
+      "element": "EARTH"
+    },
+    {
+      "id": 213027,
+      "name": "？？？",
+      "element": "WIND"
+    },
+    {
+      "id": 213028,
+      "name": "？？？",
+      "element": "FIRE"
+    },
+    {
+      "id": 213029,
+      "name": "？？？",
+      "element": "LIGHT"
+    },
+    {
+      "id": 213030,
+      "name": "？？？",
+      "element": "AQUA"
+    },
+    {
+      "id": 213031,
+      "name": "？？？",
+      "element": "DARK"
+    },
+    {
+      "id": 213032,
+      "name": "？？？",
+      "element": "EARTH"
+    },
+    {
+      "id": 214001,
+      "name": "在し日の記憶",
+      "element": "FIRE"
+    },
+    {
+      "id": 214002,
+      "name": "空と花の詩",
+      "element": "WIND"
+    },
+    {
+      "id": 214003,
+      "name": "？？？",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214004,
+      "name": "？？？",
+      "element": "DARK"
+    },
+    {
+      "id": 214005,
+      "name": "晴天の彩花",
+      "element": "AQUA"
+    },
+    {
+      "id": 214006,
+      "name": "魔女の秘薬",
+      "element": "DARK"
+    },
+    {
+      "id": 214007,
+      "name": "真夜中の堕天使",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214008,
+      "name": "？？？",
+      "element": "AQUA"
+    },
+    {
+      "id": 214009,
+      "name": "『空白』の序章",
+      "element": "WIND"
+    },
+    {
+      "id": 214010,
+      "name": "清浄なる祈り",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214011,
+      "name": "昼下がりの雨",
+      "element": "AQUA"
+    },
+    {
+      "id": 214012,
+      "name": "見据える先に",
+      "element": "DARK"
+    },
+    {
+      "id": 214013,
+      "name": "白紙の航海図",
+      "element": "FIRE"
+    },
+    {
+      "id": 214014,
+      "name": "甘く咲く時間",
+      "element": "EARTH"
+    },
+    {
+      "id": 214015,
+      "name": "？？？",
+      "element": "WIND"
+    },
+    {
+      "id": 214016,
+      "name": "？？？",
+      "element": "WIND"
+    },
+    {
+      "id": 214017,
+      "name": "ハナビ",
+      "element": "FIRE"
+    },
+    {
+      "id": 214018,
+      "name": "レモネードと紅茶",
+      "element": "WIND"
+    },
+    {
+      "id": 214019,
+      "name": "一撃必中",
+      "element": "FIRE"
+    },
+    {
+      "id": 214020,
+      "name": "かけがえのない時間",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214021,
+      "name": "一期一会",
+      "element": "AQUA"
+    },
+    {
+      "id": 214022,
+      "name": "真夜中の鈴",
+      "element": "DARK"
+    },
+    {
+      "id": 214023,
+      "name": "虹を描こう",
+      "element": "EARTH"
+    },
+    {
+      "id": 214024,
+      "name": "？？？",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214025,
+      "name": "？？？",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214026,
+      "name": "古池の水音",
+      "element": "AQUA"
+    },
+    {
+      "id": 214027,
+      "name": "自由自在",
+      "element": "FIRE"
+    },
+    {
+      "id": 214028,
+      "name": "白日の花園",
+      "element": "WIND"
+    },
+    {
+      "id": 214029,
+      "name": "？？？",
+      "element": "FIRE"
+    },
+    {
+      "id": 214030,
+      "name": "穴あきおサボり",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214031,
+      "name": "強者を求めて",
+      "element": "AQUA"
+    },
+    {
+      "id": 214032,
+      "name": "真理の大釜",
+      "element": "DARK"
+    },
+    {
+      "id": 214033,
+      "name": "メメント×モリ",
+      "element": "EARTH"
+    },
+    {
+      "id": 214034,
+      "name": "？？？",
+      "element": "DARK"
+    },
+    {
+      "id": 214035,
+      "name": "？？？",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214036,
+      "name": "痛みは救済",
+      "element": "EARTH"
+    },
+    {
+      "id": 214037,
+      "name": "伝説のアラシ",
+      "element": "EARTH"
+    },
+    {
+      "id": 214038,
+      "name": "波にゆられて",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214039,
+      "name": "夕涼み",
+      "element": "LIGHT"
+    },
+    {
+      "id": 214040,
+      "name": "迷いを断つ拳",
+      "element": "FIRE"
+    }
+  ]
+}
