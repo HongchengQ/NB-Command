@@ -1,0 +1,5224 @@
+{
+  "potentials": [
+    {
+      "id": 510301,
+      "name": "Dominant Firepower",
+      "type": "NONE"
+    },
+    {
+      "id": 510302,
+      "name": "Bullet Storm",
+      "type": "NONE"
+    },
+    {
+      "id": 510303,
+      "name": "Precise Temperature Control",
+      "type": "NONE"
+    },
+    {
+      "id": 510304,
+      "name": "Echo of Hospitality",
+      "type": "NONE"
+    },
+    {
+      "id": 510305,
+      "name": "Greed Gunfire",
+      "type": "NONE"
+    },
+    {
+      "id": 510306,
+      "name": "Ardent Trigger",
+      "type": "NONE"
+    },
+    {
+      "id": 510307,
+      "name": "Confident Mode",
+      "type": "NONE"
+    },
+    {
+      "id": 510308,
+      "name": "Weakness Mark",
+      "type": "NONE"
+    },
+    {
+      "id": 510309,
+      "name": "Grand Finale",
+      "type": "NONE"
+    },
+    {
+      "id": 510310,
+      "name": "Spectacular Finale",
+      "type": "NONE"
+    },
+    {
+      "id": 510311,
+      "name": "Fiery Rhythm",
+      "type": "NONE"
+    },
+    {
+      "id": 510312,
+      "name": "Blazing Waltz",
+      "type": "NONE"
+    },
+    {
+      "id": 510313,
+      "name": "Keen Accent",
+      "type": "NONE"
+    },
+    {
+      "id": 510321,
+      "name": "Hunting Waltz",
+      "type": "NONE"
+    },
+    {
+      "id": 510322,
+      "name": "Scattering Waltz",
+      "type": "NONE"
+    },
+    {
+      "id": 510323,
+      "name": "Echoing Waltz",
+      "type": "NONE"
+    },
+    {
+      "id": 510324,
+      "name": "Flame Waltz",
+      "type": "NONE"
+    },
+    {
+      "id": 510325,
+      "name": "Nimble Catwalk",
+      "type": "NONE"
+    },
+    {
+      "id": 510326,
+      "name": "Crescendo Beat",
+      "type": "NONE"
+    },
+    {
+      "id": 510327,
+      "name": "Bullet Echoes",
+      "type": "NONE"
+    },
+    {
+      "id": 510328,
+      "name": "Lingering Gunfire",
+      "type": "NONE"
+    },
+    {
+      "id": 510329,
+      "name": "Blazing Dance",
+      "type": "NONE"
+    },
+    {
+      "id": 510330,
+      "name": "Sky Splitter",
+      "type": "NONE"
+    },
+    {
+      "id": 510331,
+      "name": "Trajectory Enhancement",
+      "type": "NONE"
+    },
+    {
+      "id": 510332,
+      "name": "Pressure Amp",
+      "type": "NONE"
+    },
+    {
+      "id": 510333,
+      "name": "Thermal Sync",
+      "type": "NONE"
+    },
+    {
+      "id": 510341,
+      "name": "Bursting Spark",
+      "type": "NONE"
+    },
+    {
+      "id": 510342,
+      "name": "Overloaded Spark",
+      "type": "NONE"
+    },
+    {
+      "id": 510343,
+      "name": "Soul-Hunting Spark",
+      "type": "NONE"
+    },
+    {
+      "id": 510701,
+      "name": "Shield Counter",
+      "type": "NONE"
+    },
+    {
+      "id": 510702,
+      "name": "Perfect Triangle Formation",
+      "type": "NONE"
+    },
+    {
+      "id": 510703,
+      "name": "Unity of Offense and Defense",
+      "type": "NONE"
+    },
+    {
+      "id": 510704,
+      "name": "Holy Domain",
+      "type": "NONE"
+    },
+    {
+      "id": 510705,
+      "name": "Block Enhancement: Lux",
+      "type": "NONE"
+    },
+    {
+      "id": 510706,
+      "name": "Block Enhancement: ATK",
+      "type": "NONE"
+    },
+    {
+      "id": 510707,
+      "name": "Bright Counter",
+      "type": "NONE"
+    },
+    {
+      "id": 510708,
+      "name": "Aegis Blessing",
+      "type": "NONE"
+    },
+    {
+      "id": 510709,
+      "name": "Strike Back",
+      "type": "NONE"
+    },
+    {
+      "id": 510710,
+      "name": "Unyielding Will",
+      "type": "NONE"
+    },
+    {
+      "id": 510711,
+      "name": "Light Curtain",
+      "type": "NONE"
+    },
+    {
+      "id": 510712,
+      "name": "Wild Spirit",
+      "type": "NONE"
+    },
+    {
+      "id": 510713,
+      "name": "Revolt Call",
+      "type": "NONE"
+    },
+    {
+      "id": 510721,
+      "name": "Holy Inscription",
+      "type": "NONE"
+    },
+    {
+      "id": 510722,
+      "name": "Renewed Spectrum",
+      "type": "NONE"
+    },
+    {
+      "id": 510723,
+      "name": "Perfect Spiral",
+      "type": "NONE"
+    },
+    {
+      "id": 510724,
+      "name": "Mystery of Gyration",
+      "type": "NONE"
+    },
+    {
+      "id": 510725,
+      "name": "Enemy Counter",
+      "type": "NONE"
+    },
+    {
+      "id": 510726,
+      "name": "Blinding Beam",
+      "type": "NONE"
+    },
+    {
+      "id": 510727,
+      "name": "Knight\u0027s Seal",
+      "type": "NONE"
+    },
+    {
+      "id": 510728,
+      "name": "Brilliant Relay",
+      "type": "NONE"
+    },
+    {
+      "id": 510729,
+      "name": "Trick Boost",
+      "type": "NONE"
+    },
+    {
+      "id": 510730,
+      "name": "Revealed Flaw",
+      "type": "NONE"
+    },
+    {
+      "id": 510731,
+      "name": "Guardian\u0027s Resolve",
+      "type": "NONE"
+    },
+    {
+      "id": 510732,
+      "name": "Creed of Fortification",
+      "type": "NONE"
+    },
+    {
+      "id": 510733,
+      "name": "Banner of Glory",
+      "type": "NONE"
+    },
+    {
+      "id": 510741,
+      "name": "Knight Oath: Skyfall",
+      "type": "NONE"
+    },
+    {
+      "id": 510742,
+      "name": "Knight Oath: Chalk Armor",
+      "type": "NONE"
+    },
+    {
+      "id": 510743,
+      "name": "Knight Oath: Courage",
+      "type": "NONE"
+    },
+    {
+      "id": 510801,
+      "name": "Scatter Trigger",
+      "type": "NONE"
+    },
+    {
+      "id": 510802,
+      "name": "Incendiary Warhead",
+      "type": "NONE"
+    },
+    {
+      "id": 510803,
+      "name": "Charged Bolt Action",
+      "type": "NONE"
+    },
+    {
+      "id": 510804,
+      "name": "Lucky Magazine",
+      "type": "NONE"
+    },
+    {
+      "id": 510805,
+      "name": "Mercenary Instinct",
+      "type": "NONE"
+    },
+    {
+      "id": 510806,
+      "name": "Incendiary Ember",
+      "type": "NONE"
+    },
+    {
+      "id": 510807,
+      "name": "Ammo Overload",
+      "type": "NONE"
+    },
+    {
+      "id": 510808,
+      "name": "Instant Combustion",
+      "type": "NONE"
+    },
+    {
+      "id": 510809,
+      "name": "Battle Trumpet",
+      "type": "NONE"
+    },
+    {
+      "id": 510810,
+      "name": "Opportunistic Ambush",
+      "type": "NONE"
+    },
+    {
+      "id": 510811,
+      "name": "Prime Condition",
+      "type": "NONE"
+    },
+    {
+      "id": 510812,
+      "name": "Gunfighting",
+      "type": "NONE"
+    },
+    {
+      "id": 510813,
+      "name": "Play with Fire",
+      "type": "NONE"
+    },
+    {
+      "id": 510821,
+      "name": "Heated Battle",
+      "type": "NONE"
+    },
+    {
+      "id": 510822,
+      "name": "Area Bombardment",
+      "type": "NONE"
+    },
+    {
+      "id": 510823,
+      "name": "Preemptive Strike",
+      "type": "NONE"
+    },
+    {
+      "id": 510824,
+      "name": "Precision Guidance",
+      "type": "NONE"
+    },
+    {
+      "id": 510825,
+      "name": "Chain Reaction",
+      "type": "NONE"
+    },
+    {
+      "id": 510826,
+      "name": "Shocking Bombardment",
+      "type": "NONE"
+    },
+    {
+      "id": 510827,
+      "name": "Weakness Mark",
+      "type": "NONE"
+    },
+    {
+      "id": 510828,
+      "name": "Surprise Gift",
+      "type": "NONE"
+    },
+    {
+      "id": 510829,
+      "name": "Lucky Blast",
+      "type": "NONE"
+    },
+    {
+      "id": 510830,
+      "name": "Insult to Injury",
+      "type": "NONE"
+    },
+    {
+      "id": 510831,
+      "name": "Gradual Heat-Up",
+      "type": "NONE"
+    },
+    {
+      "id": 510832,
+      "name": "Perfect Ambience",
+      "type": "NONE"
+    },
+    {
+      "id": 510833,
+      "name": "Meltdown Threshold",
+      "type": "NONE"
+    },
+    {
+      "id": 510841,
+      "name": "Army Breaker",
+      "type": "NONE"
+    },
+    {
+      "id": 510842,
+      "name": "Finale Sweep",
+      "type": "NONE"
+    },
+    {
+      "id": 510843,
+      "name": "Blazing Sweep",
+      "type": "NONE"
+    },
+    {
+      "id": 511001,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511002,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511003,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511004,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511005,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511006,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511007,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511008,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511009,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511010,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511011,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511012,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511013,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511021,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511022,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511023,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511024,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511025,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511026,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511027,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511028,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511029,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511030,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511031,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511032,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511033,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511041,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511042,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511043,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511101,
+      "name": "Vector: Solidifying",
+      "type": "NONE"
+    },
+    {
+      "id": 511102,
+      "name": "Vector: Shatter",
+      "type": "NONE"
+    },
+    {
+      "id": 511103,
+      "name": "Vector: Entice",
+      "type": "NONE"
+    },
+    {
+      "id": 511104,
+      "name": "Vector: Chainfall",
+      "type": "NONE"
+    },
+    {
+      "id": 511105,
+      "name": "Oops I Did It Again",
+      "type": "NONE"
+    },
+    {
+      "id": 511106,
+      "name": "Windfall",
+      "type": "NONE"
+    },
+    {
+      "id": 511107,
+      "name": "Situational Judgment",
+      "type": "NONE"
+    },
+    {
+      "id": 511108,
+      "name": "Secondary Frostbite",
+      "type": "NONE"
+    },
+    {
+      "id": 511109,
+      "name": "Precise Settlement",
+      "type": "NONE"
+    },
+    {
+      "id": 511110,
+      "name": "Cold Snap",
+      "type": "NONE"
+    },
+    {
+      "id": 511111,
+      "name": "Keep Strangers at Bay",
+      "type": "NONE"
+    },
+    {
+      "id": 511112,
+      "name": "Lady Essence",
+      "type": "NONE"
+    },
+    {
+      "id": 511113,
+      "name": "Turbulent Layers",
+      "type": "NONE"
+    },
+    {
+      "id": 511121,
+      "name": "Blizzard: Spread",
+      "type": "NONE"
+    },
+    {
+      "id": 511122,
+      "name": "Blizzard: Vortex",
+      "type": "NONE"
+    },
+    {
+      "id": 511123,
+      "name": "Blizzard: Stack",
+      "type": "NONE"
+    },
+    {
+      "id": 511124,
+      "name": "Blizzard: Impact",
+      "type": "NONE"
+    },
+    {
+      "id": 511125,
+      "name": "Raging Blizzard",
+      "type": "NONE"
+    },
+    {
+      "id": 511126,
+      "name": "Prolonged Winter",
+      "type": "NONE"
+    },
+    {
+      "id": 511127,
+      "name": "Forced Liquidation",
+      "type": "NONE"
+    },
+    {
+      "id": 511128,
+      "name": "Bundle Sale",
+      "type": "NONE"
+    },
+    {
+      "id": 511129,
+      "name": "Distressed Asset",
+      "type": "NONE"
+    },
+    {
+      "id": 511130,
+      "name": "Sneaky Fisher",
+      "type": "NONE"
+    },
+    {
+      "id": 511131,
+      "name": "Functional Amp",
+      "type": "NONE"
+    },
+    {
+      "id": 511132,
+      "name": "Torrential Irrigation",
+      "type": "NONE"
+    },
+    {
+      "id": 511133,
+      "name": "Positive Signal",
+      "type": "NONE"
+    },
+    {
+      "id": 511141,
+      "name": "Icicle Rain",
+      "type": "NONE"
+    },
+    {
+      "id": 511142,
+      "name": "Gleaming Snow",
+      "type": "NONE"
+    },
+    {
+      "id": 511143,
+      "name": "Frozen Shield",
+      "type": "NONE"
+    },
+    {
+      "id": 511201,
+      "name": "Slash: Dual Strike!",
+      "type": "NONE"
+    },
+    {
+      "id": 511202,
+      "name": "Slash: Chain Slash!",
+      "type": "NONE"
+    },
+    {
+      "id": 511203,
+      "name": "Slash: Windfury!",
+      "type": "NONE"
+    },
+    {
+      "id": 511204,
+      "name": "Slash: Blade Storm!",
+      "type": "NONE"
+    },
+    {
+      "id": 511205,
+      "name": "Wind Slash",
+      "type": "NONE"
+    },
+    {
+      "id": 511206,
+      "name": "Triple Blinks",
+      "type": "NONE"
+    },
+    {
+      "id": 511207,
+      "name": "Cloud Swirl",
+      "type": "NONE"
+    },
+    {
+      "id": 511208,
+      "name": "Flurry Stance",
+      "type": "NONE"
+    },
+    {
+      "id": 511209,
+      "name": "Sandstorm Crush",
+      "type": "NONE"
+    },
+    {
+      "id": 511210,
+      "name": "Pebble Storm",
+      "type": "NONE"
+    },
+    {
+      "id": 511211,
+      "name": "Sunset Clouds",
+      "type": "NONE"
+    },
+    {
+      "id": 511212,
+      "name": "Hero\u0027s Instinct",
+      "type": "NONE"
+    },
+    {
+      "id": 511213,
+      "name": "Blade Dominance",
+      "type": "NONE"
+    },
+    {
+      "id": 511221,
+      "name": "Gallop: Flurry!",
+      "type": "NONE"
+    },
+    {
+      "id": 511222,
+      "name": "Gallop: Squall!",
+      "type": "NONE"
+    },
+    {
+      "id": 511223,
+      "name": "Gallop: Cyclone!",
+      "type": "NONE"
+    },
+    {
+      "id": 511224,
+      "name": "Gallop: Gale!",
+      "type": "NONE"
+    },
+    {
+      "id": 511225,
+      "name": "Corrosive Breeze",
+      "type": "NONE"
+    },
+    {
+      "id": 511226,
+      "name": "Wind Glaive",
+      "type": "NONE"
+    },
+    {
+      "id": 511227,
+      "name": "Leaf Barrier",
+      "type": "NONE"
+    },
+    {
+      "id": 511228,
+      "name": "Gathering Storm",
+      "type": "NONE"
+    },
+    {
+      "id": 511229,
+      "name": "Dancing Airflow",
+      "type": "NONE"
+    },
+    {
+      "id": 511230,
+      "name": "Fierce Essence",
+      "type": "NONE"
+    },
+    {
+      "id": 511231,
+      "name": "Cyclone Blades",
+      "type": "NONE"
+    },
+    {
+      "id": 511232,
+      "name": "Rupture Circulation",
+      "type": "NONE"
+    },
+    {
+      "id": 511233,
+      "name": "Charged Circulation",
+      "type": "NONE"
+    },
+    {
+      "id": 511241,
+      "name": "Mist Banisher",
+      "type": "NONE"
+    },
+    {
+      "id": 511242,
+      "name": "Space Splitter",
+      "type": "NONE"
+    },
+    {
+      "id": 511243,
+      "name": "Choreographed Assault",
+      "type": "NONE"
+    },
+    {
+      "id": 511301,
+      "name": "Stream Embrace",
+      "type": "NONE"
+    },
+    {
+      "id": 511302,
+      "name": "Wave Swirl",
+      "type": "NONE"
+    },
+    {
+      "id": 511303,
+      "name": "Torrent Plunge",
+      "type": "NONE"
+    },
+    {
+      "id": 511304,
+      "name": "Gurgling Streams",
+      "type": "NONE"
+    },
+    {
+      "id": 511305,
+      "name": "Stream Mirror",
+      "type": "NONE"
+    },
+    {
+      "id": 511306,
+      "name": "Towering Waves",
+      "type": "NONE"
+    },
+    {
+      "id": 511307,
+      "name": "Cascade Glow",
+      "type": "NONE"
+    },
+    {
+      "id": 511308,
+      "name": "Relenting Rain",
+      "type": "NONE"
+    },
+    {
+      "id": 511309,
+      "name": "Raining Ripples",
+      "type": "NONE"
+    },
+    {
+      "id": 511310,
+      "name": "Silent Rain",
+      "type": "NONE"
+    },
+    {
+      "id": 511311,
+      "name": "Cliffside Spring",
+      "type": "NONE"
+    },
+    {
+      "id": 511312,
+      "name": "Roaring Ocean Wave",
+      "type": "NONE"
+    },
+    {
+      "id": 511313,
+      "name": "Sky-Washing Shower",
+      "type": "NONE"
+    },
+    {
+      "id": 511321,
+      "name": "Rain Whisper: Gentle",
+      "type": "NONE"
+    },
+    {
+      "id": 511322,
+      "name": "Rain Whisper: Steady",
+      "type": "NONE"
+    },
+    {
+      "id": 511323,
+      "name": "Rain Whisper: Pouring",
+      "type": "NONE"
+    },
+    {
+      "id": 511324,
+      "name": "Rain Whisper: Light",
+      "type": "NONE"
+    },
+    {
+      "id": 511325,
+      "name": "Hazard Elimination",
+      "type": "NONE"
+    },
+    {
+      "id": 511326,
+      "name": "Full Preparation",
+      "type": "NONE"
+    },
+    {
+      "id": 511327,
+      "name": "Fire Patrol",
+      "type": "NONE"
+    },
+    {
+      "id": 511328,
+      "name": "Missive Support",
+      "type": "NONE"
+    },
+    {
+      "id": 511329,
+      "name": "Secretary Duty",
+      "type": "NONE"
+    },
+    {
+      "id": 511330,
+      "name": "Field Review",
+      "type": "NONE"
+    },
+    {
+      "id": 511331,
+      "name": "Efficiency Boost",
+      "type": "NONE"
+    },
+    {
+      "id": 511332,
+      "name": "Effortless Fulfillment",
+      "type": "NONE"
+    },
+    {
+      "id": 511333,
+      "name": "Irrigation Mastery",
+      "type": "NONE"
+    },
+    {
+      "id": 511341,
+      "name": "Intonation",
+      "type": "NONE"
+    },
+    {
+      "id": 511342,
+      "name": "Wave Rider",
+      "type": "NONE"
+    },
+    {
+      "id": 511343,
+      "name": "Humming Wellspring",
+      "type": "NONE"
+    },
+    {
+      "id": 511401,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511402,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511403,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511404,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511405,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511406,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511407,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511408,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511409,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511410,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511411,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511412,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511413,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511421,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511422,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511423,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511424,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511425,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511426,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511427,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511428,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511429,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511430,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511431,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511432,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511433,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511441,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511442,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511443,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511501,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511502,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511503,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511504,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511505,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511506,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511507,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511508,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511509,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511510,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511511,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511512,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511513,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511521,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511522,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511523,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511524,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511525,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511526,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511527,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511528,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511529,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511530,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511531,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511532,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511533,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511541,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511542,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511543,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 511601,
+      "name": "Let Nature Thrive",
+      "type": "NONE"
+    },
+    {
+      "id": 511602,
+      "name": "Nature\u0027s Guard",
+      "type": "NONE"
+    },
+    {
+      "id": 511603,
+      "name": "A Fortunate Yield",
+      "type": "NONE"
+    },
+    {
+      "id": 511604,
+      "name": "Tangled Mess",
+      "type": "NONE"
+    },
+    {
+      "id": 511605,
+      "name": "Overgrowth",
+      "type": "NONE"
+    },
+    {
+      "id": 511606,
+      "name": "Vine Snare",
+      "type": "NONE"
+    },
+    {
+      "id": 511607,
+      "name": "Twin Sprouts",
+      "type": "NONE"
+    },
+    {
+      "id": 511608,
+      "name": "Bursting Pod",
+      "type": "NONE"
+    },
+    {
+      "id": 511609,
+      "name": "Hardened Cone",
+      "type": "NONE"
+    },
+    {
+      "id": 511610,
+      "name": "Wild Growth",
+      "type": "NONE"
+    },
+    {
+      "id": 511611,
+      "name": "Power Slide",
+      "type": "NONE"
+    },
+    {
+      "id": 511612,
+      "name": "Full Bloom",
+      "type": "NONE"
+    },
+    {
+      "id": 511613,
+      "name": "Verdant Vigor",
+      "type": "NONE"
+    },
+    {
+      "id": 511621,
+      "name": "Reblossom",
+      "type": "NONE"
+    },
+    {
+      "id": 511622,
+      "name": "Sense the Stir",
+      "type": "NONE"
+    },
+    {
+      "id": 511623,
+      "name": "Hasty Growth",
+      "type": "NONE"
+    },
+    {
+      "id": 511624,
+      "name": "Misplaced Bloom",
+      "type": "NONE"
+    },
+    {
+      "id": 511625,
+      "name": "Needle Seed",
+      "type": "NONE"
+    },
+    {
+      "id": 511626,
+      "name": "Corrosive Vines",
+      "type": "NONE"
+    },
+    {
+      "id": 511627,
+      "name": "Bouquet Blast",
+      "type": "NONE"
+    },
+    {
+      "id": 511628,
+      "name": "Sturdy Foundation",
+      "type": "NONE"
+    },
+    {
+      "id": 511629,
+      "name": "Root Grasp",
+      "type": "NONE"
+    },
+    {
+      "id": 511630,
+      "name": "Cone Bomb",
+      "type": "NONE"
+    },
+    {
+      "id": 511631,
+      "name": "Ensnaring Ground",
+      "type": "NONE"
+    },
+    {
+      "id": 511632,
+      "name": "Turn the Tide",
+      "type": "NONE"
+    },
+    {
+      "id": 511633,
+      "name": "Small Changes",
+      "type": "NONE"
+    },
+    {
+      "id": 511641,
+      "name": "Seed to Harvest",
+      "type": "NONE"
+    },
+    {
+      "id": 511642,
+      "name": "Spring\u0027s Embrace",
+      "type": "NONE"
+    },
+    {
+      "id": 511643,
+      "name": "Sow and Reap",
+      "type": "NONE"
+    },
+    {
+      "id": 511701,
+      "name": "Energy Storage: Bind",
+      "type": "NONE"
+    },
+    {
+      "id": 511702,
+      "name": "Energy Storage: Knot",
+      "type": "NONE"
+    },
+    {
+      "id": 511703,
+      "name": "Energy Storage: Channel",
+      "type": "NONE"
+    },
+    {
+      "id": 511704,
+      "name": "Energy Storage: Ascend",
+      "type": "NONE"
+    },
+    {
+      "id": 511705,
+      "name": "Charge Cycle",
+      "type": "NONE"
+    },
+    {
+      "id": 511706,
+      "name": "Discharge Test",
+      "type": "NONE"
+    },
+    {
+      "id": 511707,
+      "name": "Integrated Energy Storage",
+      "type": "NONE"
+    },
+    {
+      "id": 511708,
+      "name": "Heat Management",
+      "type": "NONE"
+    },
+    {
+      "id": 511709,
+      "name": "Recycle and Reuse",
+      "type": "NONE"
+    },
+    {
+      "id": 511710,
+      "name": "Power Distribution",
+      "type": "NONE"
+    },
+    {
+      "id": 511711,
+      "name": "Leakage Protection",
+      "type": "NONE"
+    },
+    {
+      "id": 511712,
+      "name": "Neutral Left, Live Right, Ground Below",
+      "type": "NONE"
+    },
+    {
+      "id": 511713,
+      "name": "Conductor Conversion",
+      "type": "NONE"
+    },
+    {
+      "id": 511721,
+      "name": "Thunderbolt: Dragon",
+      "type": "NONE"
+    },
+    {
+      "id": 511722,
+      "name": "Thunderbolt: Bamboo",
+      "type": "NONE"
+    },
+    {
+      "id": 511723,
+      "name": "Thunderbolt: Character",
+      "type": "NONE"
+    },
+    {
+      "id": 511724,
+      "name": "Thunderbolt: Circle",
+      "type": "NONE"
+    },
+    {
+      "id": 511725,
+      "name": "Sequential Triplets",
+      "type": "NONE"
+    },
+    {
+      "id": 511726,
+      "name": "Self-drawn Concealed Hand",
+      "type": "NONE"
+    },
+    {
+      "id": 511727,
+      "name": "Win upon a Kong",
+      "type": "NONE"
+    },
+    {
+      "id": 511728,
+      "name": "Complete Sequence",
+      "type": "NONE"
+    },
+    {
+      "id": 511729,
+      "name": "Triple Chows",
+      "type": "NONE"
+    },
+    {
+      "id": 511730,
+      "name": "No Ones No Nines",
+      "type": "NONE"
+    },
+    {
+      "id": 511731,
+      "name": "Effortless Mastery",
+      "type": "NONE"
+    },
+    {
+      "id": 511732,
+      "name": "Little Manager",
+      "type": "NONE"
+    },
+    {
+      "id": 511733,
+      "name": "Social Butterfly",
+      "type": "NONE"
+    },
+    {
+      "id": 511741,
+      "name": "Heavenly Kirin",
+      "type": "NONE"
+    },
+    {
+      "id": 511742,
+      "name": "Lord of Beasts",
+      "type": "NONE"
+    },
+    {
+      "id": 511743,
+      "name": "Auspicious Spirit",
+      "type": "NONE"
+    },
+    {
+      "id": 511801,
+      "name": "Shadow Reaper\u0027s Dance",
+      "type": "NONE"
+    },
+    {
+      "id": 511802,
+      "name": "Soul Splitter",
+      "type": "NONE"
+    },
+    {
+      "id": 511803,
+      "name": "Shadow Invasion",
+      "type": "NONE"
+    },
+    {
+      "id": 511804,
+      "name": "Phantom Blade",
+      "type": "NONE"
+    },
+    {
+      "id": 511805,
+      "name": "Night Cruise",
+      "type": "NONE"
+    },
+    {
+      "id": 511806,
+      "name": "Soul Buckle",
+      "type": "NONE"
+    },
+    {
+      "id": 511807,
+      "name": "Chained Shadow",
+      "type": "NONE"
+    },
+    {
+      "id": 511808,
+      "name": "Roaming Spectre",
+      "type": "NONE"
+    },
+    {
+      "id": 511809,
+      "name": "Obscure Eruption",
+      "type": "NONE"
+    },
+    {
+      "id": 511810,
+      "name": "Dark Veil",
+      "type": "NONE"
+    },
+    {
+      "id": 511811,
+      "name": "Arcane Blade",
+      "type": "NONE"
+    },
+    {
+      "id": 511812,
+      "name": "Shadow Escape",
+      "type": "NONE"
+    },
+    {
+      "id": 511813,
+      "name": "Shadow Dash",
+      "type": "NONE"
+    },
+    {
+      "id": 511821,
+      "name": "Skeleton Sculpture",
+      "type": "NONE"
+    },
+    {
+      "id": 511822,
+      "name": "Skeleton Frenzy",
+      "type": "NONE"
+    },
+    {
+      "id": 511823,
+      "name": "Hormone Elixir",
+      "type": "NONE"
+    },
+    {
+      "id": 511824,
+      "name": "Toxin Infusion",
+      "type": "NONE"
+    },
+    {
+      "id": 511825,
+      "name": "Spiritual Tome",
+      "type": "NONE"
+    },
+    {
+      "id": 511826,
+      "name": "Bloodletting Therapy",
+      "type": "NONE"
+    },
+    {
+      "id": 511827,
+      "name": "Magic Transplant",
+      "type": "NONE"
+    },
+    {
+      "id": 511828,
+      "name": "Arcane Collection",
+      "type": "NONE"
+    },
+    {
+      "id": 511829,
+      "name": "Soul Restraint",
+      "type": "NONE"
+    },
+    {
+      "id": 511830,
+      "name": "Tag of Fate",
+      "type": "NONE"
+    },
+    {
+      "id": 511831,
+      "name": "Precision Surgery",
+      "type": "NONE"
+    },
+    {
+      "id": 511832,
+      "name": "Medical Research",
+      "type": "NONE"
+    },
+    {
+      "id": 511833,
+      "name": "Underground Healer",
+      "type": "NONE"
+    },
+    {
+      "id": 511841,
+      "name": "Night Reaper",
+      "type": "NONE"
+    },
+    {
+      "id": 511842,
+      "name": "Formidable Glyph",
+      "type": "NONE"
+    },
+    {
+      "id": 511843,
+      "name": "Terrifying Rampage",
+      "type": "NONE"
+    },
+    {
+      "id": 511901,
+      "name": "Growth Tempest",
+      "type": "NONE"
+    },
+    {
+      "id": 511902,
+      "name": "Blossom Flurry",
+      "type": "NONE"
+    },
+    {
+      "id": 511903,
+      "name": "Whirling Blade",
+      "type": "NONE"
+    },
+    {
+      "id": 511904,
+      "name": "Bloom Dance",
+      "type": "NONE"
+    },
+    {
+      "id": 511905,
+      "name": "Gale Rage",
+      "type": "NONE"
+    },
+    {
+      "id": 511906,
+      "name": "Phantom Follower",
+      "type": "NONE"
+    },
+    {
+      "id": 511907,
+      "name": "Sun Chaser",
+      "type": "NONE"
+    },
+    {
+      "id": 511908,
+      "name": "Distant Prayer",
+      "type": "NONE"
+    },
+    {
+      "id": 511909,
+      "name": "Splendid Vortex",
+      "type": "NONE"
+    },
+    {
+      "id": 511910,
+      "name": "Blossom Shower",
+      "type": "NONE"
+    },
+    {
+      "id": 511911,
+      "name": "Sky Piercer",
+      "type": "NONE"
+    },
+    {
+      "id": 511912,
+      "name": "Blooming Flowers",
+      "type": "NONE"
+    },
+    {
+      "id": 511913,
+      "name": "Starlit Dash",
+      "type": "NONE"
+    },
+    {
+      "id": 511921,
+      "name": "Revitalizing Nourishment",
+      "type": "NONE"
+    },
+    {
+      "id": 511922,
+      "name": "Gentle Thaw",
+      "type": "NONE"
+    },
+    {
+      "id": 511923,
+      "name": "Floral Nexus",
+      "type": "NONE"
+    },
+    {
+      "id": 511924,
+      "name": "Unfulfilled Enthusiasm",
+      "type": "NONE"
+    },
+    {
+      "id": 511925,
+      "name": "Tender Nurture",
+      "type": "NONE"
+    },
+    {
+      "id": 511926,
+      "name": "Troubleshooting",
+      "type": "NONE"
+    },
+    {
+      "id": 511927,
+      "name": "Shift Duty",
+      "type": "NONE"
+    },
+    {
+      "id": 511928,
+      "name": "VIP Focus",
+      "type": "NONE"
+    },
+    {
+      "id": 511929,
+      "name": "Regular Trim",
+      "type": "NONE"
+    },
+    {
+      "id": 511930,
+      "name": "Tender Care",
+      "type": "NONE"
+    },
+    {
+      "id": 511931,
+      "name": "Dance of Scattering Petals",
+      "type": "NONE"
+    },
+    {
+      "id": 511932,
+      "name": "Tender Trap",
+      "type": "NONE"
+    },
+    {
+      "id": 511933,
+      "name": "United in Times",
+      "type": "NONE"
+    },
+    {
+      "id": 511941,
+      "name": "Blossom Rhyme",
+      "type": "NONE"
+    },
+    {
+      "id": 511942,
+      "name": "Infinite Shade",
+      "type": "NONE"
+    },
+    {
+      "id": 511943,
+      "name": "Wind Whispers",
+      "type": "NONE"
+    },
+    {
+      "id": 512001,
+      "name": "Most Admired",
+      "type": "NONE"
+    },
+    {
+      "id": 512002,
+      "name": "Ring Blitz",
+      "type": "NONE"
+    },
+    {
+      "id": 512003,
+      "name": "Erratic Weather",
+      "type": "NONE"
+    },
+    {
+      "id": 512004,
+      "name": "Positive Score",
+      "type": "NONE"
+    },
+    {
+      "id": 512005,
+      "name": "Subject Boost",
+      "type": "NONE"
+    },
+    {
+      "id": 512006,
+      "name": "Strength Leverage",
+      "type": "NONE"
+    },
+    {
+      "id": 512007,
+      "name": "Comprehensive Praise",
+      "type": "NONE"
+    },
+    {
+      "id": 512008,
+      "name": "Friendly Mentor",
+      "type": "NONE"
+    },
+    {
+      "id": 512009,
+      "name": "Unique Teaching",
+      "type": "NONE"
+    },
+    {
+      "id": 512010,
+      "name": "Counterstrike Tutorial",
+      "type": "NONE"
+    },
+    {
+      "id": 512011,
+      "name": "Lone Star Twinkle",
+      "type": "NONE"
+    },
+    {
+      "id": 512012,
+      "name": "Weakness Analysis",
+      "type": "NONE"
+    },
+    {
+      "id": 512013,
+      "name": "Shadow Stride",
+      "type": "NONE"
+    },
+    {
+      "id": 512021,
+      "name": "Grants Efficient Delving",
+      "type": "NONE"
+    },
+    {
+      "id": 512022,
+      "name": "Grants Transformative Insight",
+      "type": "NONE"
+    },
+    {
+      "id": 512023,
+      "name": "Grants Speedup Notion",
+      "type": "NONE"
+    },
+    {
+      "id": 512024,
+      "name": "Grants Blooming Esthetics",
+      "type": "NONE"
+    },
+    {
+      "id": 512025,
+      "name": "Structure Analysis",
+      "type": "NONE"
+    },
+    {
+      "id": 512026,
+      "name": "Conundrum Solving",
+      "type": "NONE"
+    },
+    {
+      "id": 512027,
+      "name": "Conclusion Analysis",
+      "type": "NONE"
+    },
+    {
+      "id": 512028,
+      "name": "High Pressure Reflux",
+      "type": "NONE"
+    },
+    {
+      "id": 512029,
+      "name": "Cyclone Acceleration",
+      "type": "NONE"
+    },
+    {
+      "id": 512030,
+      "name": "Storm Eye Expansion",
+      "type": "NONE"
+    },
+    {
+      "id": 512031,
+      "name": "My Thoughts",
+      "type": "NONE"
+    },
+    {
+      "id": 512032,
+      "name": "My Presence",
+      "type": "NONE"
+    },
+    {
+      "id": 512033,
+      "name": "Finale Deduction",
+      "type": "NONE"
+    },
+    {
+      "id": 512041,
+      "name": "Storm Suppression",
+      "type": "NONE"
+    },
+    {
+      "id": 512042,
+      "name": "Structure Shatter",
+      "type": "NONE"
+    },
+    {
+      "id": 512043,
+      "name": "Downwind Area",
+      "type": "NONE"
+    },
+    {
+      "id": 512301,
+      "name": "Wind\u0027s Breath",
+      "type": "NONE"
+    },
+    {
+      "id": 512302,
+      "name": "Stone Dust Tempest",
+      "type": "NONE"
+    },
+    {
+      "id": 512303,
+      "name": "Dazzling Vortex",
+      "type": "NONE"
+    },
+    {
+      "id": 512304,
+      "name": "Grand Debut",
+      "type": "NONE"
+    },
+    {
+      "id": 512305,
+      "name": "Victorious Pursuit",
+      "type": "NONE"
+    },
+    {
+      "id": 512306,
+      "name": "Permeating Courage",
+      "type": "NONE"
+    },
+    {
+      "id": 512307,
+      "name": "Wind Chime",
+      "type": "NONE"
+    },
+    {
+      "id": 512308,
+      "name": "Wind Surge",
+      "type": "NONE"
+    },
+    {
+      "id": 512309,
+      "name": "Breeze Caress",
+      "type": "NONE"
+    },
+    {
+      "id": 512310,
+      "name": "Smooth Rotation",
+      "type": "NONE"
+    },
+    {
+      "id": 512311,
+      "name": "Tall Tree Attracts Wind",
+      "type": "NONE"
+    },
+    {
+      "id": 512312,
+      "name": "Wind\u0027s Track",
+      "type": "NONE"
+    },
+    {
+      "id": 512313,
+      "name": "Zephyr Caress",
+      "type": "NONE"
+    },
+    {
+      "id": 512321,
+      "name": "Gale Bastion",
+      "type": "NONE"
+    },
+    {
+      "id": 512322,
+      "name": "Warm Wind Guard",
+      "type": "NONE"
+    },
+    {
+      "id": 512323,
+      "name": "Wind Banish",
+      "type": "NONE"
+    },
+    {
+      "id": 512324,
+      "name": "Downwind Journey",
+      "type": "NONE"
+    },
+    {
+      "id": 512325,
+      "name": "Burdening Pressure",
+      "type": "NONE"
+    },
+    {
+      "id": 512326,
+      "name": "Windgate Barrier",
+      "type": "NONE"
+    },
+    {
+      "id": 512327,
+      "name": "Leveraged Boost",
+      "type": "NONE"
+    },
+    {
+      "id": 512328,
+      "name": "Turbulent Flow",
+      "type": "NONE"
+    },
+    {
+      "id": 512329,
+      "name": "Speed Surge",
+      "type": "NONE"
+    },
+    {
+      "id": 512330,
+      "name": "Wind Erosion Havoc",
+      "type": "NONE"
+    },
+    {
+      "id": 512331,
+      "name": "Storm Repel",
+      "type": "NONE"
+    },
+    {
+      "id": 512332,
+      "name": "Violent Current",
+      "type": "NONE"
+    },
+    {
+      "id": 512333,
+      "name": "Forest Princess\u0027 Blessing",
+      "type": "NONE"
+    },
+    {
+      "id": 512341,
+      "name": "Overlord\u0027s Warcry",
+      "type": "NONE"
+    },
+    {
+      "id": 512342,
+      "name": "Mountain\u0027s Entice",
+      "type": "NONE"
+    },
+    {
+      "id": 512343,
+      "name": "Impulsive Devourer",
+      "type": "NONE"
+    },
+    {
+      "id": 512501,
+      "name": "Ice Mist Barrier",
+      "type": "NONE"
+    },
+    {
+      "id": 512502,
+      "name": "Rapid Verdict",
+      "type": "NONE"
+    },
+    {
+      "id": 512503,
+      "name": "Whirlwind Frenzy",
+      "type": "NONE"
+    },
+    {
+      "id": 512504,
+      "name": "Unstoppable March",
+      "type": "NONE"
+    },
+    {
+      "id": 512505,
+      "name": "Doomsday Blessing",
+      "type": "NONE"
+    },
+    {
+      "id": 512506,
+      "name": "Elemental Sublimation",
+      "type": "NONE"
+    },
+    {
+      "id": 512507,
+      "name": "Soul Extraction",
+      "type": "NONE"
+    },
+    {
+      "id": 512508,
+      "name": "Frost Gift",
+      "type": "NONE"
+    },
+    {
+      "id": 512509,
+      "name": "Limits of Oblivion",
+      "type": "NONE"
+    },
+    {
+      "id": 512510,
+      "name": "Frost Ward",
+      "type": "NONE"
+    },
+    {
+      "id": 512511,
+      "name": "Victorious Pursuit",
+      "type": "NONE"
+    },
+    {
+      "id": 512512,
+      "name": "Tit-for-Tat",
+      "type": "NONE"
+    },
+    {
+      "id": 512513,
+      "name": "Desperate Counterattack",
+      "type": "NONE"
+    },
+    {
+      "id": 512521,
+      "name": "Realm of Frost",
+      "type": "NONE"
+    },
+    {
+      "id": 512522,
+      "name": "Chill Forecast",
+      "type": "NONE"
+    },
+    {
+      "id": 512523,
+      "name": "Localized Snowfall",
+      "type": "NONE"
+    },
+    {
+      "id": 512524,
+      "name": "Frost Warning",
+      "type": "NONE"
+    },
+    {
+      "id": 512525,
+      "name": "Winter\u0027s Grip",
+      "type": "NONE"
+    },
+    {
+      "id": 512526,
+      "name": "Penetrating Chill",
+      "type": "NONE"
+    },
+    {
+      "id": 512527,
+      "name": "Crackling Zero",
+      "type": "NONE"
+    },
+    {
+      "id": 512528,
+      "name": "Ocean of Law",
+      "type": "NONE"
+    },
+    {
+      "id": 512529,
+      "name": "Power of Redemption",
+      "type": "NONE"
+    },
+    {
+      "id": 512530,
+      "name": "Blessing of Faith",
+      "type": "NONE"
+    },
+    {
+      "id": 512531,
+      "name": "Guardian\u0027s Heart",
+      "type": "NONE"
+    },
+    {
+      "id": 512532,
+      "name": "Silent Prayer",
+      "type": "NONE"
+    },
+    {
+      "id": 512533,
+      "name": "Temporal Revival",
+      "type": "NONE"
+    },
+    {
+      "id": 512541,
+      "name": "Ice Vortex",
+      "type": "NONE"
+    },
+    {
+      "id": 512542,
+      "name": "Wuthering Cold Snap",
+      "type": "NONE"
+    },
+    {
+      "id": 512543,
+      "name": "Frost Slash",
+      "type": "NONE"
+    },
+    {
+      "id": 512601,
+      "name": "Spiral Dance",
+      "type": "NONE"
+    },
+    {
+      "id": 512602,
+      "name": "Ending Song",
+      "type": "NONE"
+    },
+    {
+      "id": 512603,
+      "name": "Harmony Verse",
+      "type": "NONE"
+    },
+    {
+      "id": 512604,
+      "name": "Other Self",
+      "type": "NONE"
+    },
+    {
+      "id": 512605,
+      "name": "Movement Artistry",
+      "type": "NONE"
+    },
+    {
+      "id": 512606,
+      "name": "Perception of Psyche",
+      "type": "NONE"
+    },
+    {
+      "id": 512607,
+      "name": "Absurd Follies",
+      "type": "NONE"
+    },
+    {
+      "id": 512608,
+      "name": "Emotional Catharsis",
+      "type": "NONE"
+    },
+    {
+      "id": 512609,
+      "name": "Hero\u0027s Halo",
+      "type": "NONE"
+    },
+    {
+      "id": 512610,
+      "name": "Chekhov\u0027s Arm",
+      "type": "NONE"
+    },
+    {
+      "id": 512611,
+      "name": "Rhythm Surge",
+      "type": "NONE"
+    },
+    {
+      "id": 512612,
+      "name": "Impromptu Performance",
+      "type": "NONE"
+    },
+    {
+      "id": 512613,
+      "name": "Home Court Dominance",
+      "type": "NONE"
+    },
+    {
+      "id": 512621,
+      "name": "Ember of Tomorrow",
+      "type": "NONE"
+    },
+    {
+      "id": 512622,
+      "name": "Ember Rekindled",
+      "type": "NONE"
+    },
+    {
+      "id": 512623,
+      "name": "Ashes of the Past",
+      "type": "NONE"
+    },
+    {
+      "id": 512624,
+      "name": "Spark of Ashes",
+      "type": "NONE"
+    },
+    {
+      "id": 512625,
+      "name": "Foreshadowing Verification",
+      "type": "NONE"
+    },
+    {
+      "id": 512626,
+      "name": "Crowd Effect",
+      "type": "NONE"
+    },
+    {
+      "id": 512627,
+      "name": "Perfect Acting",
+      "type": "NONE"
+    },
+    {
+      "id": 512628,
+      "name": "Visual Impact",
+      "type": "NONE"
+    },
+    {
+      "id": 512629,
+      "name": "Reinforced Impression",
+      "type": "NONE"
+    },
+    {
+      "id": 512630,
+      "name": "Post-credits Scene",
+      "type": "NONE"
+    },
+    {
+      "id": 512631,
+      "name": "Guest Performer",
+      "type": "NONE"
+    },
+    {
+      "id": 512632,
+      "name": "Backstage Support",
+      "type": "NONE"
+    },
+    {
+      "id": 512633,
+      "name": "Everlasting Show",
+      "type": "NONE"
+    },
+    {
+      "id": 512641,
+      "name": "Lethal Inferno",
+      "type": "NONE"
+    },
+    {
+      "id": 512642,
+      "name": "Weave of Annihilation",
+      "type": "NONE"
+    },
+    {
+      "id": 512643,
+      "name": "Reincarnation of Fire",
+      "type": "NONE"
+    },
+    {
+      "id": 512701,
+      "name": "Stream: Cascade Strike",
+      "type": "NONE"
+    },
+    {
+      "id": 512702,
+      "name": "Stream: True Charged Strike",
+      "type": "NONE"
+    },
+    {
+      "id": 512703,
+      "name": "Stream: Cloud Ring",
+      "type": "NONE"
+    },
+    {
+      "id": 512704,
+      "name": "Stream: Drip\u0027s Overturn",
+      "type": "NONE"
+    },
+    {
+      "id": 512705,
+      "name": "Magic Sword Smack",
+      "type": "NONE"
+    },
+    {
+      "id": 512706,
+      "name": "Muddy Engulf",
+      "type": "NONE"
+    },
+    {
+      "id": 512707,
+      "name": "Cordiality",
+      "type": "NONE"
+    },
+    {
+      "id": 512708,
+      "name": "Guardsman Blessing",
+      "type": "NONE"
+    },
+    {
+      "id": 512709,
+      "name": "Magic Sword Siphoning",
+      "type": "NONE"
+    },
+    {
+      "id": 512710,
+      "name": "Restarting",
+      "type": "NONE"
+    },
+    {
+      "id": 512711,
+      "name": "Magic Shield Enhancement",
+      "type": "NONE"
+    },
+    {
+      "id": 512712,
+      "name": "Power Strike",
+      "type": "NONE"
+    },
+    {
+      "id": 512713,
+      "name": "Unbreakable Bond",
+      "type": "NONE"
+    },
+    {
+      "id": 512721,
+      "name": "Surge: Infinite",
+      "type": "NONE"
+    },
+    {
+      "id": 512722,
+      "name": "Surge: Ripple",
+      "type": "NONE"
+    },
+    {
+      "id": 512723,
+      "name": "Surge: Immortality",
+      "type": "NONE"
+    },
+    {
+      "id": 512724,
+      "name": "Surge: Thunderbolt",
+      "type": "NONE"
+    },
+    {
+      "id": 512725,
+      "name": "Isn\u0027t It Awesome!",
+      "type": "NONE"
+    },
+    {
+      "id": 512726,
+      "name": "Hold On!",
+      "type": "NONE"
+    },
+    {
+      "id": 512727,
+      "name": "I\u0027ll Protect You!",
+      "type": "NONE"
+    },
+    {
+      "id": 512728,
+      "name": "Stay Away!",
+      "type": "NONE"
+    },
+    {
+      "id": 512729,
+      "name": "Let Me Help!",
+      "type": "NONE"
+    },
+    {
+      "id": 512730,
+      "name": "How About This!",
+      "type": "NONE"
+    },
+    {
+      "id": 512731,
+      "name": "Band-aid Collector",
+      "type": "NONE"
+    },
+    {
+      "id": 512732,
+      "name": "Magic Sword Wielder",
+      "type": "NONE"
+    },
+    {
+      "id": 512733,
+      "name": "Shortcut Seeker",
+      "type": "NONE"
+    },
+    {
+      "id": 512741,
+      "name": "Wave Breaker",
+      "type": "NONE"
+    },
+    {
+      "id": 512742,
+      "name": "Power Unbound",
+      "type": "NONE"
+    },
+    {
+      "id": 512743,
+      "name": "Demonic Devour",
+      "type": "NONE"
+    },
+    {
+      "id": 513001,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513002,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513003,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513004,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513005,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513006,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513007,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513008,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513009,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513010,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513011,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513012,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513013,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513021,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513022,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513023,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513024,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513025,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513026,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513027,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513028,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513029,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513030,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513031,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513032,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513033,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513041,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513042,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513043,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513201,
+      "name": "Ultimatum",
+      "type": "NONE"
+    },
+    {
+      "id": 513202,
+      "name": "Clan Clash Artistry",
+      "type": "NONE"
+    },
+    {
+      "id": 513203,
+      "name": "Board Tricks",
+      "type": "NONE"
+    },
+    {
+      "id": 513204,
+      "name": "No Respite",
+      "type": "NONE"
+    },
+    {
+      "id": 513205,
+      "name": "Ashwind Rhythm",
+      "type": "NONE"
+    },
+    {
+      "id": 513206,
+      "name": "Unyielding Strength",
+      "type": "NONE"
+    },
+    {
+      "id": 513207,
+      "name": "On a Roll",
+      "type": "NONE"
+    },
+    {
+      "id": 513208,
+      "name": "Radiant Glow",
+      "type": "NONE"
+    },
+    {
+      "id": 513209,
+      "name": "Light Burn",
+      "type": "NONE"
+    },
+    {
+      "id": 513210,
+      "name": "Nebulous Reverb",
+      "type": "NONE"
+    },
+    {
+      "id": 513211,
+      "name": "More Than Just Pretty",
+      "type": "NONE"
+    },
+    {
+      "id": 513212,
+      "name": "Home Court Advantage",
+      "type": "NONE"
+    },
+    {
+      "id": 513213,
+      "name": "Starlit Sky",
+      "type": "NONE"
+    },
+    {
+      "id": 513221,
+      "name": "Four-Star Wanted Level",
+      "type": "NONE"
+    },
+    {
+      "id": 513222,
+      "name": "Radiant Burst",
+      "type": "NONE"
+    },
+    {
+      "id": 513223,
+      "name": "Oath Satellite",
+      "type": "NONE"
+    },
+    {
+      "id": 513224,
+      "name": "Star Core Crumbled",
+      "type": "NONE"
+    },
+    {
+      "id": 513225,
+      "name": "Optimal Hit Zone",
+      "type": "NONE"
+    },
+    {
+      "id": 513226,
+      "name": "Shutout Desire",
+      "type": "NONE"
+    },
+    {
+      "id": 513227,
+      "name": "Final Score",
+      "type": "NONE"
+    },
+    {
+      "id": 513228,
+      "name": "Perfect Arc",
+      "type": "NONE"
+    },
+    {
+      "id": 513229,
+      "name": "Three Base Hit",
+      "type": "NONE"
+    },
+    {
+      "id": 513230,
+      "name": "Fervent Applause",
+      "type": "NONE"
+    },
+    {
+      "id": 513231,
+      "name": "Ashwind\u0027s Wrath",
+      "type": "NONE"
+    },
+    {
+      "id": 513232,
+      "name": "Home Run State",
+      "type": "NONE"
+    },
+    {
+      "id": 513233,
+      "name": "Radiant Synergy",
+      "type": "NONE"
+    },
+    {
+      "id": 513241,
+      "name": "Urgent Reinforcement",
+      "type": "NONE"
+    },
+    {
+      "id": 513242,
+      "name": "Flash of Starlight",
+      "type": "NONE"
+    },
+    {
+      "id": 513243,
+      "name": "Weakness Strike",
+      "type": "NONE"
+    },
+    {
+      "id": 513301,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513302,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513303,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513304,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513305,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513306,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513307,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513308,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513309,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513310,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513311,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513312,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513313,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513321,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513322,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513323,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513324,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513325,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513326,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513327,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513328,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513329,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513330,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513331,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513332,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513333,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513341,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513342,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513343,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513401,
+      "name": "Reload",
+      "type": "NONE"
+    },
+    {
+      "id": 513402,
+      "name": "Double Strike",
+      "type": "NONE"
+    },
+    {
+      "id": 513403,
+      "name": "Kitty Punch",
+      "type": "NONE"
+    },
+    {
+      "id": 513404,
+      "name": "Multi-Shot",
+      "type": "NONE"
+    },
+    {
+      "id": 513405,
+      "name": "Pyro Mark",
+      "type": "NONE"
+    },
+    {
+      "id": 513406,
+      "name": "Thunder Punch",
+      "type": "NONE"
+    },
+    {
+      "id": 513407,
+      "name": "All-Out Effort",
+      "type": "NONE"
+    },
+    {
+      "id": 513408,
+      "name": "Combo Punch",
+      "type": "NONE"
+    },
+    {
+      "id": 513409,
+      "name": "Blast Pursuit",
+      "type": "NONE"
+    },
+    {
+      "id": 513410,
+      "name": "Inertial Punch",
+      "type": "NONE"
+    },
+    {
+      "id": 513411,
+      "name": "Swirling Counterattack",
+      "type": "NONE"
+    },
+    {
+      "id": 513412,
+      "name": "Bold Challenge",
+      "type": "NONE"
+    },
+    {
+      "id": 513413,
+      "name": "Finishing Blow",
+      "type": "NONE"
+    },
+    {
+      "id": 513421,
+      "name": "Sky Crusher",
+      "type": "NONE"
+    },
+    {
+      "id": 513422,
+      "name": "Lightning Split",
+      "type": "NONE"
+    },
+    {
+      "id": 513423,
+      "name": "Meteor Strike",
+      "type": "NONE"
+    },
+    {
+      "id": 513424,
+      "name": "Fearless",
+      "type": "NONE"
+    },
+    {
+      "id": 513425,
+      "name": "Frenzied Support",
+      "type": "NONE"
+    },
+    {
+      "id": 513426,
+      "name": "Shock Raid",
+      "type": "NONE"
+    },
+    {
+      "id": 513427,
+      "name": "Gaining Momentum",
+      "type": "NONE"
+    },
+    {
+      "id": 513428,
+      "name": "Multi-Blow Impact",
+      "type": "NONE"
+    },
+    {
+      "id": 513429,
+      "name": "Lethal Boost",
+      "type": "NONE"
+    },
+    {
+      "id": 513430,
+      "name": "Lightning Raid",
+      "type": "NONE"
+    },
+    {
+      "id": 513431,
+      "name": "Hero\u0027s Will",
+      "type": "NONE"
+    },
+    {
+      "id": 513432,
+      "name": "Prove of Strength",
+      "type": "NONE"
+    },
+    {
+      "id": 513433,
+      "name": "Companion\u0027s Power",
+      "type": "NONE"
+    },
+    {
+      "id": 513441,
+      "name": "Blazing Heart",
+      "type": "NONE"
+    },
+    {
+      "id": 513442,
+      "name": "Ironfist Blow",
+      "type": "NONE"
+    },
+    {
+      "id": 513443,
+      "name": "Peak Condition",
+      "type": "NONE"
+    },
+    {
+      "id": 513501,
+      "name": "Defiance Before Deletion",
+      "type": "NONE"
+    },
+    {
+      "id": 513502,
+      "name": "Rapid Fire",
+      "type": "NONE"
+    },
+    {
+      "id": 513503,
+      "name": "Super Long Exposure",
+      "type": "NONE"
+    },
+    {
+      "id": 513504,
+      "name": "Thread the Needle",
+      "type": "NONE"
+    },
+    {
+      "id": 513505,
+      "name": "Cursed Screech",
+      "type": "NONE"
+    },
+    {
+      "id": 513506,
+      "name": "Lingering Grudge: Demon Barrier",
+      "type": "NONE"
+    },
+    {
+      "id": 513507,
+      "name": "Lingering Grudge: Onslaught",
+      "type": "NONE"
+    },
+    {
+      "id": 513508,
+      "name": "Abominable Fester",
+      "type": "NONE"
+    },
+    {
+      "id": 513509,
+      "name": "Spotlight Craving",
+      "type": "NONE"
+    },
+    {
+      "id": 513510,
+      "name": "Night Dash",
+      "type": "NONE"
+    },
+    {
+      "id": 513511,
+      "name": "Shadow Brightening",
+      "type": "NONE"
+    },
+    {
+      "id": 513512,
+      "name": "Decisive Moment",
+      "type": "NONE"
+    },
+    {
+      "id": 513513,
+      "name": "Full Frame Focus",
+      "type": "NONE"
+    },
+    {
+      "id": 513521,
+      "name": "Stay Happy",
+      "type": "NONE"
+    },
+    {
+      "id": 513522,
+      "name": "Reality Erosion",
+      "type": "NONE"
+    },
+    {
+      "id": 513523,
+      "name": "Slumber Invitation",
+      "type": "NONE"
+    },
+    {
+      "id": 513524,
+      "name": "Lucky Constitution",
+      "type": "NONE"
+    },
+    {
+      "id": 513525,
+      "name": "The Conjuring",
+      "type": "NONE"
+    },
+    {
+      "id": 513526,
+      "name": "Wraith Haunting",
+      "type": "NONE"
+    },
+    {
+      "id": 513527,
+      "name": "Twin Born",
+      "type": "NONE"
+    },
+    {
+      "id": 513528,
+      "name": "Malice",
+      "type": "NONE"
+    },
+    {
+      "id": 513529,
+      "name": "Shadow Shackle",
+      "type": "NONE"
+    },
+    {
+      "id": 513530,
+      "name": "Solar Absorption",
+      "type": "NONE"
+    },
+    {
+      "id": 513531,
+      "name": "Extra Perk",
+      "type": "NONE"
+    },
+    {
+      "id": 513532,
+      "name": "Trending Lock",
+      "type": "NONE"
+    },
+    {
+      "id": 513533,
+      "name": "Behind the Scenes",
+      "type": "NONE"
+    },
+    {
+      "id": 513541,
+      "name": "Darkness Devourer",
+      "type": "NONE"
+    },
+    {
+      "id": 513542,
+      "name": "Quick Nightfall",
+      "type": "NONE"
+    },
+    {
+      "id": 513543,
+      "name": "Chaos Frenzy",
+      "type": "NONE"
+    },
+    {
+      "id": 513601,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513602,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513603,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513604,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513605,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513606,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513607,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513608,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513609,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513610,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513611,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513612,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513613,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513621,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513622,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513623,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513624,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513625,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513626,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513627,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513628,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513629,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513630,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513631,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513632,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513633,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513641,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513642,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 513643,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514101,
+      "name": "Sleepless Flame",
+      "type": "NONE"
+    },
+    {
+      "id": 514102,
+      "name": "Shooting Star",
+      "type": "NONE"
+    },
+    {
+      "id": 514103,
+      "name": "Flame-Stained Ink",
+      "type": "NONE"
+    },
+    {
+      "id": 514104,
+      "name": "Blazing Rainbow Array",
+      "type": "NONE"
+    },
+    {
+      "id": 514105,
+      "name": "Blistering Flame Corrosion",
+      "type": "NONE"
+    },
+    {
+      "id": 514106,
+      "name": "Ashes of the Firepit",
+      "type": "NONE"
+    },
+    {
+      "id": 514107,
+      "name": "Flame Resonance",
+      "type": "NONE"
+    },
+    {
+      "id": 514108,
+      "name": "Scorching Ink",
+      "type": "NONE"
+    },
+    {
+      "id": 514109,
+      "name": "Flame-Ink Matrix",
+      "type": "NONE"
+    },
+    {
+      "id": 514110,
+      "name": "Infernal Ember",
+      "type": "NONE"
+    },
+    {
+      "id": 514111,
+      "name": "Inkburn Stroke",
+      "type": "NONE"
+    },
+    {
+      "id": 514112,
+      "name": "Finishing Touch",
+      "type": "NONE"
+    },
+    {
+      "id": 514113,
+      "name": "Ink Brilliance",
+      "type": "NONE"
+    },
+    {
+      "id": 514121,
+      "name": "Crimson Dragon: Convergence",
+      "type": "NONE"
+    },
+    {
+      "id": 514122,
+      "name": "Crimson Dragon: Chant",
+      "type": "NONE"
+    },
+    {
+      "id": 514123,
+      "name": "Sigil Unleashed: Tiger of the East",
+      "type": "NONE"
+    },
+    {
+      "id": 514124,
+      "name": "Tiger of the East: Blazing Scales",
+      "type": "NONE"
+    },
+    {
+      "id": 514125,
+      "name": "Ink Sigil: Horn Call",
+      "type": "NONE"
+    },
+    {
+      "id": 514126,
+      "name": "Ink Sigil: Trail Seeker",
+      "type": "NONE"
+    },
+    {
+      "id": 514127,
+      "name": "Ink Sigil: Barrier Construct",
+      "type": "NONE"
+    },
+    {
+      "id": 514128,
+      "name": "Ink Sigil: Blood Fed",
+      "type": "NONE"
+    },
+    {
+      "id": 514129,
+      "name": "Ink Sigil: Ambush",
+      "type": "NONE"
+    },
+    {
+      "id": 514130,
+      "name": "Ink Sigil: Raid",
+      "type": "NONE"
+    },
+    {
+      "id": 514131,
+      "name": "Majestic Stride",
+      "type": "NONE"
+    },
+    {
+      "id": 514132,
+      "name": "Prayer of Raging Flame",
+      "type": "NONE"
+    },
+    {
+      "id": 514133,
+      "name": "Sigil Unleashed: Flame Glow",
+      "type": "NONE"
+    },
+    {
+      "id": 514141,
+      "name": "Dragon Blaze",
+      "type": "NONE"
+    },
+    {
+      "id": 514142,
+      "name": "Blazing Vortex",
+      "type": "NONE"
+    },
+    {
+      "id": 514143,
+      "name": "Dragon Breath",
+      "type": "NONE"
+    },
+    {
+      "id": 514201,
+      "name": "Nocturn Rip",
+      "type": "NONE"
+    },
+    {
+      "id": 514202,
+      "name": "Nightscar Trace",
+      "type": "NONE"
+    },
+    {
+      "id": 514203,
+      "name": "Netherworld Touch",
+      "type": "NONE"
+    },
+    {
+      "id": 514204,
+      "name": "Nocturn Mark",
+      "type": "NONE"
+    },
+    {
+      "id": 514205,
+      "name": "Darkclaw Haunt",
+      "type": "NONE"
+    },
+    {
+      "id": 514206,
+      "name": "Darkclaw Mark",
+      "type": "NONE"
+    },
+    {
+      "id": 514207,
+      "name": "Darkclaw Etch",
+      "type": "NONE"
+    },
+    {
+      "id": 514208,
+      "name": "Twilight Wish",
+      "type": "NONE"
+    },
+    {
+      "id": 514209,
+      "name": "Nightshadow Invasion",
+      "type": "NONE"
+    },
+    {
+      "id": 514210,
+      "name": "Nightshadow Veil",
+      "type": "NONE"
+    },
+    {
+      "id": 514211,
+      "name": "Shadowflash Enigma",
+      "type": "NONE"
+    },
+    {
+      "id": 514212,
+      "name": "Shadowflash Companion",
+      "type": "NONE"
+    },
+    {
+      "id": 514213,
+      "name": "Starmark Nether",
+      "type": "NONE"
+    },
+    {
+      "id": 514221,
+      "name": "Abyssal Mark",
+      "type": "NONE"
+    },
+    {
+      "id": 514222,
+      "name": "Eclipse Imprint",
+      "type": "NONE"
+    },
+    {
+      "id": 514223,
+      "name": "Phantom Mark",
+      "type": "NONE"
+    },
+    {
+      "id": 514224,
+      "name": "Phantom Inscription",
+      "type": "NONE"
+    },
+    {
+      "id": 514225,
+      "name": "Dark: Demon Mark",
+      "type": "NONE"
+    },
+    {
+      "id": 514226,
+      "name": "Dark: Mirage",
+      "type": "NONE"
+    },
+    {
+      "id": 514227,
+      "name": "Dark: Vitality",
+      "type": "NONE"
+    },
+    {
+      "id": 514228,
+      "name": "Dark: Hallucination",
+      "type": "NONE"
+    },
+    {
+      "id": 514229,
+      "name": "Dark: Form Breaker",
+      "type": "NONE"
+    },
+    {
+      "id": 514230,
+      "name": "Dark: Afterglow",
+      "type": "NONE"
+    },
+    {
+      "id": 514231,
+      "name": "Void Blessing",
+      "type": "NONE"
+    },
+    {
+      "id": 514232,
+      "name": "Phantom Shelter",
+      "type": "NONE"
+    },
+    {
+      "id": 514233,
+      "name": "Gift of Darkness",
+      "type": "NONE"
+    },
+    {
+      "id": 514241,
+      "name": "Spectral Ignition",
+      "type": "NONE"
+    },
+    {
+      "id": 514242,
+      "name": "Nether Blaze",
+      "type": "NONE"
+    },
+    {
+      "id": 514243,
+      "name": "Tainted Scar",
+      "type": "NONE"
+    },
+    {
+      "id": 514301,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514302,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514303,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514304,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514305,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514306,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514307,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514308,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514309,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514310,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514311,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514312,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514313,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514321,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514322,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514323,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514324,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514325,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514326,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514327,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514328,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514329,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514330,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514331,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514332,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514333,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514341,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514342,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514343,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514401,
+      "name": "Serpent\u0027s Glide",
+      "type": "NONE"
+    },
+    {
+      "id": 514402,
+      "name": "Mirror Blade",
+      "type": "NONE"
+    },
+    {
+      "id": 514403,
+      "name": "Cascade of Ruin",
+      "type": "NONE"
+    },
+    {
+      "id": 514404,
+      "name": "Against the Flow",
+      "type": "NONE"
+    },
+    {
+      "id": 514405,
+      "name": "Tremble and Fall",
+      "type": "NONE"
+    },
+    {
+      "id": 514406,
+      "name": "Dance of Elegance",
+      "type": "NONE"
+    },
+    {
+      "id": 514407,
+      "name": "Aqueous Phantasm",
+      "type": "NONE"
+    },
+    {
+      "id": 514408,
+      "name": "Serpent in Tide",
+      "type": "NONE"
+    },
+    {
+      "id": 514409,
+      "name": "Returning Tide",
+      "type": "NONE"
+    },
+    {
+      "id": 514410,
+      "name": "Flowing Circle",
+      "type": "NONE"
+    },
+    {
+      "id": 514411,
+      "name": "Waltz of Ripples",
+      "type": "NONE"
+    },
+    {
+      "id": 514412,
+      "name": "Adamant Scales",
+      "type": "NONE"
+    },
+    {
+      "id": 514413,
+      "name": "Azure Embrace",
+      "type": "NONE"
+    },
+    {
+      "id": 514421,
+      "name": "Submerged Fang",
+      "type": "NONE"
+    },
+    {
+      "id": 514422,
+      "name": "Whirl Blade",
+      "type": "NONE"
+    },
+    {
+      "id": 514423,
+      "name": "Blade of the Deep",
+      "type": "NONE"
+    },
+    {
+      "id": 514424,
+      "name": "Where Shadows Drown",
+      "type": "NONE"
+    },
+    {
+      "id": 514425,
+      "name": "Blink Combo Slash",
+      "type": "NONE"
+    },
+    {
+      "id": 514426,
+      "name": "Sing with Steel",
+      "type": "NONE"
+    },
+    {
+      "id": 514427,
+      "name": "Luminous Blade Song",
+      "type": "NONE"
+    },
+    {
+      "id": 514428,
+      "name": "Shadow Cutter",
+      "type": "NONE"
+    },
+    {
+      "id": 514429,
+      "name": "Mirror Tide",
+      "type": "NONE"
+    },
+    {
+      "id": 514430,
+      "name": "Shattered Breath",
+      "type": "NONE"
+    },
+    {
+      "id": 514431,
+      "name": "Water Edge",
+      "type": "NONE"
+    },
+    {
+      "id": 514432,
+      "name": "Waterflow Blade",
+      "type": "NONE"
+    },
+    {
+      "id": 514433,
+      "name": "Unseen Aquatic Blade",
+      "type": "NONE"
+    },
+    {
+      "id": 514441,
+      "name": "Serpent\u0027s Saliva",
+      "type": "NONE"
+    },
+    {
+      "id": 514442,
+      "name": "Serpent Dance",
+      "type": "NONE"
+    },
+    {
+      "id": 514443,
+      "name": "Tide of Serpent Bones",
+      "type": "NONE"
+    },
+    {
+      "id": 514501,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514502,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514503,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514504,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514505,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514506,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514507,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514508,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514509,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514510,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514511,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514512,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514513,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514521,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514522,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514523,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514524,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514525,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514526,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514527,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514528,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514529,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514530,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514531,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514532,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514533,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514541,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514542,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514543,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 514701,
+      "name": "Baseline Finale",
+      "type": "NONE"
+    },
+    {
+      "id": 514702,
+      "name": "Cheer Sparkle",
+      "type": "NONE"
+    },
+    {
+      "id": 514703,
+      "name": "Rhythm Pulse",
+      "type": "NONE"
+    },
+    {
+      "id": 514704,
+      "name": "Sonic Boom",
+      "type": "NONE"
+    },
+    {
+      "id": 514705,
+      "name": "Tempo Shift",
+      "type": "NONE"
+    },
+    {
+      "id": 514706,
+      "name": "Hype Trigger",
+      "type": "NONE"
+    },
+    {
+      "id": 514707,
+      "name": "Rising Tone",
+      "type": "NONE"
+    },
+    {
+      "id": 514708,
+      "name": "Fallen Duet",
+      "type": "NONE"
+    },
+    {
+      "id": 514709,
+      "name": "Echo Stack",
+      "type": "NONE"
+    },
+    {
+      "id": 514710,
+      "name": "Earcatch Riff",
+      "type": "NONE"
+    },
+    {
+      "id": 514711,
+      "name": "Flicker Moves",
+      "type": "NONE"
+    },
+    {
+      "id": 514712,
+      "name": "Maximum Boost",
+      "type": "NONE"
+    },
+    {
+      "id": 514713,
+      "name": "Shadow Soundstrike",
+      "type": "NONE"
+    },
+    {
+      "id": 514721,
+      "name": "Melody Return",
+      "type": "NONE"
+    },
+    {
+      "id": 514722,
+      "name": "Heavenly Dropbeat",
+      "type": "NONE"
+    },
+    {
+      "id": 514723,
+      "name": "Heart Sync",
+      "type": "NONE"
+    },
+    {
+      "id": 514724,
+      "name": "Overflowing Passion",
+      "type": "NONE"
+    },
+    {
+      "id": 514725,
+      "name": "Bass Gravity",
+      "type": "NONE"
+    },
+    {
+      "id": 514726,
+      "name": "Rhythm Waves",
+      "type": "NONE"
+    },
+    {
+      "id": 514727,
+      "name": "Heart Piercer",
+      "type": "NONE"
+    },
+    {
+      "id": 514728,
+      "name": "Sync Chime",
+      "type": "NONE"
+    },
+    {
+      "id": 514729,
+      "name": "Soulstrike Sound",
+      "type": "NONE"
+    },
+    {
+      "id": 514730,
+      "name": "House Resonance",
+      "type": "NONE"
+    },
+    {
+      "id": 514731,
+      "name": "Surging Undercurrent",
+      "type": "NONE"
+    },
+    {
+      "id": 514732,
+      "name": "Blazing Remnant",
+      "type": "NONE"
+    },
+    {
+      "id": 514733,
+      "name": "Ball of Darkness",
+      "type": "NONE"
+    },
+    {
+      "id": 514741,
+      "name": "Fallen Veil",
+      "type": "NONE"
+    },
+    {
+      "id": 514742,
+      "name": "Demon\u0027s Runway",
+      "type": "NONE"
+    },
+    {
+      "id": 514743,
+      "name": "Ascension Soundflare",
+      "type": "NONE"
+    },
+    {
+      "id": 514901,
+      "name": "Beyond All Control",
+      "type": "NONE"
+    },
+    {
+      "id": 514902,
+      "name": "Avalanche of Stone",
+      "type": "NONE"
+    },
+    {
+      "id": 514903,
+      "name": "Agony Cascade",
+      "type": "NONE"
+    },
+    {
+      "id": 514904,
+      "name": "Endless Throes",
+      "type": "NONE"
+    },
+    {
+      "id": 514905,
+      "name": "Delight in Ruin",
+      "type": "NONE"
+    },
+    {
+      "id": 514906,
+      "name": "No Safeword",
+      "type": "NONE"
+    },
+    {
+      "id": 514907,
+      "name": "Lingering Hunger",
+      "type": "NONE"
+    },
+    {
+      "id": 514908,
+      "name": "Slanderous Strike",
+      "type": "NONE"
+    },
+    {
+      "id": 514909,
+      "name": "Shadow Law",
+      "type": "NONE"
+    },
+    {
+      "id": 514910,
+      "name": "Piercing Sorrow",
+      "type": "NONE"
+    },
+    {
+      "id": 514911,
+      "name": "Hunt is On",
+      "type": "NONE"
+    },
+    {
+      "id": 514912,
+      "name": "Everyone\u0027s Invited",
+      "type": "NONE"
+    },
+    {
+      "id": 514913,
+      "name": "Shared Sensation",
+      "type": "NONE"
+    },
+    {
+      "id": 514921,
+      "name": "Deeper into Sin",
+      "type": "NONE"
+    },
+    {
+      "id": 514922,
+      "name": "Curtain Call",
+      "type": "NONE"
+    },
+    {
+      "id": 514923,
+      "name": "Sin-Bound Echo",
+      "type": "NONE"
+    },
+    {
+      "id": 514924,
+      "name": "Earthshaker",
+      "type": "NONE"
+    },
+    {
+      "id": 514925,
+      "name": "Hexacalamity: Grief\u0027s Toll",
+      "type": "NONE"
+    },
+    {
+      "id": 514926,
+      "name": "Hexacalamity: Tyrant\u0027s March",
+      "type": "NONE"
+    },
+    {
+      "id": 514927,
+      "name": "Hexacalamity: Hallowed Chains",
+      "type": "NONE"
+    },
+    {
+      "id": 514928,
+      "name": "Hexacalamity: Erosion",
+      "type": "NONE"
+    },
+    {
+      "id": 514929,
+      "name": "Hexacalamity: Death",
+      "type": "NONE"
+    },
+    {
+      "id": 514930,
+      "name": "Hexacalamity: Famine",
+      "type": "NONE"
+    },
+    {
+      "id": 514931,
+      "name": "Twilight\u0027s Verdict",
+      "type": "NONE"
+    },
+    {
+      "id": 514932,
+      "name": "Twilight\u0027s Hunt",
+      "type": "NONE"
+    },
+    {
+      "id": 514933,
+      "name": "Anima Resonance",
+      "type": "NONE"
+    },
+    {
+      "id": 514941,
+      "name": "Emberwing\u0027s Proclamation",
+      "type": "NONE"
+    },
+    {
+      "id": 514942,
+      "name": "Quadrifrons\u0027 Lore",
+      "type": "NONE"
+    },
+    {
+      "id": 514943,
+      "name": "Samsara\u0027s Judgment",
+      "type": "NONE"
+    },
+    {
+      "id": 515001,
+      "name": "Aerial Suspension",
+      "type": "NONE"
+    },
+    {
+      "id": 515002,
+      "name": "Arc Chain Laser",
+      "type": "NONE"
+    },
+    {
+      "id": 515003,
+      "name": "Lance Sweep",
+      "type": "NONE"
+    },
+    {
+      "id": 515004,
+      "name": "Lightning Lance Dance",
+      "type": "NONE"
+    },
+    {
+      "id": 515005,
+      "name": "Lance\u0027s Song",
+      "type": "NONE"
+    },
+    {
+      "id": 515006,
+      "name": "Sky Rend",
+      "type": "NONE"
+    },
+    {
+      "id": 515007,
+      "name": "Piercing Sting",
+      "type": "NONE"
+    },
+    {
+      "id": 515008,
+      "name": "Lightbreaker",
+      "type": "NONE"
+    },
+    {
+      "id": 515009,
+      "name": "Electric Chain",
+      "type": "NONE"
+    },
+    {
+      "id": 515010,
+      "name": "Cracking Thunderbolt",
+      "type": "NONE"
+    },
+    {
+      "id": 515011,
+      "name": "Swift Strike",
+      "type": "NONE"
+    },
+    {
+      "id": 515012,
+      "name": "Holy Sigil",
+      "type": "NONE"
+    },
+    {
+      "id": 515013,
+      "name": "Checkmate",
+      "type": "NONE"
+    },
+    {
+      "id": 515021,
+      "name": "Radiant Flame: Cycle Restart",
+      "type": "NONE"
+    },
+    {
+      "id": 515022,
+      "name": "Radiant Flame: Flash Point",
+      "type": "NONE"
+    },
+    {
+      "id": 515023,
+      "name": "Radiant Flame: Convergence",
+      "type": "NONE"
+    },
+    {
+      "id": 515024,
+      "name": "Radiant Flame: Pursuit",
+      "type": "NONE"
+    },
+    {
+      "id": 515025,
+      "name": "Radiant Downpour",
+      "type": "NONE"
+    },
+    {
+      "id": 515026,
+      "name": "Light Unleashed",
+      "type": "NONE"
+    },
+    {
+      "id": 515027,
+      "name": "Radiant Ascent",
+      "type": "NONE"
+    },
+    {
+      "id": 515028,
+      "name": "Skybreak Raid",
+      "type": "NONE"
+    },
+    {
+      "id": 515029,
+      "name": "Dawn Break",
+      "type": "NONE"
+    },
+    {
+      "id": 515030,
+      "name": "Light Tempest",
+      "type": "NONE"
+    },
+    {
+      "id": 515031,
+      "name": "Divine Baptism",
+      "type": "NONE"
+    },
+    {
+      "id": 515032,
+      "name": "Lance Judgement",
+      "type": "NONE"
+    },
+    {
+      "id": 515033,
+      "name": "Holy Prayer",
+      "type": "NONE"
+    },
+    {
+      "id": 515041,
+      "name": "Lancefall: Light Realm",
+      "type": "NONE"
+    },
+    {
+      "id": 515042,
+      "name": "Lancefall: Electro Bind",
+      "type": "NONE"
+    },
+    {
+      "id": 515043,
+      "name": "Lancefall: Thunder Surge",
+      "type": "NONE"
+    },
+    {
+      "id": 515501,
+      "name": "Phantom Step Rediance",
+      "type": "NONE"
+    },
+    {
+      "id": 515502,
+      "name": "Rimecrystal Edge",
+      "type": "NONE"
+    },
+    {
+      "id": 515503,
+      "name": "Moonlight Overflow",
+      "type": "NONE"
+    },
+    {
+      "id": 515504,
+      "name": "Astral Pirouette",
+      "type": "NONE"
+    },
+    {
+      "id": 515505,
+      "name": "Glacial Dash",
+      "type": "NONE"
+    },
+    {
+      "id": 515506,
+      "name": "Subzero Dominion",
+      "type": "NONE"
+    },
+    {
+      "id": 515507,
+      "name": "Rimeheart Pulse",
+      "type": "NONE"
+    },
+    {
+      "id": 515508,
+      "name": "Final Crescent",
+      "type": "NONE"
+    },
+    {
+      "id": 515509,
+      "name": "Lunar Detonation",
+      "type": "NONE"
+    },
+    {
+      "id": 515510,
+      "name": "Lunar Combo",
+      "type": "NONE"
+    },
+    {
+      "id": 515511,
+      "name": "Leporine Gale",
+      "type": "NONE"
+    },
+    {
+      "id": 515512,
+      "name": "Hare\u0027s Pursuit",
+      "type": "NONE"
+    },
+    {
+      "id": 515513,
+      "name": "Rabbit\u0027s Beam",
+      "type": "NONE"
+    },
+    {
+      "id": 515521,
+      "name": "Kindred Bound",
+      "type": "NONE"
+    },
+    {
+      "id": 515522,
+      "name": "Twin Moons",
+      "type": "NONE"
+    },
+    {
+      "id": 515523,
+      "name": "Bunny Torrent",
+      "type": "NONE"
+    },
+    {
+      "id": 515524,
+      "name": "Rabbit Flip",
+      "type": "NONE"
+    },
+    {
+      "id": 515525,
+      "name": "Dance of the Riptide",
+      "type": "NONE"
+    },
+    {
+      "id": 515526,
+      "name": "Snowfall\u0027s Heartbeat",
+      "type": "NONE"
+    },
+    {
+      "id": 515527,
+      "name": "Eclipse Blast",
+      "type": "NONE"
+    },
+    {
+      "id": 515528,
+      "name": "Flow Reversal",
+      "type": "NONE"
+    },
+    {
+      "id": 515529,
+      "name": "Kick the Wave",
+      "type": "NONE"
+    },
+    {
+      "id": 515530,
+      "name": "Catch the Wave",
+      "type": "NONE"
+    },
+    {
+      "id": 515531,
+      "name": "Tidal Charge",
+      "type": "NONE"
+    },
+    {
+      "id": 515532,
+      "name": "Counter Current",
+      "type": "NONE"
+    },
+    {
+      "id": 515533,
+      "name": "Moonfall",
+      "type": "NONE"
+    },
+    {
+      "id": 515541,
+      "name": "Howl to the Moon",
+      "type": "NONE"
+    },
+    {
+      "id": 515542,
+      "name": "Silent Tide",
+      "type": "NONE"
+    },
+    {
+      "id": 515543,
+      "name": "Wave to Oblivion",
+      "type": "NONE"
+    },
+    {
+      "id": 515601,
+      "name": "Small Force",
+      "type": "NONE"
+    },
+    {
+      "id": 515602,
+      "name": "Wobble Dance",
+      "type": "NONE"
+    },
+    {
+      "id": 515603,
+      "name": "Roll the Dice",
+      "type": "NONE"
+    },
+    {
+      "id": 515604,
+      "name": "Graceful Turn",
+      "type": "NONE"
+    },
+    {
+      "id": 515605,
+      "name": "Cuddle of Terror",
+      "type": "NONE"
+    },
+    {
+      "id": 515606,
+      "name": "Cutie\u0027s Rally",
+      "type": "NONE"
+    },
+    {
+      "id": 515607,
+      "name": "Beat Maestro",
+      "type": "NONE"
+    },
+    {
+      "id": 515608,
+      "name": "Clean Sweep",
+      "type": "NONE"
+    },
+    {
+      "id": 515609,
+      "name": "Fill the Gap",
+      "type": "NONE"
+    },
+    {
+      "id": 515610,
+      "name": "Focus Fire",
+      "type": "NONE"
+    },
+    {
+      "id": 515611,
+      "name": "Swiftstep",
+      "type": "NONE"
+    },
+    {
+      "id": 515612,
+      "name": "Touch of Nature",
+      "type": "NONE"
+    },
+    {
+      "id": 515613,
+      "name": "Wily Wonder",
+      "type": "NONE"
+    },
+    {
+      "id": 515621,
+      "name": "Bold Assertion",
+      "type": "NONE"
+    },
+    {
+      "id": 515622,
+      "name": "Feel the Beat",
+      "type": "NONE"
+    },
+    {
+      "id": 515623,
+      "name": "Arrow of Affection",
+      "type": "NONE"
+    },
+    {
+      "id": 515624,
+      "name": "Sweetheart Bloom",
+      "type": "NONE"
+    },
+    {
+      "id": 515625,
+      "name": "Feather Frenzy",
+      "type": "NONE"
+    },
+    {
+      "id": 515626,
+      "name": "Jubilant Spin",
+      "type": "NONE"
+    },
+    {
+      "id": 515627,
+      "name": "Twinkle Toss",
+      "type": "NONE"
+    },
+    {
+      "id": 515628,
+      "name": "Love\u0027s True Strike",
+      "type": "NONE"
+    },
+    {
+      "id": 515629,
+      "name": "Rain of Passion",
+      "type": "NONE"
+    },
+    {
+      "id": 515630,
+      "name": "Honeyed Arrow",
+      "type": "NONE"
+    },
+    {
+      "id": 515631,
+      "name": "Lucky Drop",
+      "type": "NONE"
+    },
+    {
+      "id": 515632,
+      "name": "Progressive Jackpot",
+      "type": "NONE"
+    },
+    {
+      "id": 515633,
+      "name": "Double Delight",
+      "type": "NONE"
+    },
+    {
+      "id": 515641,
+      "name": "Operation: Pandemonium",
+      "type": "NONE"
+    },
+    {
+      "id": 515642,
+      "name": "Balloonado",
+      "type": "NONE"
+    },
+    {
+      "id": 515643,
+      "name": "Rocket Cart",
+      "type": "NONE"
+    },
+    {
+      "id": 515801,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515802,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515803,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515804,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515805,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515806,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515807,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515808,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515809,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515810,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515811,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515812,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515813,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515821,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515822,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515823,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515824,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515825,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515826,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515827,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515828,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515829,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515830,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515831,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515832,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515833,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515841,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515842,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515843,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515901,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515902,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515903,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515904,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515905,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515906,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515907,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515908,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515909,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515910,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515911,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515912,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515913,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515921,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515922,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515923,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515924,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515925,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515926,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515927,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515928,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515929,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515930,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515931,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515932,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515933,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515941,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515942,
+      "name": "???",
+      "type": "NONE"
+    },
+    {
+      "id": 515943,
+      "name": "???",
+      "type": "NONE"
+    }
+  ]
+}

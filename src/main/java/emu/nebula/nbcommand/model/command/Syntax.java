@@ -181,10 +181,12 @@ public class Syntax {
     }
 
     public enum FieldMode {
-        NONE,                   // 常规默认
-        SIMPLE_MULTI_SELECT,    // 简单多选 硬编码 不可翻译 {create | delete}
-        COMPLEX_MULTI_SELECT,   // 固定多选 使用json配置 不可翻译
-        SPECIAL_PREFIX,         // 用户界面隐藏前缀
-        REALLY_HIDDEN,          // 完全隐藏
+        NONE,                           // 常规默认
+        SIMPLE_RADIO,    // 简单单选 硬编码 不可翻译 {create | delete}
+        COMPLEX_RADIO,   // 固定单选 使用json配置 不可翻译
+        MULTI_SELECT_CONTAINER,         // 多选容器 可以容纳多个选择项
+        MULTI_SELECT_CONTAINER_WITH_COUNT, // 多选容器带数量 可以为每项设置数量 项可重复
+        SPECIAL_PREFIX,                 // 用户界面隐藏前缀
+        REALLY_HIDDEN                   // 完全隐藏
     }
 }

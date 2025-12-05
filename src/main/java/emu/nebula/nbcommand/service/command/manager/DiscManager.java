@@ -45,7 +45,7 @@ public class DiscManager extends BaseCommandManager {
     private Command createDiscCommand() {
         Syntax syntax = new Syntax()
                 .add("disc")
-                .add("discs", getI18Name("param.id"), Syntax.FieldMode.COMPLEX_MULTI_SELECT)
+                .add("discs", getI18Name("param.id"), Syntax.FieldMode.COMPLEX_RADIO)
                 .add("lv(level)", getI18Name("param.level"), Syntax.FieldMode.SPECIAL_PREFIX, "lv")
                 .add("a(ascension)", getI18Name("param.ascension"), Syntax.FieldMode.SPECIAL_PREFIX, "a")
                 .add("c(crescendo level)", getI18Name("param.talent_level"), Syntax.FieldMode.SPECIAL_PREFIX, "c");

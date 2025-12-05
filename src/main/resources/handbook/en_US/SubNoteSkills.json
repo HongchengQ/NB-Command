@@ -1,0 +1,69 @@
+{
+  "subNoteSkills": [
+    {
+      "id": 90017,
+      "name": "Melody of Ultimate: Ultimate DMG +1%",
+      "element": "NONE"
+    },
+    {
+      "id": 90016,
+      "name": "Melody of Skill: Skill DMG +0.46%",
+      "element": "NONE"
+    },
+    {
+      "id": 90019,
+      "name": "Melody of Ignis: Ignis DMG +0.3%",
+      "element": "NONE"
+    },
+    {
+      "id": 90018,
+      "name": "Melody of Aqua: Aqua DMG +0.3%",
+      "element": "NONE"
+    },
+    {
+      "id": 90021,
+      "name": "Melody of Terra: Terra DMG +0.3%",
+      "element": "NONE"
+    },
+    {
+      "id": 90020,
+      "name": "Melody of Ventus: Ventus DMG +0.3%",
+      "element": "NONE"
+    },
+    {
+      "id": 90023,
+      "name": "Melody of Umbra: Umbra DMG +0.3%",
+      "element": "NONE"
+    },
+    {
+      "id": 90022,
+      "name": "Melody of Lux: Lux DMG +0.3%",
+      "element": "NONE"
+    },
+    {
+      "id": 90011,
+      "name": "Melody of Pummel: ATK +0.3% per level",
+      "element": "NONE"
+    },
+    {
+      "id": 90013,
+      "name": "Melody of Burst: Crit DMG +0.46%",
+      "element": "NONE"
+    },
+    {
+      "id": 90012,
+      "name": "Melody of Luck: Crit Rate +0.1% per level",
+      "element": "NONE"
+    },
+    {
+      "id": 90015,
+      "name": "Melody of Focus: Auto Attack DMG +1.2%",
+      "element": "NONE"
+    },
+    {
+      "id": 90014,
+      "name": "Melody of Stamina: Max HP +0.3%",
+      "element": "NONE"
+    }
+  ]
+}

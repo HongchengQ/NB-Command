@@ -21,16 +21,16 @@ public class BuildManager extends BaseCommandManager {
     }
 
     /**
-     * build 命令 - ???
-     * todo ids 多选框实现
+     * build 命令 - 构建角色和光锥配置
      */
     private Command createBuildCommand() {
         Syntax syntax = new Syntax()
                 .add("build")
-                .add("char ids", getI18Name("param.ids"))
-                .add("disc ids", getI18Name("param.ids"))
-                .add("potential ids", getI18Name("param.ids"))
-                .add("melody ids", getI18Name("param.ids"));
+                .add("characters", getI18Name("param.character_id"), Syntax.FieldMode.MULTI_SELECT_CONTAINER)
+                .add("discs", getI18Name("param.disc_id"), Syntax.FieldMode.MULTI_SELECT_CONTAINER)
+                .add("potentials", getI18Name("param.potential_id"), Syntax.FieldMode.MULTI_SELECT_CONTAINER_WITH_COUNT)
+                .add("subNoteSkills", getI18Name("param.melody_id"), Syntax.FieldMode.MULTI_SELECT_CONTAINER_WITH_COUNT)
+                ;
 
         return createCommand(
                 "command.build.name",

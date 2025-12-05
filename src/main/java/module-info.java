@@ -19,5 +19,5 @@ module emu.nebula.nbcommand {
     exports emu.nebula.nbcommand.model.command;
     exports emu.nebula.nbcommand.service;
     exports emu.nebula.nbcommand.service.command;
-
+    exports emu.nebula.nbcommand.ui;
 }
