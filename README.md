@@ -1,10 +1,10 @@
-# NB Command 远程GM工具
+# NB Command
 
 [EN](README_en.md)
 
 ## 简介
 
-NB Command 是一款专为 [Nebula](https://github.com/Melledy/Nebula) 设计的图形化远程GM命令工具。 该工具提供了直观易用的界面，可以方便地执行各种游戏服务器管理命令，无需手动输入复杂的命令行指令。
+NB Command 是一款专为 [Nebula](https://github.com/Melledy/Nebula) 设计的图形化远程指令执行工具。 
 
 ## 功能特性
 
@@ -17,8 +17,8 @@ NB Command 是一款专为 [Nebula](https://github.com/Melledy/Nebula) 设计的
 
 ## 安装与运行
 
-1. 下载最新发布的可执行包
-2. 解压后运行对应平台的可执行文件
+1. 下载最新发布对应平台的可执行包
+2. 解压后运行可执行文件
 
 或者通过源码构建：
 -  Java 21
@@ -33,6 +33,7 @@ mvn javafx:run
 # 构建可执行文件
 mvn package
 ```
+输出目录在`/target/nbcommand`
 
 ## 使用说明
 
@@ -41,6 +42,15 @@ mvn package
 3. 在中间列表中选择具体命令
 4. 根据需要填写命令参数
 5. 预览生成的命令并在确认无误后执行
+
+### 如何获取 Token
+> Nebula > 确保 `config.json` > `remoteCommand` > `useRemoteServices` 是 `true`
+
+#### 管理员权限
+> Nebula > `config.json` > `remoteCommand` > `serverAdminKey` 为 Token
+
+#### 用户权限
+> 在游戏中使用指令 `!remote` 然后屏幕会弹出您的 Token
 
 ## 许可证
 
