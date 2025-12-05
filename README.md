@@ -50,7 +50,7 @@ mvn package
 > Nebula > `config.json` > `remoteCommand` > `serverAdminKey` 为 Token
 
 #### 用户权限
-> 在游戏中使用指令 `! remote` 然后屏幕会弹出您的 Token
+> 在游戏中使用指令 `!remote` 然后屏幕会弹出您的 Token
 
 ## 许可证
 
