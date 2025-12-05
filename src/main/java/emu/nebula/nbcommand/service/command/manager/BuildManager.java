@@ -26,10 +26,10 @@ public class BuildManager extends BaseCommandManager {
     private Command createBuildCommand() {
         Syntax syntax = new Syntax()
                 .add("build")
-                .add("characters", getI18Name("param.character_id"), Syntax.FieldMode.MULTI_SELECT_CONTAINER)
-                .add("discs", getI18Name("param.disc_id"), Syntax.FieldMode.MULTI_SELECT_CONTAINER)
-                .add("potentials", getI18Name("param.potential_id"), Syntax.FieldMode.MULTI_SELECT_CONTAINER_WITH_COUNT)
-                .add("subNoteSkills", getI18Name("param.melody_id"), Syntax.FieldMode.MULTI_SELECT_CONTAINER_WITH_COUNT)
+                .add("characters", getI18Name("param.character_id"), Syntax.FieldMode.MULTI_SELECT_CONTAINER, " ")
+                .add("discs", getI18Name("param.disc_id"), Syntax.FieldMode.MULTI_SELECT_CONTAINER, " ")
+                .add("potentials", getI18Name("param.potential_id"), Syntax.FieldMode.MULTI_SELECT_CONTAINER_WITH_COUNT, " ")
+                .add("subNoteSkills", getI18Name("param.melody_id"), Syntax.FieldMode.MULTI_SELECT_CONTAINER_WITH_COUNT, " ")
                 ;
 
         return createCommand(

@@ -87,9 +87,13 @@ public class CommandExecutor {
                             commandText.append(item);
                         }
 
-                        // 如果不是最后一个元素，添加逗号分隔符
+                        // 如果不是最后一个元素，添加分隔符
                         if (i != selectedItems.size() - 1) {
-                            commandText.append(",");
+                            String delimiter = field.getSpecialPrefix();
+                            if (delimiter != null && !delimiter.isEmpty())
+                                commandText.append(delimiter);
+                            else
+                                commandText.append(",");
                         }
                     }
                 }
@@ -118,9 +122,13 @@ public class CommandExecutor {
                         // 添加数量前缀
                         commandText.append(":").append(count);
 
-                        // 如果不是最后一个元素，添加逗号分隔符
+                        // 如果不是最后一个元素，添加分隔符
                         if (index != selectedItemsWithCount.size() - 1) {
-                            commandText.append(",");
+                            String delimiter = field.getSpecialPrefix();
+                            if (delimiter != null && !delimiter.isEmpty())
+                                commandText.append(delimiter);
+                            else
+                                commandText.append(",");
                         }
                         index++;
                     }
