@@ -1,4 +1,4 @@
-# NB Command Remote GM Tool
+# NB Command
 
 ## Introduction
 
@@ -48,7 +48,7 @@ Output directory is at `/target/nbcommand`
 > Nebula > `config.json` > `remoteCommand` > `serverAdminKey` as Token
 
 #### User Permission
-> Use the in-game command `!remote` and your Token will pop up on screen
+> Use the in-game command `! remote` and your Token will pop up on screen
 
 ## License
 
