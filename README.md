@@ -1,57 +1,58 @@
 # NB Command
 
-[EN](README_en.md)
+[中文](docs/README_CN.md) | [日本語](docs/README_JA.md) | [한국어](docs/README_KO.md)
 
-## 简介
+## Introduction
 
-NB Command 是一款专为 [Nebula](https://github.com/Melledy/Nebula) 设计的图形化远程指令执行工具。 
+NB Command is a graphical remote command execution tool designed specifically for [Nebula](https://github.com/Melledy/Nebula).
 
-## 功能特性
+## Features
 
--  多语言支持：支持中文、英文、日文和韩文
--  游戏管理：提供玩家管理、物品管理、角色管理等功能
--  图形化界面：直观的操作界面，简化复杂命令的执行过程
--  配置保存：自动保存服务器地址和认证令牌
--  命令历史：记录执行过的命令历史，便于追溯和重复使用
--  数据手册：内置角色和物品数据手册，支持快速查找和选择
+-  Multi-language support: Supports Chinese, English, Japanese, and Korean
+-  Game management: Provides player management, item management, character management, and more
+-  Graphical interface: Intuitive operation interface, simplifying the execution process of complex commands
+-  Configuration saving: Automatically saves server address and authentication token
+-  Command history: Records executed command history, facilitating traceability and reuse
+-  Data handbook: Built-in character and item data handbook, supporting quick search and selection
 
-## 安装与运行
+## Installation and Running
 
-1. 下载最新发布对应平台的可执行包
-2. 解压后运行可执行文件
+1. Download the latest released executable package for your platform [releases](https://github.com/HongchengQ/NB-Command/releases)
+2. Extract and run the executable file
+> If you don't know which one to download, nbcommand-windows.zip is the best choice
 
-或者通过源码构建：
+Or build from source:
 -  Java 21
 -  maven
 
 ```bash
-# 运行应用
+# Run the application
 mvn javafx:run
 ```
 
 ```bash
-# 构建可执行文件
+# Build executable
 mvn package
 ```
-输出目录在`/target/nbcommand`
+Output directory is at `/target/nbcommand`
 
-## 使用说明
+## Usage Instructions
 
-1. 在顶部输入您的服务器地址和认证令牌
-2. 从左侧分类列表中选择命令类别
-3. 在中间列表中选择具体命令
-4. 根据需要填写命令参数
-5. 预览生成的命令并在确认无误后执行
+1. Enter your server address and authentication token at the top
+2. Select a command category from the left panel
+3. Choose a specific command from the middle list
+4. Fill in command parameters as needed
+5. Preview the generated command and execute it after confirming it's correct
 
-### 如何获取 Token
-> Nebula > 确保 `config.json` > `remoteCommand` > `useRemoteServices` 是 `true`
+### How to Obtain Token
+> Nebula > Ensure `config.json` > `remoteCommand` > `useRemoteServices` is `true`
 
-#### 管理员权限
-> Nebula > `config.json` > `remoteCommand` > `serverAdminKey` 为 Token
+#### Administrator Permission
+> Nebula > `config.json` > `remoteCommand` > `serverAdminKey` as Token
 
-#### 用户权限
-> 在游戏中使用指令 `!remote` 然后屏幕会弹出您的 Token
+#### User Permission
+> Use the in-game command `!remote` and your Token will pop up on screen
 
-## 许可证
+## License
 
-本项目采用 MIT 许可证，详情请参见 [LICENSE](LICENSE) 文件。
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
