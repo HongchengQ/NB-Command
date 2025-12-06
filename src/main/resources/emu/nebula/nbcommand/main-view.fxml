@@ -9,8 +9,8 @@
       fx:controller="emu.nebula.nbcommand.controller.MainController">
     <MenuBar VBox.vgrow="NEVER">
         <Menu fx:id="optionsMenu" mnemonicParsing="false" text="选项">
-            <!--                    <MenuItem fx:id="checkUpdateMenuItem" mnemonicParsing="false" text="检查更新"/>-->
-            <MenuItem fx:id="aboutMenuItem" mnemonicParsing="false" text="关于"/>
+            <MenuItem fx:id="checkUpdateMenuItem" mnemonicParsing="false" text="检查更新" onAction="#checkForUpdates"/>
+            <MenuItem fx:id="aboutMenuItem" mnemonicParsing="false" text="关于" onAction="#aboutMenuItem"/>
         </Menu>
         <Menu fx:id="languageMenu" mnemonicParsing="false" text="语言/Language">
             <MenuItem fx:id="chineseMenuItem" mnemonicParsing="false" text="中文" onAction="#switchToChinese"/>

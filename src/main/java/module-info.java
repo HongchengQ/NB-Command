@@ -7,6 +7,7 @@ module emu.nebula.nbcommand {
     requires org.xerial.sqlitejdbc;
     requires java.net.http;
     requires com.fasterxml.jackson.databind;
+    requires java.desktop;
 
     opens emu.nebula.nbcommand to javafx.fxml;
     opens emu.nebula.nbcommand.controller to javafx.fxml;

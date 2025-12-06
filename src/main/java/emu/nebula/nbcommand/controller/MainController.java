@@ -22,11 +22,21 @@ import org.slf4j.LoggerFactory;
 import java.net.URL;
 import java.util.*;
 
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.time.Duration;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.JsonNode;
+
 public class MainController implements Initializable {
     private static final Logger logger = LoggerFactory.getLogger(MainController.class);
 
     @FXML
     private Menu optionsMenu;
+    @FXML
+    private MenuItem checkUpdateMenuItem;
     @FXML
     private MenuItem aboutMenuItem;
     @FXML
@@ -177,6 +187,7 @@ public class MainController implements Initializable {
 
         // 关于菜单项的点击事件
         aboutMenuItem.setOnAction(event -> aboutMenuItem());
+        checkUpdateMenuItem.setOnAction(event -> checkForUpdates());
 
         updateUIText();
         updateCategories();
@@ -184,6 +195,9 @@ public class MainController implements Initializable {
         // 添加到历史记录
         viewModel.addToHistory(i18n.getString("message.app_started"));
         logger.info("应用启动完成");
+        
+        // 启动时检查更新
+        checkForUpdatesInBackground();
     }
 
     /**
@@ -346,6 +360,7 @@ public class MainController implements Initializable {
     private void updateUIText() {
         // 菜单
         optionsMenu.setText(i18n.getString("menu.options"));
+        checkUpdateMenuItem.setText(i18n.getString("menu.check_update"));
         aboutMenuItem.setText(i18n.getString("menu.about"));
         languageMenu.setText(i18n.getString("menu.language"));
 
@@ -381,5 +396,133 @@ public class MainController implements Initializable {
         // 底部
         developerLabel.setText("by: 战意电竞丶圆头奶龙仙人");
         versionLabel.setText(i18n.getString("label.name") + " " + Launcher.version);
+    }
+
+    /**
+     * 手动检查更新
+     */
+    @FXML
+    private void checkForUpdates() {
+        checkUpdate(false);
+    }
+    
+    /**
+     * 在后台检查更新
+     */
+    private void checkForUpdatesInBackground() {
+        Thread updateThread = new Thread(() -> {
+            try {
+                Thread.sleep(5000); // 延迟几秒再检查更新，确保UI已加载
+                checkUpdate(true);
+            } catch (Exception e) {
+                logger.warn("后台检查更新时发生异常: {}", e.getMessage());
+            }
+        });
+
+        updateThread.setDaemon(true);
+        updateThread.start();
+    }
+
+    private void checkUpdate(boolean isInBackground) {
+        try {
+            // 创建HTTP客户端
+            HttpResponse<String> response;
+            try (HttpClient client = HttpClient.newHttpClient()) {
+
+                // 构建请求
+                HttpRequest request = HttpRequest.newBuilder()
+                        .uri(URI.create("https://api.github.com/repos/HongchengQ/NB-Command/releases/latest"))
+                        .header("Accept", "application/vnd.github.v3+json")
+                        .timeout(Duration.ofSeconds(10))
+                        .GET()
+                        .build();
+
+                // 发送请求并获取响应
+                response = client.send(request, HttpResponse.BodyHandlers.ofString());
+            }
+
+            if (response.statusCode() == 200) {
+                // 解析JSON响应
+                ObjectMapper mapper = new ObjectMapper();
+                JsonNode rootNode = mapper.readTree(response.body());
+
+                String latestVersion = rootNode.path("tag_name").asText();
+                String releaseUrl = rootNode.path("html_url").asText();
+                String _releaseNotes = rootNode.path("body").asText();
+
+                // 比较版本
+                if (!latestVersion.equals(Launcher.version)) {
+                    // 显示更新对话框
+                    showUpdateDialog(latestVersion, releaseUrl);
+                } else if (isInBackground) {
+                    // 显示已是最新版本
+                    showAlert(i18n.getString("dialog.no_updates_title"),
+                            i18n.getString("dialog.no_updates_message"));
+                }
+            } else if (isInBackground) {
+                logger.error("检查更新失败，HTTP状态码: {}", response.statusCode());
+                showAlert(i18n.getString("dialog.update_check_failed_title"),
+                        i18n.getString("dialog.update_check_failed_message"));
+            }
+        } catch (Exception e) {
+            logger.error("检查更新时发生异常", e);
+
+            if (isInBackground) return;
+
+            showAlert(i18n.getString("dialog.update_check_failed_title"),
+                    i18n.getString("dialog.update_check_failed_message") + ": " + e.getMessage());
+        }
+    }
+    
+    /**
+     * 显示更新对话框
+     */
+    private void showUpdateDialog(String latestVersion, String releaseUrl) {
+        // 确保在JavaFX应用程序线程中执行
+        if (!javafx.application.Platform.isFxApplicationThread()) {
+            javafx.application.Platform.runLater(() -> showUpdateDialog(latestVersion, releaseUrl));
+            return;
+        }
+        
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle(i18n.getString("dialog.update_available_title"));
+        alert.setHeaderText(i18n.getString("dialog.update_available_header"));
+        
+        // 设置内容文本
+        String contentText = i18n.getString("dialog.current_version") + Launcher.version + "\n" +
+                           i18n.getString("dialog.latest_version") + latestVersion;
+        alert.setContentText(contentText);
+        
+        // 添加自定义按钮
+        ButtonType goToUpdateButtonType = new ButtonType(i18n.getString("dialog.go_to_update"), ButtonBar.ButtonData.OK_DONE);
+        ButtonType cancelButtonType = new ButtonType(i18n.getString("dialog.cancel"), ButtonBar.ButtonData.CANCEL_CLOSE);
+        
+        alert.getButtonTypes().setAll(goToUpdateButtonType, cancelButtonType);
+        
+        // 等待用户响应
+        alert.showAndWait().ifPresent(buttonType -> {
+            if (buttonType == goToUpdateButtonType) {
+                try {
+                    java.awt.Desktop.getDesktop().browse(new URI(releaseUrl));
+                } catch (Exception ex) {
+                    logger.error("无法打开浏览器", ex);
+                    showAlert(i18n.getString("dialog.update_open_failed_title"), 
+                              i18n.getString("dialog.update_open_failed_message"));
+                }
+            }
+        });
+    }
+    
+    /**
+     * 显示简单提示对话框
+     */
+    private void showAlert(String title, String message) {
+        javafx.application.Platform.runLater(() -> {
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle(title);
+            alert.setHeaderText(null);
+            alert.setContentText(message);
+            alert.showAndWait();
+        });
     }
 }
