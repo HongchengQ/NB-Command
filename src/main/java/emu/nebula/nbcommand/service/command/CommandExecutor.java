@@ -1,6 +1,7 @@
 package emu.nebula.nbcommand.service.command;
 
 import emu.nebula.nbcommand.model.Command;
+import emu.nebula.nbcommand.model.ServerRspData;
 import emu.nebula.nbcommand.model.command.Syntax;
 import emu.nebula.nbcommand.service.command.MultiSelectDataHelper;
 import emu.nebula.nbcommand.ui.MultiSelectContainerManager;
@@ -19,6 +20,8 @@ import java.time.Duration;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Consumer;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class CommandExecutor {
     private static final Logger logger = LoggerFactory.getLogger(CommandExecutor.class);
@@ -209,12 +212,14 @@ public class CommandExecutor {
 
             HttpResponse<String> response = sendCommandToServer(commandText);
 
+            String message = extractMessageFromResponse(response.body());
+
             if (response.statusCode() == 200) {
-                historyConsumer.accept("> " + commandText + "\n" + response.body());
-                logger.info("命令执行成功: {}; 服务端返回: {}", commandText, response.body());
+                historyConsumer.accept("> " + commandText + "\n" + message);
+                logger.info("命令执行成功: {}; 服务端返回: {}", commandText, message);
             } else {
-                historyConsumer.accept(response.statusCode() + " - " + response.body());
-                logger.error("命令执行失败: {} - {}", response.statusCode(), response.body());
+                historyConsumer.accept(response.statusCode() + " - " + message);
+                logger.error("命令执行失败: {} - {}", response.statusCode(), message);
             }
         } catch (Exception e) {
             historyConsumer.accept("command sends exceptions: " + e.getMessage());
@@ -222,6 +227,20 @@ public class CommandExecutor {
 
             if (e.getMessage().equals("java.net.ConnectException"))
                 historyConsumer.accept("Please check if the remote server is online");
+        }
+    }
+
+    /**
+     * 从服务器响应中提取消息
+     */
+    private String extractMessageFromResponse(String responseBody) {
+        try {
+            ObjectMapper mapper = new ObjectMapper();
+            ServerRspData response = mapper.readValue(responseBody, ServerRspData.class);
+            return response.getMsg() != null ? response.getMsg() : responseBody;
+        } catch (Exception e) {
+            logger.warn("解析服务器响应失败: {}, 返回原始响应", e.getMessage());
+            return responseBody;
         }
     }
 }
