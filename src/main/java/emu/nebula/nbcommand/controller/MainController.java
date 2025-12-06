@@ -454,12 +454,12 @@ public class MainController implements Initializable {
                 if (!latestVersion.equals(Launcher.version)) {
                     // 显示更新对话框
                     showUpdateDialog(latestVersion, releaseUrl);
-                } else if (isInBackground) {
+                } else if (!isInBackground) {
                     // 显示已是最新版本
                     showAlert(i18n.getString("dialog.no_updates_title"),
                             i18n.getString("dialog.no_updates_message"));
                 }
-            } else if (isInBackground) {
+            } else if (!isInBackground) {
                 logger.error("检查更新失败，HTTP状态码: {}", response.statusCode());
                 showAlert(i18n.getString("dialog.update_check_failed_title"),
                         i18n.getString("dialog.update_check_failed_message"));
