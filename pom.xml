@@ -94,6 +94,9 @@
                         <configuration>
                             <mainClass>emu.nebula.nbcommand.Launcher</mainClass>
                             <bundleJre>true</bundleJre>
+                            <!-- Generates a customized JRE, including only identified or specified modules. Otherwise, all modules will be included.-->
+                            <!-- 假如设置为true ssl相关功能可能会报错 -->
+                            <customizedJre>false</customizedJre>
                             <generateInstaller>false</generateInstaller>
                             <administratorRequired>false</administratorRequired>
                             <platform>auto</platform>
