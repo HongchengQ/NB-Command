@@ -380,6 +380,6 @@ public class MainController implements Initializable {
 
         // 底部
         developerLabel.setText("by: 战意电竞丶圆头奶龙仙人");
-        versionLabel.setText(i18n.getString("label.version") + " " + Launcher.version);
+        versionLabel.setText(i18n.getString("label.name") + " " + Launcher.version);
     }
 }
