@@ -2,6 +2,7 @@ package emu.nebula.nbcommand.service.command.manager;
 
 import emu.nebula.nbcommand.model.Command;
 import emu.nebula.nbcommand.model.command.Syntax;
+import emu.nebula.nbcommand.model.command.Syntax.FieldMode;
 import emu.nebula.nbcommand.service.command.BaseCommandManager;
 
 import java.util.List;
@@ -26,10 +27,10 @@ public class BuildManager extends BaseCommandManager {
     private Command createBuildCommand() {
         Syntax syntax = new Syntax()
                 .add("build")
-                .add("characters", getI18Name("param.character_id"), Syntax.FieldMode.MULTI_SELECT_CONTAINER, " ")
-                .add("discs", getI18Name("param.disc_id"), Syntax.FieldMode.MULTI_SELECT_CONTAINER, " ")
-                .add("potentials", getI18Name("param.potential_id"), Syntax.FieldMode.MULTI_SELECT_CONTAINER_WITH_COUNT, " ")
-                .add("subNoteSkills", getI18Name("param.melody_id"), Syntax.FieldMode.MULTI_SELECT_CONTAINER_WITH_COUNT, " ")
+                .add("characters", getI18Name("param.character_id"), FieldMode.MULTI_SELECT_CONTAINER, " ")
+                .add("discs", getI18Name("param.disc_id"), FieldMode.MULTI_SELECT_CONTAINER, " ")
+                .add("potentials", getI18Name("param.potential_id"), FieldMode.MULTI_SELECT_CONTAINER_WITH_COUNT, " ")
+                .add("subNoteSkills", getI18Name("param.melody_id"), FieldMode.MULTI_SELECT_CONTAINER_WITH_COUNT, " ")
                 ;
 
         return createCommand(

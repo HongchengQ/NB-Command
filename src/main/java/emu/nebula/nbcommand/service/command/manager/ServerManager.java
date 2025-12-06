@@ -2,6 +2,7 @@ package emu.nebula.nbcommand.service.command.manager;
 
 import emu.nebula.nbcommand.model.Command;
 import emu.nebula.nbcommand.model.command.Syntax;
+import emu.nebula.nbcommand.model.command.Syntax.FieldMode;
 import emu.nebula.nbcommand.service.command.BaseCommandManager;
 
 import java.util.List;

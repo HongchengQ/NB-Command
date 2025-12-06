@@ -2,6 +2,7 @@ package emu.nebula.nbcommand.service.command.manager;
 
 import emu.nebula.nbcommand.model.Command;
 import emu.nebula.nbcommand.model.command.Syntax;
+import emu.nebula.nbcommand.model.command.Syntax.FieldMode;
 import emu.nebula.nbcommand.service.command.BaseCommandManager;
 
 import java.util.*;
@@ -22,9 +23,9 @@ public class PlayerManager extends BaseCommandManager {
     private Command createAccountCommand() {
         Syntax syntax = new Syntax()
                 .add("account")
-                .add("{create | delete}", getI18Name("param.action"), Syntax.FieldMode.SIMPLE_RADIO)
+                .add("{create | delete}", getI18Name("param.action"), FieldMode.SIMPLE_RADIO)
                 .add("[email]", getI18Name("param.email"))
-                .add("(uid)", getI18Name("param.uid"), Syntax.FieldMode.SPECIAL_PREFIX, "");
+                .add("(uid)", getI18Name("param.uid"), FieldMode.SPECIAL_PREFIX, "");
 
         return createCommand(
                 "command.account.name",

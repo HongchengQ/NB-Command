@@ -2,6 +2,7 @@ package emu.nebula.nbcommand.service.command.manager;
 
 import emu.nebula.nbcommand.model.Command;
 import emu.nebula.nbcommand.model.command.Syntax;
+import emu.nebula.nbcommand.model.command.Syntax.FieldMode;
 import emu.nebula.nbcommand.service.command.BaseCommandManager;
 
 import java.util.List;
@@ -27,9 +28,9 @@ public class DiscManager extends BaseCommandManager {
     private Command createDiscAllCommand() {
         Syntax syntax = new Syntax()
                 .add("disc all")
-                .add("lv(level)", getI18Name("param.level"), Syntax.FieldMode.SPECIAL_PREFIX, "lv")
-                .add("a(ascension)", getI18Name("param.ascension"), Syntax.FieldMode.SPECIAL_PREFIX, "a")
-                .add("c(crescendo level)", getI18Name("param.talent_level"), Syntax.FieldMode.SPECIAL_PREFIX, "c");
+                .add("lv(level)", getI18Name("param.level"), FieldMode.SPECIAL_PREFIX, "lv")
+                .add("a(ascension)", getI18Name("param.ascension"), FieldMode.SPECIAL_PREFIX, "a")
+                .add("c(crescendo level)", getI18Name("param.talent_level"), FieldMode.SPECIAL_PREFIX, "c");
 
         return createCommand(
                 "command.disc_all.name",
@@ -45,10 +46,10 @@ public class DiscManager extends BaseCommandManager {
     private Command createDiscCommand() {
         Syntax syntax = new Syntax()
                 .add("disc")
-                .add("discs", getI18Name("param.id"), Syntax.FieldMode.COMPLEX_RADIO)
-                .add("lv(level)", getI18Name("param.level"), Syntax.FieldMode.SPECIAL_PREFIX, "lv")
-                .add("a(ascension)", getI18Name("param.ascension"), Syntax.FieldMode.SPECIAL_PREFIX, "a")
-                .add("c(crescendo level)", getI18Name("param.talent_level"), Syntax.FieldMode.SPECIAL_PREFIX, "c");
+                .add("discs", getI18Name("param.id"), FieldMode.COMPLEX_RADIO)
+                .add("lv(level)", getI18Name("param.level"), FieldMode.SPECIAL_PREFIX, "lv")
+                .add("a(ascension)", getI18Name("param.ascension"), FieldMode.SPECIAL_PREFIX, "a")
+                .add("c(crescendo level)", getI18Name("param.talent_level"), FieldMode.SPECIAL_PREFIX, "c");
 
         return createCommand(
                 "command.disc_single.name",

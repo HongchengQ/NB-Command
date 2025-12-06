@@ -2,6 +2,7 @@ package emu.nebula.nbcommand.service.command.manager;
 
 import emu.nebula.nbcommand.model.Command;
 import emu.nebula.nbcommand.model.command.Syntax;
+import emu.nebula.nbcommand.model.command.Syntax.FieldMode;
 import emu.nebula.nbcommand.service.command.BaseCommandManager;
 
 import java.util.List;
@@ -28,8 +29,8 @@ public class ItemManager extends BaseCommandManager {
      */
     private Command createGiveCommand() {
         Syntax syntax = new Syntax().add("give")
-                .add("items", getI18Name("param.item_id"), Syntax.FieldMode.COMPLEX_RADIO)
-                .add("x(amount)", getI18Name("param.amount"), Syntax.FieldMode.SPECIAL_PREFIX, "x");
+                .add("items", getI18Name("param.item_id"), FieldMode.COMPLEX_RADIO)
+                .add("x(amount)", getI18Name("param.amount"), FieldMode.SPECIAL_PREFIX, "x");
 
         return createCommand(
                 "command.give.name",
@@ -45,9 +46,9 @@ public class ItemManager extends BaseCommandManager {
     private Command createGiveAllCommand() {
         Syntax syntax = new Syntax()
                 .add("giveall")
-                .add("{characters | discs | materials}", getI18Name("param.type"), Syntax.FieldMode.SIMPLE_RADIO)
-                .add("t(talent/crescendo level)", getI18Name("param.talent_level"), Syntax.FieldMode.SPECIAL_PREFIX, "t")
-                .add("s(skill level)", getI18Name("param.skill_level"), Syntax.FieldMode.SPECIAL_PREFIX, "s");
+                .add("{characters | discs | materials}", getI18Name("param.type"), FieldMode.SIMPLE_RADIO)
+                .add("t(talent/crescendo level)", getI18Name("param.talent_level"), FieldMode.SPECIAL_PREFIX, "t")
+                .add("s(skill level)", getI18Name("param.skill_level"), FieldMode.SPECIAL_PREFIX, "s");
 
         return createCommand(
                 "command.giveall.name",
@@ -63,7 +64,7 @@ public class ItemManager extends BaseCommandManager {
     private Command createCleanBatchCommand() {
         Syntax syntax = new Syntax()
                 .add("clean")
-                .add("{all | items | resources}", getI18Name("param.clean_type"), Syntax.FieldMode.SIMPLE_RADIO);
+                .add("{all | items | resources}", getI18Name("param.clean_type"), FieldMode.SIMPLE_RADIO);
 
         return createCommand(
                 "command.clean_batch.name",
