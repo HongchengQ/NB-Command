@@ -1,6 +1,6 @@
 # NB Command
 
-[中文](docs/README_CN.md) | [JA](docs/README_JA.md) | [KO](docs/README_KO.md)
+[中文](docs/README_CN.md) | [日本語](docs/README_JA.md) | [한국어](docs/README_KO.md)
 
 ## Introduction
 
