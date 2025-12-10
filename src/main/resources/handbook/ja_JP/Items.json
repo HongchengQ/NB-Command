@@ -227,7 +227,7 @@
     },
     {
       "id": 133,
-      "title": "？？？",
+      "title": "ナツカ",
       "type": "Char"
     },
     {
@@ -477,7 +477,7 @@
     },
     {
       "id": 1330,
-      "title": "？？？",
+      "title": "ナツカの心相の欠片",
       "type": "Item"
     },
     {
@@ -797,12 +797,12 @@
     },
     {
       "id": 13301,
-      "title": "？？？",
+      "title": "ナツカ・デフォルト",
       "type": "CharacterSkin"
     },
     {
       "id": 13302,
-      "title": "？？？",
+      "title": "ナツカ・覚醒",
       "type": "CharacterSkin"
     },
     {
@@ -3052,7 +3052,7 @@
     },
     {
       "id": 112133,
-      "title": "？？？",
+      "title": "風車をあなたに",
       "type": "Honor"
     },
     {
@@ -3167,7 +3167,7 @@
     },
     {
       "id": 116003,
-      "title": "？？？",
+      "title": "夢の先へ",
       "type": "Honor"
     },
     {
@@ -3242,7 +3242,7 @@
     },
     {
       "id": 199000,
-      "title": "プレミアムコース補助物資受取資格",
+      "title": "プレミアムコース\n補助物資受取資格",
       "type": "Item"
     },
     {
@@ -3622,7 +3622,7 @@
     },
     {
       "id": 214015,
-      "title": "？？？",
+      "title": "鹿の声",
       "type": "Disc"
     },
     {
@@ -3667,7 +3667,7 @@
     },
     {
       "id": 214024,
-      "title": "？？？",
+      "title": "地底の彼方へ！",
       "type": "Disc"
     },
     {
@@ -4067,7 +4067,7 @@
     },
     {
       "id": 224015,
-      "title": "？？？",
+      "title": "鹿の声の調べ",
       "type": "Item"
     },
     {
@@ -4112,7 +4112,7 @@
     },
     {
       "id": 224024,
-      "title": "？？？",
+      "title": "地底の彼方へ！の調べ",
       "type": "Item"
     },
     {
@@ -7127,147 +7127,147 @@
     },
     {
       "id": 513301,
-      "title": "？？？",
+      "title": "天風の華",
       "type": "RogueItem"
     },
     {
       "id": 513302,
-      "title": "？？？",
+      "title": "久遠の風華",
       "type": "RogueItem"
     },
     {
       "id": 513303,
-      "title": "？？？",
+      "title": "追い風の加護",
       "type": "RogueItem"
     },
     {
       "id": 513304,
-      "title": "？？？",
+      "title": "旋風繚乱",
       "type": "RogueItem"
     },
     {
       "id": 513305,
-      "title": "？？？",
+      "title": "風蝕の加護",
       "type": "RogueItem"
     },
     {
       "id": 513306,
-      "title": "？？？",
+      "title": "風刃の加護",
       "type": "RogueItem"
     },
     {
       "id": 513307,
-      "title": "？？？",
+      "title": "残香の風",
       "type": "RogueItem"
     },
     {
       "id": 513308,
-      "title": "？？？",
+      "title": "薫風乱舞",
       "type": "RogueItem"
     },
     {
       "id": 513309,
-      "title": "？？？",
+      "title": "風陣展開",
       "type": "RogueItem"
     },
     {
       "id": 513310,
-      "title": "？？？",
+      "title": "凪の誘い",
       "type": "RogueItem"
     },
     {
       "id": 513311,
-      "title": "？？？",
+      "title": "千華万風",
       "type": "RogueItem"
     },
     {
       "id": 513312,
-      "title": "？？？",
+      "title": "狂嵐の華",
       "type": "RogueItem"
     },
     {
       "id": 513313,
-      "title": "？？？",
+      "title": "烈風の加護",
       "type": "RogueItem"
     },
     {
       "id": 513321,
-      "title": "？？？",
+      "title": "花びらの詩",
       "type": "RogueItem"
     },
     {
       "id": 513322,
-      "title": "？？？",
+      "title": "花びらの舞",
       "type": "RogueItem"
     },
     {
       "id": 513323,
-      "title": "？？？",
+      "title": "花の海・凪",
       "type": "RogueItem"
     },
     {
       "id": 513324,
-      "title": "？？？",
+      "title": "花の海・逆波",
       "type": "RogueItem"
     },
     {
       "id": 513325,
-      "title": "？？？",
+      "title": "散華の哀しみ",
       "type": "RogueItem"
     },
     {
       "id": 513326,
-      "title": "？？？",
+      "title": "散華の怒り",
       "type": "RogueItem"
     },
     {
       "id": 513327,
-      "title": "？？？",
+      "title": "散華の歓び",
       "type": "RogueItem"
     },
     {
       "id": 513328,
-      "title": "？？？",
+      "title": "花の海・さざ波",
       "type": "RogueItem"
     },
     {
       "id": 513329,
-      "title": "？？？",
+      "title": "花の海・波紋",
       "type": "RogueItem"
     },
     {
       "id": 513330,
-      "title": "？？？",
+      "title": "花の海・怒涛",
       "type": "RogueItem"
     },
     {
       "id": 513331,
-      "title": "？？？",
+      "title": "玉風の加護",
       "type": "RogueItem"
     },
     {
       "id": 513332,
-      "title": "？？？",
+      "title": "花嵐の加護",
       "type": "RogueItem"
     },
     {
       "id": 513333,
-      "title": "？？？",
+      "title": "嵐の目",
       "type": "RogueItem"
     },
     {
       "id": 513341,
-      "title": "？？？",
+      "title": "かまいたちの舞",
       "type": "RogueItem"
     },
     {
       "id": 513342,
-      "title": "？？？",
+      "title": "禊の風",
       "type": "RogueItem"
     },
     {
       "id": 513343,
-      "title": "？？？",
+      "title": "一陣の雄風",
       "type": "RogueItem"
     },
     {

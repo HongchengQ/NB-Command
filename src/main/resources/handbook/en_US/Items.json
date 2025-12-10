@@ -227,7 +227,7 @@
     },
     {
       "id": 133,
-      "title": "???",
+      "title": "Nazuka",
       "type": "Char"
     },
     {
@@ -477,7 +477,7 @@
     },
     {
       "id": 1330,
-      "title": "???",
+      "title": "Nazuka\u0027s Soul Key",
       "type": "Item"
     },
     {
@@ -797,12 +797,12 @@
     },
     {
       "id": 13301,
-      "title": "???",
+      "title": "Nazuka: Default",
       "type": "CharacterSkin"
     },
     {
       "id": 13302,
-      "title": "???",
+      "title": "Nazuka: Awakened",
       "type": "CharacterSkin"
     },
     {
@@ -3052,7 +3052,7 @@
     },
     {
       "id": 112133,
-      "title": "???",
+      "title": "Kindred Spirits",
       "type": "Honor"
     },
     {
@@ -3167,7 +3167,7 @@
     },
     {
       "id": 116003,
-      "title": "???",
+      "title": "Beyond the Dream",
       "type": "Honor"
     },
     {
@@ -3622,7 +3622,7 @@
     },
     {
       "id": 214015,
-      "title": "???",
+      "title": "Deer\u0027s Song",
       "type": "Disc"
     },
     {
@@ -3667,7 +3667,7 @@
     },
     {
       "id": 214024,
-      "title": "???",
+      "title": "One, Two, Three, Jump!",
       "type": "Disc"
     },
     {
@@ -4067,7 +4067,7 @@
     },
     {
       "id": 224015,
-      "title": "???",
+      "title": "Deer\u0027s Song Melody",
       "type": "Item"
     },
     {
@@ -4112,7 +4112,7 @@
     },
     {
       "id": 224024,
-      "title": "???",
+      "title": "One, Two, Three, Jump! Melody",
       "type": "Item"
     },
     {
@@ -7127,147 +7127,147 @@
     },
     {
       "id": 513301,
-      "title": "???",
+      "title": "Blooming Gale",
       "type": "RogueItem"
     },
     {
       "id": 513302,
-      "title": "???",
+      "title": "Everlasting Elegance",
       "type": "RogueItem"
     },
     {
       "id": 513303,
-      "title": "???",
+      "title": "Fierce Arrow",
       "type": "RogueItem"
     },
     {
       "id": 513304,
-      "title": "???",
+      "title": "Spiral Vortex",
       "type": "RogueItem"
     },
     {
       "id": 513305,
-      "title": "???",
+      "title": "Wind Erosion Impact",
       "type": "RogueItem"
     },
     {
       "id": 513306,
-      "title": "???",
+      "title": "Gale Shield",
       "type": "RogueItem"
     },
     {
       "id": 513307,
-      "title": "???",
+      "title": "Unyielding Leaves",
       "type": "RogueItem"
     },
     {
       "id": 513308,
-      "title": "???",
+      "title": "Gale\u0027s Might",
       "type": "RogueItem"
     },
     {
       "id": 513309,
-      "title": "???",
+      "title": "Storm Overturned",
       "type": "RogueItem"
     },
     {
       "id": 513310,
-      "title": "???",
+      "title": "Whisper of Wind",
       "type": "RogueItem"
     },
     {
       "id": 513311,
-      "title": "???",
+      "title": "Precision Control",
       "type": "RogueItem"
     },
     {
       "id": 513312,
-      "title": "???",
+      "title": "Gale Fading",
       "type": "RogueItem"
     },
     {
       "id": 513313,
-      "title": "???",
+      "title": "Willowy Grace",
       "type": "RogueItem"
     },
     {
       "id": 513321,
-      "title": "???",
+      "title": "Youth: Dazzling",
       "type": "RogueItem"
     },
     {
       "id": 513322,
-      "title": "???",
+      "title": "Youth: Hunting",
       "type": "RogueItem"
     },
     {
       "id": 513323,
-      "title": "???",
+      "title": "Flower Formation: Waves",
       "type": "RogueItem"
     },
     {
       "id": 513324,
-      "title": "???",
+      "title": "Flower Formation: Turbulent",
       "type": "RogueItem"
     },
     {
       "id": 513325,
-      "title": "???",
+      "title": "Youth: Weakness",
       "type": "RogueItem"
     },
     {
       "id": 513326,
-      "title": "???",
+      "title": "Youth: Annihilation",
       "type": "RogueItem"
     },
     {
       "id": 513327,
-      "title": "???",
+      "title": "Youth: Blooming",
       "type": "RogueItem"
     },
     {
       "id": 513328,
-      "title": "???",
+      "title": "Flower Formation: Convergence",
       "type": "RogueItem"
     },
     {
       "id": 513329,
-      "title": "???",
+      "title": "Flower Formation: Erosion",
       "type": "RogueItem"
     },
     {
       "id": 513330,
-      "title": "???",
+      "title": "Flower Formation: Blast",
       "type": "RogueItem"
     },
     {
       "id": 513331,
-      "title": "???",
+      "title": "Wind Demon Seed",
       "type": "RogueItem"
     },
     {
       "id": 513332,
-      "title": "???",
+      "title": "Self-Improvement",
       "type": "RogueItem"
     },
     {
       "id": 513333,
-      "title": "???",
+      "title": "Almighty Leader",
       "type": "RogueItem"
     },
     {
       "id": 513341,
-      "title": "???",
+      "title": "Multi-Hurricane",
       "type": "RogueItem"
     },
     {
       "id": 513342,
-      "title": "???",
+      "title": "Aeolus\u0027s Blessing",
       "type": "RogueItem"
     },
     {
       "id": 513343,
-      "title": "???",
+      "title": "Maelstrom",
       "type": "RogueItem"
     },
     {
@@ -7312,7 +7312,7 @@
     },
     {
       "id": 513409,
-      "title": "Blast Pursuit",
+      "title": "Blast Chase",
       "type": "RogueItem"
     },
     {
@@ -7367,7 +7367,7 @@
     },
     {
       "id": 513427,
-      "title": "Gaining Momentum",
+      "title": "Momentum Primed",
       "type": "RogueItem"
     },
     {
@@ -7397,7 +7397,7 @@
     },
     {
       "id": 513433,
-      "title": "Companion\u0027s Power",
+      "title": "Companions\u0027 Power",
       "type": "RogueItem"
     },
     {
@@ -7412,7 +7412,7 @@
     },
     {
       "id": 513443,
-      "title": "Peak Condition",
+      "title": "Peak Performance",
       "type": "RogueItem"
     },
     {
@@ -7422,12 +7422,12 @@
     },
     {
       "id": 513502,
-      "title": "Rapid Fire",
+      "title": "Burst Shooting",
       "type": "RogueItem"
     },
     {
       "id": 513503,
-      "title": "Super Long Exposure",
+      "title": "Extended Exposure",
       "type": "RogueItem"
     },
     {
@@ -7482,7 +7482,7 @@
     },
     {
       "id": 513521,
-      "title": "Stay Happy",
+      "title": "Happy Face",
       "type": "RogueItem"
     },
     {

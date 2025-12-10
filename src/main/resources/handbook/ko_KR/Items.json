@@ -227,7 +227,7 @@
     },
     {
       "id": 133,
-      "title": "???",
+      "title": "나츠카",
       "type": "Char"
     },
     {
@@ -477,7 +477,7 @@
     },
     {
       "id": 1330,
-      "title": "???",
+      "title": "나츠카 심상 결정",
       "type": "Item"
     },
     {
@@ -797,12 +797,12 @@
     },
     {
       "id": 13301,
-      "title": "???",
+      "title": "나츠카-기본",
       "type": "CharacterSkin"
     },
     {
       "id": 13302,
-      "title": "???",
+      "title": "나츠카-각성",
       "type": "CharacterSkin"
     },
     {
@@ -3052,7 +3052,7 @@
     },
     {
       "id": 112133,
-      "title": "???",
+      "title": "바람개비의 비밀",
       "type": "Honor"
     },
     {
@@ -3167,7 +3167,7 @@
     },
     {
       "id": 116003,
-      "title": "???",
+      "title": "꿈의 저편",
       "type": "Honor"
     },
     {
@@ -3622,7 +3622,7 @@
     },
     {
       "id": 214015,
-      "title": "???",
+      "title": "사슴의 울음",
       "type": "Disc"
     },
     {
@@ -3667,7 +3667,7 @@
     },
     {
       "id": 214024,
-      "title": "???",
+      "title": "하나, 둘, 셋, 점프!",
       "type": "Disc"
     },
     {
@@ -4067,7 +4067,7 @@
     },
     {
       "id": 224015,
-      "title": "???",
+      "title": "사슴의 울음 멜로디",
       "type": "Item"
     },
     {
@@ -4112,7 +4112,7 @@
     },
     {
       "id": 224024,
-      "title": "???",
+      "title": "하나, 둘, 셋, 점프! 멜로디",
       "type": "Item"
     },
     {
@@ -7127,147 +7127,147 @@
     },
     {
       "id": 513301,
-      "title": "???",
+      "title": "꽃 그림자 회오리",
       "type": "RogueItem"
     },
     {
       "id": 513302,
-      "title": "???",
+      "title": "불멸의 바람",
       "type": "RogueItem"
     },
     {
       "id": 513303,
-      "title": "???",
+      "title": "강풍의 화살",
       "type": "RogueItem"
     },
     {
       "id": 513304,
-      "title": "???",
+      "title": "나선 회오리",
       "type": "RogueItem"
     },
     {
       "id": 513305,
-      "title": "???",
+      "title": "풍식의 충격",
       "type": "RogueItem"
     },
     {
       "id": 513306,
-      "title": "???",
+      "title": "강풍의 가호",
       "type": "RogueItem"
     },
     {
       "id": 513307,
-      "title": "???",
+      "title": "질풍경초",
       "type": "RogueItem"
     },
     {
       "id": 513308,
-      "title": "???",
+      "title": "바람의 지배자",
       "type": "RogueItem"
     },
     {
       "id": 513309,
-      "title": "???",
+      "title": "풍운전환",
       "type": "RogueItem"
     },
     {
       "id": 513310,
-      "title": "???",
+      "title": "풍식의 주문",
       "type": "RogueItem"
     },
     {
       "id": 513311,
-      "title": "???",
+      "title": "정밀 조작",
       "type": "RogueItem"
     },
     {
       "id": 513312,
-      "title": "???",
+      "title": "광풍의 끝자락",
       "type": "RogueItem"
     },
     {
       "id": 513313,
-      "title": "???",
+      "title": "가벼운 몸놀림",
       "type": "RogueItem"
     },
     {
       "id": 513321,
-      "title": "???",
+      "title": "향기로운 꽃·혼란",
       "type": "RogueItem"
     },
     {
       "id": 513322,
-      "title": "???",
+      "title": "향기로운 꽃·추격",
       "type": "RogueItem"
     },
     {
       "id": 513323,
-      "title": "???",
+      "title": "꽃의 바다·파도의 물결",
       "type": "RogueItem"
     },
     {
       "id": 513324,
-      "title": "???",
+      "title": "꽃의 바다·거센 파도",
       "type": "RogueItem"
     },
     {
       "id": 513325,
-      "title": "???",
+      "title": "향기로운 꽃·빈틈",
       "type": "RogueItem"
     },
     {
       "id": 513326,
-      "title": "???",
+      "title": "향기로운 꽃·소멸",
       "type": "RogueItem"
     },
     {
       "id": 513327,
-      "title": "???",
+      "title": "향기로운 꽃·만개",
       "type": "RogueItem"
     },
     {
       "id": 513328,
-      "title": "???",
+      "title": "꽃의 바다·결속",
       "type": "RogueItem"
     },
     {
       "id": 513329,
-      "title": "???",
+      "title": "꽃의 바다·침식",
       "type": "RogueItem"
     },
     {
       "id": 513330,
-      "title": "???",
+      "title": "꽃의 바다·폭열",
       "type": "RogueItem"
     },
     {
       "id": 513331,
-      "title": "???",
+      "title": "바람 악마의 씨앗",
       "type": "RogueItem"
     },
     {
       "id": 513332,
-      "title": "???",
+      "title": "자기 업그레이드",
       "type": "RogueItem"
     },
     {
       "id": 513333,
-      "title": "???",
+      "title": "전능한 지도자",
       "type": "RogueItem"
     },
     {
       "id": 513341,
-      "title": "???",
+      "title": "다중 토네이도",
       "type": "RogueItem"
     },
     {
       "id": 513342,
-      "title": "???",
+      "title": "바람 신의 가호",
       "type": "RogueItem"
     },
     {
       "id": 513343,
-      "title": "???",
+      "title": "토네이도 소용돌이",
       "type": "RogueItem"
     },
     {
